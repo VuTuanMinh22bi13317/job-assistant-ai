@@ -1,0 +1,33 @@
+Trần Minh Quang
+Email: quang.tran@example.com | SĐT: 0987 654 321 | TP. Hồ Chí Minh
+
+Tóm tắt
+Lập trình viên backend mới ra trường, thành thạo Python và FastAPI, có kinh nghiệm
+thực tập 6 tháng xây dựng REST API. Đang tự học LLM Engineering (RAG, vector database)
+qua dự án cá nhân. Mục tiêu trở thành Backend/AI Engineer trong 2 năm tới.
+
+Kinh nghiệm làm việc
+Thực tập sinh Backend — Công ty TNHH Giải pháp Phần mềm ABC (01/2026 - 06/2026)
+- Xây dựng REST API quản lý đơn hàng bằng Python 3.12 + FastAPI, phục vụ 2.000 người dùng nội bộ.
+- Thiết kế schema PostgreSQL và tối ưu truy vấn báo cáo, giảm thời gian phản hồi từ 12 giây xuống 2 giây.
+- Viết unit test với pytest đạt coverage 85%, tích hợp vào quy trình review code.
+- Đóng gói ứng dụng bằng Docker và triển khai lên server nội bộ.
+
+Học vấn
+Đại học Bách Khoa TP.HCM — Kỹ sư Kỹ thuật Phần mềm (2021 - 2025)
+GPA 3.4/4.0. Đồ án tốt nghiệp: hệ thống gợi ý sản phẩm dùng collaborative filtering.
+
+Kỹ năng
+- Ngôn ngữ: Python, C#, SQL (PostgreSQL, Oracle PL/SQL), JavaScript
+- Framework: FastAPI, ASP.NET Core (cơ bản), ReactJS
+- Công cụ: Docker, Git, Postman
+- Khác: REST API design, unit testing với pytest, tiếng Anh đọc hiểu tài liệu kỹ thuật
+
+Dự án cá nhân
+Job Assistant AI (2026) — github.com/example/job-assistant-ai
+- Hệ thống phân tích CV và JD bằng LLM (Google Gemini), chấm điểm phù hợp và gợi ý cải thiện CV.
+- Tự xây pipeline RAG: chunking hybrid theo section CV, embedding 3072 chiều, ChromaDB multi-tenant.
+- Structured output với response_schema, 32 unit test với chiến lược fake embedding tất định.
+
+Chứng chỉ
+- TOEIC 750 (2024)

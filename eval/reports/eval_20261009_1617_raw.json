@@ -1,0 +1,146 @@
+{
+  "bj_vs_senior": {
+    "cv": "cv/backend_junior_vn.txt",
+    "jd": "jd/backend_senior.txt",
+    "runs": [
+      {
+        "cvId": "f9839b42ffc14e5da7a66fc58821d4a2",
+        "jdTitle": "Senior Backend Engineer",
+        "verdict": "weak_match",
+        "score": {
+          "overall": 32,
+          "skillsMatch": 15,
+          "experienceMatch": 10,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Trần Văn Bình có 1 năm 1 tháng kinh nghiệm phát triển backend với Python và FastAPI, cùng các kỹ năng như PostgreSQL và Docker. Tuy nhiên, kinh nghiệm này còn xa so với yêu cầu tối thiểu 5 năm của vị trí Senior Backend Engineer. Ứng viên cũng thiếu nhiều kỹ năng quan trọng khác như thiết kế hệ thống phân tán, Kubernetes, Kafka, CI/CD và kinh nghiệm mentoring.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Ngôn ngữ: Python"
+          },
+          {
+            "skill": "Go",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thiết kế hệ thống phân tán",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Microservices",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nền tảng cloud (ưu tiên AWS)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Message queue (Kafka hoặc tương đương)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Xây dựng/duy trì pipeline CI/CD",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Mentoring",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm domain thanh toán/tài chính",
+            "presentInCv": true,
+            "evidence": "Ứng dụng quản lý chi tiêu (2025)"
+          },
+          {
+            "skill": "Terraform",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Observability (Prometheus, Grafana)",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Go",
+          "Thiết kế hệ thống phân tán",
+          "Microservices",
+          "Kubernetes",
+          "Nền tảng cloud (ưu tiên AWS)",
+          "Message queue (Kafka hoặc tương đương)",
+          "Xây dựng/duy trì pipeline CI/CD",
+          "Mentoring",
+          "Terraform",
+          "Prometheus",
+          "Grafana"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Tăng cường kinh nghiệm thực tế",
+            "detail": "Vị trí Senior Backend Engineer yêu cầu tối thiểu 5 năm kinh nghiệm backend, trong khi CV chỉ thể hiện 1 năm 1 tháng. Ứng viên cần tích lũy thêm kinh nghiệm làm việc thực tế ở các vị trí backend để đáp ứng yêu cầu về số năm kinh nghiệm.",
+            "relatedSkill": null
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng hệ thống phân tán và Microservices",
+            "detail": "JD yêu cầu kinh nghiệm thiết kế và vận hành hệ thống phân tán, microservices ở môi trường production. CV hiện chưa có bằng chứng về các kỹ năng này. Ứng viên nên tìm kiếm cơ hội làm việc với các kiến trúc này hoặc tham gia các dự án cá nhân/khóa học chuyên sâu.",
+            "relatedSkill": "Thiết kế hệ thống phân tán, Microservices"
+          },
+          {
+            "priority": "high",
+            "title": "Bổ sung kiến thức về Kubernetes và Cloud (AWS)",
+            "detail": "Kỹ năng thành thạo Kubernetes và kinh nghiệm với nền tảng cloud (ưu tiên AWS) là bắt buộc. CV chỉ đề cập Docker và Docker Compose. Ứng viên cần học và thực hành triển khai ứng dụng trên Kubernetes và một nền tảng cloud như AWS.",
+            "relatedSkill": "Kubernetes, Nền tảng cloud (ưu tiên AWS)"
+          },
+          {
+            "priority": "high",
+            "title": "Nắm vững Message Queue (Kafka)",
+            "detail": "Kinh nghiệm với message queue quy mô lớn (Kafka hoặc tương đương) là yêu cầu quan trọng. CV không đề cập đến kỹ năng này. Ứng viên nên tìm hiểu và áp dụng Kafka hoặc các hệ thống tương tự vào các dự án.",
+            "relatedSkill": "Message queue (Kafka hoặc tương đương)"
+          },
+          {
+            "priority": "high",
+            "title": "Xây dựng và duy trì CI/CD pipeline",
+            "detail": "JD yêu cầu kinh nghiệm xây dựng/duy trì pipeline CI/CD. CV chỉ nói về việc phối hợp triển khai staging. Ứng viên cần có kinh nghiệm trực tiếp trong việc thiết kế, triển khai và quản lý các pipeline CI/CD.",
+            "relatedSkill": "Xây dựng/duy trì pipeline CI/CD"
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng Mentoring",
+            "detail": "Vị trí Senior yêu cầu kinh nghiệm mentoring. CV hiện không có thông tin này. Ứng viên nên tìm kiếm cơ hội hướng dẫn các kỹ sư junior hoặc tham gia các hoạt động chia sẻ kiến thức.",
+            "relatedSkill": "Mentoring"
+          },
+          {
+            "priority": "medium",
+            "title": "Làm rõ kinh nghiệm trong lĩnh vực Fintech",
+            "detail": "JD ưu tiên kinh nghiệm domain thanh toán/tài chính. Mặc dù có \"Ứng dụng quản lý chi tiêu\", CV nên làm rõ hơn mức độ liên quan đến các hệ thống thanh toán hoặc dịch vụ tài chính cốt lõi nếu có.",
+            "relatedSkill": "Kinh nghiệm domain thanh toán/tài chính"
+          },
+          {
+            "priority": "medium",
+            "title": "Bổ sung kỹ năng Terraform và Observability",
+            "detail": "Terraform và observability (Prometheus, Grafana) là điểm cộng. Ứng viên nên cân nhắc học và bổ sung các kỹ năng này để tăng tính cạnh tranh cho vị trí Senior Backend Engineer.",
+            "relatedSkill": "Terraform, Observability (Prometheus, Grafana)"
+          }
+        ],
+        "analyzedAt": "2026-10-09T09:17:40.469689Z"
+      }
+    ]
+  }
+}

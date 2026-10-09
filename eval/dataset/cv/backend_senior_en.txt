@@ -1,0 +1,29 @@
+Le Quang Huy
+Email: huy.le@example.com | Phone: 0912 333 444 | Ho Chi Minh City
+
+Summary
+Senior backend engineer with 8 years of experience designing and operating
+distributed systems. Led teams of up to 5 engineers, owning services end to end
+from design to production monitoring.
+
+Experience
+Senior Backend Engineer — FinPay JSC (2022 - present)
+- Designed event-driven payment processing platform on Kafka handling 2M transactions/day.
+- Operated 40+ microservices on AWS EKS (Kubernetes), cut infra cost 30% via autoscaling tuning.
+- Built CI/CD pipelines with GitHub Actions; deploy time reduced from 45 to 8 minutes.
+- Mentored 4 junior engineers; ran weekly design review sessions.
+
+Backend Engineer — VNShop (2018 - 2022)
+- Developed order and inventory services in Python and Go, PostgreSQL and Redis.
+- Introduced Terraform for infrastructure as code across 3 environments.
+
+Education
+Bach Khoa University HCMC — B.Eng. Computer Science (2014 - 2018)
+
+Skills
+- Languages: Python, Go, SQL
+- Systems: PostgreSQL, Redis, Kafka, Kubernetes, Docker, AWS (EC2, S3, Lambda, EKS), Terraform
+- Practices: system design, CI/CD (GitHub Actions), observability (Grafana, Prometheus), mentoring
+
+Certifications
+- AWS Certified Solutions Architect - Associate (2023)

@@ -1,0 +1,17 @@
+Vị trí: Junior Backend Engineer (Python)
+
+Mô tả công việc:
+Tham gia phát triển hệ thống microservices xử lý đơn hàng cho nền tảng thương mại
+điện tử, làm việc cùng đội 8 kỹ sư theo quy trình Agile.
+
+Yêu cầu bắt buộc:
+- Thành thạo Python; có kinh nghiệm thực tế với FastAPI hoặc Django.
+- Làm việc tốt với PostgreSQL hoặc MySQL: thiết kế schema, tối ưu truy vấn.
+- Biết Docker và quy trình Git cơ bản (branch, pull request, review).
+- Có tư duy viết unit test.
+- Tốt nghiệp đại học ngành CNTT hoặc liên quan.
+
+Điểm cộng:
+- Kinh nghiệm AWS hoặc dịch vụ cloud tương đương.
+- Hiểu biết Kubernetes, CI/CD (GitHub Actions).
+- Kinh nghiệm message queue (Kafka, RabbitMQ).

@@ -1,0 +1,22 @@
+Bui Anh Tuan
+Email: tuan.bui@example.com  |  Phone: 0900 678 901  |  Ha Noi
+
+Summary
+Backend developer voi 3 nam kinh nghiem phat tri-
+en he thong web ban hang. Quen thuoc quy trinh Scrum,  co the doc hieu
+tai lieu tieng Anh tot.
+
+Experience
+Backend Developer — NetSolutions JSC (2023 - nay)
+- Xay dung va bao tri API cho san TMDT bang Python va Django REST Frame-
+work, phuc vu trung binh 30.000 nguoi dung moi ngay.
+- Thiet ke co so du lieu PostgreSQL,  toi uu chi muc giam thoi gian truy van
+danh sach san pham tu 6 giay xuong 1.2 giay.
+- Su dung Redis lam cache cho gio hang,  giam tai database 40%.
+- Dong goi ung dung bang Docker,  viet script trien khai len server.
+
+Education
+Dai hoc Giao thong Van tai — Ky su Cong nghe thong tin (2016 - 2020)
+
+Skills
+Python, Django, PostgreSQL, Redis, Docker, Git, Celery, RabbitMQ co ban

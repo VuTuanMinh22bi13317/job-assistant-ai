@@ -1,0 +1,23 @@
+# === Web framework ===
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# === LLM & Embedding (SDK mới) ===
+google-genai==2.8.0
+
+# === Vector database ===
+chromadb==0.5.23
+
+# === Đọc file PDF ===
+# LƯU Ý: code dùng pypdf (mới), KHÔNG phải PyPDF2 (deprecated).
+# Dòng cũ pypdf2==3.0.1 là ghi nhầm — venv thực tế đang chạy bằng pypdf.
+pypdf==6.14.2
+
+# === Config & tiện ích ===
+python-dotenv==1.0.1
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+
+# Ghim posthog để tránh bug telemetry của chromadb với posthog mới
+posthog<6.0.0

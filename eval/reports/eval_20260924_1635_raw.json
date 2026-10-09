@@ -1,0 +1,128 @@
+{
+  "bj_vs_junior": {
+    "cv": "cv/backend_junior_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "0f9615b4b79a47d3b32037d7aba66cf9",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "good_match",
+        "score": {
+          "overall": 82,
+          "skillsMatch": 78,
+          "experienceMatch": 80,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Trần Văn Bình là một Backend Developer với 1 năm kinh nghiệm sử dụng Python và FastAPI, rất phù hợp với vị trí Junior Backend Engineer. CV thể hiện sự thành thạo các kỹ năng bắt buộc như Python, FastAPI, PostgreSQL, Docker, Git và tư duy viết unit test. Ứng viên cũng đáp ứng yêu cầu về học vấn với bằng Cử nhân Công nghệ Thông tin.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Phát triển REST API cho hệ thống đặt lịch khám bệnh bằng Python 3.12 + FastAPI, phục vụ 5.000 người dùng."
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": true,
+            "evidence": "Phát triển REST API cho hệ thống đặt lịch khám bệnh bằng Python 3.12 + FastAPI, phục vụ 5.000 người dùng."
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": true,
+            "evidence": "Thiết kế schema PostgreSQL, viết truy vấn tối ưu giảm thời gian tải trang danh sách từ 4 giây xuống 0.8 giây."
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Đóng gói service bằng Docker, phối hợp DevOps triển khai staging."
+          },
+          {
+            "skill": "Quy trình Git cơ bản (branch, pull request, review)",
+            "presentInCv": true,
+            "evidence": "Công cụ: Git, tham gia review code hằng tuần."
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": true,
+            "evidence": "Viết unit test bằng pytest, duy trì coverage 80%; tham gia review code hằng tuần."
+          },
+          {
+            "skill": "Tốt nghiệp đại học ngành CNTT hoặc liên quan",
+            "presentInCv": true,
+            "evidence": "Đại học Công nghệ - ĐHQG Hà Nội — Cử nhân Công nghệ Thông tin (2021 - 2025)"
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Django",
+          "MySQL",
+          "AWS",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Kiểm tra lại ngày tháng kinh nghiệm",
+            "detail": "Trích đoạn kinh nghiệm ghi '08/2025 - nay' là ngày trong tương lai, trong khi phần tóm tắt lại ghi '1 năm kinh nghiệm'. Ứng viên cần chỉnh sửa để đảm bảo tính chính xác và nhất quán của thông tin.",
+            "relatedSkill": null
+          },
+          {
+            "priority": "medium",
+            "title": "Mô tả chi tiết hơn về quy trình Git",
+            "detail": "Mặc dù có đề cập đến Git và review code, CV sẽ mạnh hơn nếu ứng viên mô tả rõ hơn về kinh nghiệm làm việc với các nhánh (branch), quy trình pull request và các công cụ quản lý mã nguồn khác.",
+            "relatedSkill": "Quy trình Git cơ bản (branch, pull request, review)"
+          },
+          {
+            "priority": "medium",
+            "title": "Phát triển kinh nghiệm về Cloud và CI/CD",
+            "detail": "Để tăng điểm cộng, ứng viên nên tìm hiểu và tích lũy kinh nghiệm với các dịch vụ cloud như AWS hoặc các công cụ CI/CD như GitHub Actions.",
+            "relatedSkill": "AWS"
+          },
+          {
+            "priority": "low",
+            "title": "Nêu rõ phương pháp Agile đã làm việc",
+            "detail": "CV có đề cập 'quen làm việc theo Agile'. Ứng viên có thể bổ sung thêm các phương pháp Agile cụ thể đã áp dụng (ví dụ: Scrum, Kanban) để làm nổi bật kinh nghiệm làm việc nhóm.",
+            "relatedSkill": null
+          }
+        ],
+        "analyzedAt": "2026-09-24T09:35:46.648327Z"
+      }
+    ]
+  }
+}

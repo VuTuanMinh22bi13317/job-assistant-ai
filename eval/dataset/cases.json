@@ -1,0 +1,181 @@
+{
+  "_huong_dan": "Nhãn chỉ ghi thứ CHẮC CHẮN đúng. verdict_in = cửa sổ verdict chấp nhận được. must_matched = keyword phải xuất hiện trong matchedSkills(presentInCv=true). must_missing = keyword phải xuất hiện trong missingSkills. So khớp keyword theo kiểu chứa-chuỗi đã normalize (không phân biệt hoa thường).",
+
+  "cv_meta": {
+    "cv/backend_junior_vn.txt":      { "expect_sections": true },
+    "cv/backend_senior_en.txt":      { "expect_sections": true },
+    "cv/backend_intern_vn.txt":      { "expect_sections": true },
+    "cv/frontend_junior_en.txt":     { "expect_sections": true },
+    "cv/data_engineer_mid_en.txt":   { "expect_sections": true },
+    "cv/data_analyst_junior_vn.txt": { "expect_sections": true },
+    "cv/ketoan_junior_vn.txt":       { "expect_sections": true },
+    "cv/marketing_mid_vn.txt":       { "expect_sections": true },
+    "cv/khong_heading_vanxuoi_vn.txt": { "expect_sections": false },
+    "cv/heading_la_vn.txt":          { "expect_sections": false },
+    "cv/pdf_ngat_dong_xau.txt":      { "expect_sections": true },
+    "cv/song_ngu_qa_en.txt":         { "expect_sections": true }
+  },
+
+  "cases": [
+    {
+      "id": "bj_vs_junior",
+      "note": "Cặp khớp chuẩn — baseline đường sung sướng",
+      "cv": "cv/backend_junior_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+                  "must_missing": ["Kubernetes", "Kafka"] }
+    },
+    {
+      "id": "bj_vs_senior",
+      "note": "Junior ứng tuyển senior — phải nhận ra thiếu seniority",
+      "cv": "cv/backend_junior_vn.txt", "jd": "jd/backend_senior.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": ["Python"],
+                  "must_missing": ["Kubernetes", "Kafka"] }
+    },
+    {
+      "id": "bj_vs_ketoan",
+      "note": "Trái ngành hoàn toàn — chống khen bừa",
+      "cv": "cv/backend_junior_vn.txt", "jd": "jd/ketoan_tonghop.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["MISA"] }
+    },
+    {
+      "id": "bs_vs_senior",
+      "note": "Senior khớp senior — đầu cao của thang điểm",
+      "cv": "cv/backend_senior_en.txt", "jd": "jd/backend_senior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Kubernetes", "Kafka", "AWS"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "bs_vs_junior",
+      "note": "Senior ứng tuyển junior (dư sức) — không được chấm thấp vô lý",
+      "cv": "cv/backend_senior_en.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Python", "Docker", "PostgreSQL"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "intern_vs_junior",
+      "note": "Intern chưa đủ kinh nghiệm thực tế cho vị trí junior",
+      "cv": "cv/backend_intern_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": ["Python"],
+                  "must_missing": ["FastAPI", "Docker"] }
+    },
+    {
+      "id": "intern_vs_senior",
+      "note": "Khoảng cách cực đại cùng ngành",
+      "cv": "cv/backend_intern_vn.txt", "jd": "jd/backend_senior.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["Kubernetes", "Kafka"] }
+    },
+    {
+      "id": "fe_vs_frontend",
+      "note": "Frontend khớp frontend — đúng ngành khác backend",
+      "cv": "cv/frontend_junior_en.txt", "jd": "jd/frontend_react.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["React", "TypeScript", "Jest"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "fe_vs_backend",
+      "note": "Cùng mảng IT nhưng sai chuyên môn — không được vớt vát vì 'cũng là dev'",
+      "cv": "cv/frontend_junior_en.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["Python", "PostgreSQL"] }
+    },
+    {
+      "id": "de_vs_data",
+      "note": "Data engineer khớp JD data — ngành thứ ba",
+      "cv": "cv/data_engineer_mid_en.txt", "jd": "jd/data_engineer.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Spark", "Airflow", "Redshift", "AWS"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "de_vs_backend_junior",
+      "note": "Ngành gần (data -> backend): khớp một phần có cơ sở",
+      "cv": "cv/data_engineer_mid_en.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["Python", "Docker"],
+                  "must_missing": ["FastAPI"] }
+    },
+    {
+      "id": "da_vs_data",
+      "note": "Analyst muốn nhảy sang engineer — thiếu công cụ lõi",
+      "cv": "cv/data_analyst_junior_vn.txt", "jd": "jd/data_engineer.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": ["SQL", "Python"],
+                  "must_missing": ["Spark", "Airflow"] }
+    },
+    {
+      "id": "kt_vs_ketoan",
+      "note": "Kế toán khớp kế toán — ngành phi IT phải chấm được",
+      "cv": "cv/ketoan_junior_vn.txt", "jd": "jd/ketoan_tonghop.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["MISA", "Excel"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "kt_vs_backend",
+      "note": "Trái ngành chiều ngược lại (kế toán -> IT)",
+      "cv": "cv/ketoan_junior_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["Python", "FastAPI"] }
+    },
+    {
+      "id": "mk_vs_marketing",
+      "note": "Marketing khớp marketing",
+      "cv": "cv/marketing_mid_vn.txt", "jd": "jd/marketing_digital.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Facebook Ads", "Google Ads", "SEO", "GA4"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "mk_vs_ketoan",
+      "note": "Trái ngành giữa 2 khối phi IT",
+      "cv": "cv/marketing_mid_vn.txt", "jd": "jd/ketoan_tonghop.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["MISA"] }
+    },
+    {
+      "id": "vanxuoi_vs_backend",
+      "note": "CV văn xuôi không heading (fallback chunking) — nội dung vẫn khớp tốt, đo xem fallback có làm sót evidence/tụt điểm không",
+      "cv": "cv/khong_heading_vanxuoi_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "headingla_vs_backend",
+      "note": "Heading phi chuẩn ('Nơi tôi từng làm việc'...) — regex không nhận, rơi fallback nhưng điểm không được oan",
+      "cv": "cv/heading_la_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Python", "FastAPI", "MySQL", "Docker"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "pdfxau_vs_backend",
+      "note": "Text kiểu PDF extract xấu (từ gạch nối ngắt dòng, khoảng trắng thừa) — clean_text phải cứu được",
+      "cv": "cv/pdf_ngat_dong_xau.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Python", "Django", "PostgreSQL", "Docker"],
+                  "must_missing": ["Kubernetes"] }
+    },
+    {
+      "id": "qa_vs_backend",
+      "note": "QA automation biết Python nhưng không phải backend dev — dễ bị chấm hào phóng vì 'có Python'",
+      "cv": "cv/song_ngu_qa_en.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": ["Python"],
+                  "must_missing": ["FastAPI", "PostgreSQL"] }
+    }
+  ]
+}

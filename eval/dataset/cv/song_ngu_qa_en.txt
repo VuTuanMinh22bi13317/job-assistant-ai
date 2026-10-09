@@ -1,0 +1,24 @@
+Truong Gia Han
+Email: han.truong@example.com | Phone: 0988 789 012 | Da Nang
+
+Summary
+QA Automation Engineer với 2 năm kinh nghiệm test web và API. Strong in
+building automation frameworks from scratch, thích quy trình rõ ràng.
+
+Experience
+QA Automation Engineer — SoftLab Vietnam (2024 - present)
+- Xây dựng framework test UI bằng Selenium + pytest, chạy 400 test case mỗi đêm trên Jenkins.
+- Automated API testing với Postman/Newman và Python requests, cover 12 services.
+- Phát hiện trung bình 15 bug nghiêm trọng mỗi release trước khi lên production.
+- Viết test plan, phối hợp dev tái hiện bug, quản lý ticket trên Jira.
+
+Manual QA — SoftLab Vietnam (2023 - 2024)
+- Test chức năng và regression cho ứng dụng web bán lẻ, viết 300+ test case.
+
+Education
+Duy Tan University — B.Sc. Software Engineering (2019 - 2023)
+
+Skills
+- Testing: Selenium, pytest, Postman, JMeter cơ bản, Jenkins CI
+- Languages: Python (automation scripting), SQL cơ bản
+- Khác: Jira, Agile/Scrum, English - upper intermediate

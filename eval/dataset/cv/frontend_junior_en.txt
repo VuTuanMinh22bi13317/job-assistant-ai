@@ -1,0 +1,21 @@
+Ngo Minh Chau
+Email: chau.ngo@example.com | Phone: 0933 777 888 | Ho Chi Minh City
+
+Summary
+Frontend developer with 1.5 years of experience building responsive web apps
+with React and TypeScript. Strong eye for UI detail and accessibility.
+
+Experience
+Frontend Developer — Mela Digital Agency (03/2025 - present)
+- Built 6 client websites with React, TypeScript and TailwindCSS; Lighthouse scores above 90.
+- Implemented shared component library with Storybook, cutting new page build time by 40%.
+- Wrote UI tests with Jest and React Testing Library.
+- Collaborated with designers in Figma, converted mockups pixel-perfect.
+
+Education
+University of Information Technology HCMC — B.Sc. Software Engineering (2020 - 2024)
+
+Skills
+- Languages: TypeScript, JavaScript, HTML, CSS
+- Frameworks: React, Next.js, Redux Toolkit, TailwindCSS
+- Tools: Git, Figma, Jest, Vite

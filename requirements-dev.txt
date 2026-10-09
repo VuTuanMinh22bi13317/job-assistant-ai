@@ -1,0 +1,8 @@
+# === Dev/Test — cài THÊM bên cạnh requirements.txt ===
+# pip install -r requirements-dev.txt
+pytest==9.1.1
+pytest-cov==7.1.0
+
+# TestClient của FastAPI cần httpx để giả lập HTTP request trong test
+# (đã có sẵn trong venv vì là dependency phụ; ghim lại đây cho tường minh)
+httpx==0.28.1

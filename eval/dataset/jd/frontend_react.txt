@@ -1,0 +1,15 @@
+Vị trí: Frontend Developer (React)
+
+Mô tả công việc:
+Phát triển giao diện web app quản trị cho sản phẩm SaaS B2B, làm việc chặt
+với designer và backend team.
+
+Yêu cầu bắt buộc:
+- 1+ năm kinh nghiệm React; thành thạo TypeScript.
+- Vững HTML/CSS, responsive, quen một hệ thống state management (Redux hoặc tương đương).
+- Kinh nghiệm viết test cho UI (Jest hoặc tương đương).
+- Dùng Git thành thạo trong làm việc nhóm.
+
+Điểm cộng:
+- Kinh nghiệm Next.js, tối ưu performance (Lighthouse).
+- Biết làm việc với Figma và design system.

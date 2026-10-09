@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+data/uploads/*
+data/chroma/*
+.vscode/
+.idea/
+frontend/node_modules/
+frontend/build/
+.pytest_cache/
+.coverage
+htmlcov/
+.claude/settings.local.json

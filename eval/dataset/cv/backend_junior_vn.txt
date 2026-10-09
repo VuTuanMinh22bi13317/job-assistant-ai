@@ -1,0 +1,27 @@
+Trần Văn Bình
+Email: binh.tran@example.com | SĐT: 0901 111 222 | Hà Nội
+
+Tóm tắt
+Lập trình viên backend 1 năm kinh nghiệm với Python và FastAPI. Quen làm việc
+theo Agile, chú trọng viết code có test và tài liệu rõ ràng.
+
+Kinh nghiệm làm việc
+Backend Developer — Công ty CP Công nghệ XYZ (08/2025 - nay)
+- Phát triển REST API cho hệ thống đặt lịch khám bệnh bằng Python 3.12 + FastAPI, phục vụ 5.000 người dùng.
+- Thiết kế schema PostgreSQL, viết truy vấn tối ưu giảm thời gian tải trang danh sách từ 4 giây xuống 0.8 giây.
+- Viết unit test bằng pytest, duy trì coverage 80%; tham gia review code hằng tuần.
+- Đóng gói service bằng Docker, phối hợp DevOps triển khai staging.
+
+Học vấn
+Đại học Công nghệ - ĐHQG Hà Nội — Cử nhân Công nghệ Thông tin (2021 - 2025), GPA 3.2/4.0
+
+Kỹ năng
+- Ngôn ngữ: Python, SQL, JavaScript cơ bản
+- Framework: FastAPI, SQLAlchemy
+- Công cụ: Docker, Git, Postman, Linux cơ bản
+
+Dự án cá nhân
+Ứng dụng quản lý chi tiêu (2025) — API FastAPI + PostgreSQL, xác thực JWT, deploy bằng Docker Compose.
+
+Chứng chỉ
+- TOEIC 700 (2024)

@@ -1,0 +1,16 @@
+Vị trí: Data Engineer (Middle)
+
+Mô tả công việc:
+Xây dựng và vận hành các pipeline dữ liệu phục vụ báo cáo và machine learning
+cho công ty bán lẻ đa kênh.
+
+Yêu cầu bắt buộc:
+- 2+ năm kinh nghiệm data engineering với Python và SQL.
+- Kinh nghiệm thực tế với Apache Spark và một công cụ điều phối (Airflow ưu tiên).
+- Làm việc với data warehouse (Redshift, BigQuery hoặc Snowflake).
+- Kinh nghiệm AWS (S3, EMR hoặc tương đương).
+
+Điểm cộng:
+- Biết dbt, quản lý data quality/lineage.
+- Kinh nghiệm streaming (Kafka, Kinesis).
+- Biết Docker, CI/CD cơ bản.

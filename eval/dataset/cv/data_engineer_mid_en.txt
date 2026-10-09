@@ -1,0 +1,24 @@
+Dang Van Khoa
+Email: khoa.dang@example.com | Phone: 0944 999 000 | Ha Noi
+
+Summary
+Data engineer with 3 years of experience building batch and streaming pipelines
+on AWS. Comfortable owning data quality from ingestion to warehouse.
+
+Experience
+Data Engineer — RetailData Co. (2023 - present)
+- Built daily ETL pipelines with Apache Airflow orchestrating 60+ DAGs.
+- Processed 500GB/day clickstream data with Spark on EMR; cut job runtime 45%.
+- Modeled warehouse tables on Redshift with dbt; documented lineage for 120 models.
+- Wrote ingestion services in Python, landing data to S3 with schema validation.
+
+Junior Data Engineer — LogiViet (2022 - 2023)
+- Maintained SQL transformation jobs on PostgreSQL; automated reports with Python.
+
+Education
+Hanoi University of Science and Technology — B.Eng. Information Systems (2018 - 2022)
+
+Skills
+- Languages: Python, SQL
+- Data: Apache Spark, Airflow, dbt, Redshift, PostgreSQL, Kafka (consumer basics)
+- Cloud/Tools: AWS (S3, EMR, Redshift, Lambda), Docker, Git

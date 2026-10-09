@@ -1,0 +1,17 @@
+Phạm Thu Hà
+Email: ha.pham@example.com | SĐT: 0987 555 666 | Đà Nẵng
+
+Giới thiệu
+Sinh viên năm cuối ngành Công nghệ Thông tin, tìm vị trí thực tập backend.
+Chưa có kinh nghiệm làm việc chính thức, học nhanh và chăm chỉ.
+
+Học vấn
+Đại học Bách Khoa Đà Nẵng — Kỹ sư CNTT (2022 - 2026, dự kiến tốt nghiệp 06/2026)
+GPA hiện tại 3.1/4.0. Môn nổi bật: Cơ sở dữ liệu (A), Lập trình Python (A).
+
+Kỹ năng
+- Python cơ bản, SQL (MySQL), Git
+- Đã học qua HTML/CSS, chưa dùng framework backend nào trong dự án thực tế
+
+Dự án
+Đồ án môn học: web quản lý thư viện bằng Flask + MySQL (nhóm 3 người, phụ trách phần CRUD sách).

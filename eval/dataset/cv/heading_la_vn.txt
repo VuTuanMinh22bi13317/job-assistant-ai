@@ -1,0 +1,19 @@
+Lý Thanh Tùng
+Email: tung.ly@example.com | SĐT: 0922 567 890 | Cần Thơ
+
+Đôi điều về tôi
+Lập trình viên backend hơn một năm kinh nghiệm, thích làm sản phẩm có người dùng thật.
+Quen làm việc nhóm nhỏ, giao tiếp thẳng thắn.
+
+Nơi tôi từng làm việc
+Công ty phần mềm MekongSoft (06/2025 - nay) — vị trí Backend Developer:
+- Viết API cho ứng dụng giao hàng nội thành bằng Python và FastAPI.
+- Quản lý dữ liệu đơn hàng trên MySQL, viết truy vấn báo cáo theo ngày.
+- Dùng Docker chạy môi trường dev đồng nhất cho cả team 4 người.
+- Sửa lỗi production, trực luân phiên theo tuần.
+
+Trường lớp
+Đại học Cần Thơ — Cử nhân Công nghệ Thông tin, tốt nghiệp 2025.
+
+Tôi biết làm gì
+Python, FastAPI, MySQL, Docker, Git, Postman. Tiếng Anh đọc tài liệu ổn.

@@ -1,0 +1,16 @@
+Vị trí: Senior Backend Engineer
+
+Mô tả công việc:
+Chịu trách nhiệm thiết kế và vận hành các service lõi của nền tảng fintech,
+dẫn dắt kỹ thuật cho nhóm 4-6 kỹ sư.
+
+Yêu cầu bắt buộc:
+- Tối thiểu 5 năm kinh nghiệm backend với Python hoặc Go.
+- Kinh nghiệm thiết kế hệ thống phân tán, microservices ở môi trường production.
+- Thành thạo Kubernetes và một nền tảng cloud (ưu tiên AWS).
+- Kinh nghiệm với message queue (Kafka hoặc tương đương) ở quy mô lớn.
+- Từng xây dựng/duy trì pipeline CI/CD; có kinh nghiệm mentoring.
+
+Điểm cộng:
+- Kinh nghiệm domain thanh toán/tài chính.
+- Kinh nghiệm Terraform, observability (Prometheus, Grafana).

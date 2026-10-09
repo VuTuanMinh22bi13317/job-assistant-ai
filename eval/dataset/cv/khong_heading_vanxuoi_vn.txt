@@ -1,0 +1,5 @@
+Tôi là Đỗ Hoàng Nam, lập trình viên backend với một năm rưỡi kinh nghiệm làm việc thực tế tại Hà Nội, email nam.do@example.com, điện thoại 0911 456 789. Tôi bắt đầu đi làm từ giữa năm 2025 tại một công ty phần mềm outsourcing, nơi tôi tham gia xây dựng REST API cho hệ thống quản lý nhân sự bằng Python và FastAPI, làm việc trực tiếp với PostgreSQL để thiết kế bảng và tối ưu truy vấn cho các báo cáo chấm công vốn từng mất hơn mười giây nay chỉ còn dưới hai giây.
+
+Trong công việc hằng ngày tôi dùng Docker để đóng gói dịch vụ, dùng Git theo quy trình pull request có review, và viết unit test bằng pytest cho các module quan trọng với coverage khoảng bảy mươi lăm phần trăm. Tôi cũng từng hỗ trợ team triển khai một service nhỏ lên máy chủ Ubuntu và cấu hình Nginx làm reverse proxy, dù phần vận hành chưa phải thế mạnh của tôi.
+
+Về học vấn, tôi tốt nghiệp cử nhân Công nghệ Thông tin tại Đại học Thủy Lợi năm 2025 với điểm trung bình khá. Ngoài giờ làm tôi tự học thêm về hệ thống phân tán và đang đọc sách Designing Data-Intensive Applications, mục tiêu hai năm tới trở thành kỹ sư backend vững về thiết kế hệ thống.

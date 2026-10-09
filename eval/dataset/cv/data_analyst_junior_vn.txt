@@ -1,0 +1,21 @@
+Vũ Thị Lan
+Email: lan.vu@example.com | SĐT: 0966 123 456 | TP. Hồ Chí Minh
+
+Tóm tắt
+Data analyst 1 năm kinh nghiệm, mạnh về SQL và trực quan hóa dữ liệu.
+Muốn phát triển dần sang hướng data engineering.
+
+Kinh nghiệm làm việc
+Data Analyst — Công ty TMĐT MuaNhanh (07/2025 - nay)
+- Viết truy vấn SQL trên PostgreSQL phục vụ báo cáo doanh thu tuần cho 3 phòng ban.
+- Xây dựng 8 dashboard Power BI theo dõi phễu chuyển đổi và tỉ lệ hủy đơn.
+- Tự động hóa báo cáo Excel bằng Python (pandas) tiết kiệm 6 giờ/tuần.
+- Phối hợp team product làm A/B test, đọc kết quả bằng thống kê cơ bản.
+
+Học vấn
+Đại học Kinh tế TP.HCM — Cử nhân Hệ thống thông tin quản lý (2021 - 2025)
+
+Kỹ năng
+- SQL (PostgreSQL), Excel nâng cao, Power BI
+- Python (pandas, matplotlib) mức cơ bản
+- Tiếng Anh đọc hiểu tài liệu

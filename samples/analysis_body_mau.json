@@ -1,0 +1,7 @@
+{
+  "cvId": "DAN_CV_ID_THAT_VAO_DAY",
+  "jd": {
+    "title": "Junior Backend Engineer (Python)",
+    "content": "Vị trí: Junior Backend Engineer (Python)\n\nMô tả công việc:\nTham gia phát triển hệ thống microservices xử lý đơn hàng cho nền tảng thương mại điện tử, làm việc cùng đội 8 kỹ sư theo quy trình Agile.\n\nYêu cầu bắt buộc:\n- Thành thạo Python; có kinh nghiệm thực tế với FastAPI hoặc Django.\n- Làm việc tốt với PostgreSQL: thiết kế schema, viết truy vấn tối ưu.\n- Biết Docker và quy trình Git cơ bản (branch, pull request, review).\n- Có tư duy viết unit test.\n- Tốt nghiệp đại học ngành CNTT hoặc liên quan.\n\nĐiểm cộng (nice-to-have):\n- Kinh nghiệm AWS (EC2, S3, Lambda) hoặc dịch vụ cloud tương đương.\n- Hiểu biết Kubernetes, CI/CD (GitHub Actions).\n- Kinh nghiệm message queue (Kafka, RabbitMQ).\n- Quan tâm tới AI/LLM là lợi thế."
+  }
+}
