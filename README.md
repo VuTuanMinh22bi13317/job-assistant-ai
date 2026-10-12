@@ -605,6 +605,9 @@ venv\Scripts\python eval\run_eval.py --runs 1
 21. **Frontend bước 1/5 — scaffold**: Vite + React 19 + TypeScript 6 + Tailwind v4 trong
     `frontend/`; vite proxy `/api` → `localhost:8000` (bỏ prefix, né CORS trong dev);
     `npm run build` sạch; preview chạy tại `localhost:5173` (cấu hình `.claude/launch.json`).
+22. **Frontend bước 2/5 — tầng hợp đồng**: `src/types.ts` (interface TS phản chiếu 1-1
+    response camelCase — "tầng thứ 4" của hệ schema) + `src/api.ts` (fetch thuần: class
+    `ApiError` gom 3 shape lỗi backend + network/timeout về một mối; 5 hàm / 5 endpoint).
 
 ### ⏳ Còn lại (theo ưu tiên)
 1. Frontend ReactJS.

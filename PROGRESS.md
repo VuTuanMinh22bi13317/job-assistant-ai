@@ -77,8 +77,9 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
 1. **Frontend ReactJS — ĐANG LÀM, xong bước 1/5**:
    - [x] Bước 1: scaffold Vite + React 19 + TS 6 + Tailwind 4 (`frontend/`), proxy `/api`→:8000,
      build sạch, preview chạy `localhost:5173`. Node 24.20 LTS đã có trên máy.
-   - [ ] Bước 2: `types.ts` (interface khớp hợp đồng camelCase) + `api.ts` (fetch thuần,
-     xử lý 3 shape lỗi: ErrorResponse / FastAPI validation / network)
+   - [x] Bước 2: `types.ts` (tầng thứ 4 của hệ schema — interface khớp 1-1 response camelCase)
+     + `api.ts` (fetch thuần: ApiError thống nhất 3 shape lỗi + status 0 cho network/timeout,
+     AbortController 120s, 5 hàm cho 5 endpoint, FormData không tự set Content-Type). Build sạch.
    - [ ] Bước 3: màn upload CV + danh sách CV (GET/DELETE)
    - [ ] Bước 4: form JD + gọi phân tích (loading UX 5-15s)
    - [ ] Bước 5: trang kết quả (verdict, score 4 trục, skills + evidence, suggestions + resources)
