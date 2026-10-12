@@ -94,7 +94,7 @@ app/
 data/
   uploads/             # file CV người dùng upload
   chroma/              # ChromaDB persist ở đây
-frontend/              # ReactJS                                   [CHƯA LÀM]
+frontend/              # Vite + React 19 + TS + Tailwind v4 (đang xây — xong bước 1/5 scaffold)
 tests/                 # pytest thật                               [CHƯA LÀM]
 .env / .env.example / .gitignore / requirements.txt
 ```
@@ -602,6 +602,9 @@ venv\Scripts\python eval\run_eval.py --runs 1
 20. **Resources cho suggestions** (bước 0 của giai đoạn frontend): `ResourceLink` +
     `resource_service` (catalog ~30 skill + fallback search tự ráp — LLM không sinh URL),
     enrich trong `_run_analysis`. +6 test → suite 58 xanh.
+21. **Frontend bước 1/5 — scaffold**: Vite + React 19 + TypeScript 6 + Tailwind v4 trong
+    `frontend/`; vite proxy `/api` → `localhost:8000` (bỏ prefix, né CORS trong dev);
+    `npm run build` sạch; preview chạy tại `localhost:5173` (cấu hình `.claude/launch.json`).
 
 ### ⏳ Còn lại (theo ưu tiên)
 1. Frontend ReactJS.

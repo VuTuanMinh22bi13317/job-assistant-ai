@@ -62,7 +62,8 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
 
 > 🗄️ **Git**: repo đã init (09/10/2026) và push lên `github.com/VuTuanMinh22bi13317/job-assistant-ai`
 > (private). Identity commit set CỤC BỘ cho repo: `Tuan Minh <hkpotatoman@gmail.com>` (đừng
-> commit bằng config global của máy). `.env` + `data/` + `venv/` đã gitignore,
+> commit bằng config global của máy; nếu sau này chuyển repo public, cân nhắc đổi sang địa chỉ
+> noreply của GitHub để khỏi lộ email). `.env` + `data/` + `venv/` đã gitignore,
 > API key đã rà không lọt. Từ giờ: commit sau mỗi cột mốc lớn.
 
 > 📚 **Kho bài học**: toàn bộ phần "🎓 Giải thích để học" của 4 giai đoạn đã được đúc vào
@@ -73,8 +74,14 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
 
 ## ⏳ Chưa làm (theo thứ tự ưu tiên)
 
-1. **Frontend ReactJS** (`frontend/` đang trống): form upload CV + ô dán JD + render báo cáo
-   (verdict, score breakdown, matched/missing skills, suggestions). API đã trả camelCase sẵn.
+1. **Frontend ReactJS — ĐANG LÀM, xong bước 1/5**:
+   - [x] Bước 1: scaffold Vite + React 19 + TS 6 + Tailwind 4 (`frontend/`), proxy `/api`→:8000,
+     build sạch, preview chạy `localhost:5173`. Node 24.20 LTS đã có trên máy.
+   - [ ] Bước 2: `types.ts` (interface khớp hợp đồng camelCase) + `api.ts` (fetch thuần,
+     xử lý 3 shape lỗi: ErrorResponse / FastAPI validation / network)
+   - [ ] Bước 3: màn upload CV + danh sách CV (GET/DELETE)
+   - [ ] Bước 4: form JD + gọi phân tích (loading UX 5-15s)
+   - [ ] Bước 5: trang kết quả (verdict, score 4 trục, skills + evidence, suggestions + resources)
 2. **Nâng cấp cân nhắc sau** (đã ghi trade-off ở README 4.9): multi-query theo khía cạnh JD
    nếu thấy retrieval sót; BackgroundTasks cho upload nếu CV dài; RAG hai chiều cho JD file;
    test route health + fixture PDF + 1-2 smoke test `@pytest.mark.live` phủ nốt chỗ trắng coverage.
