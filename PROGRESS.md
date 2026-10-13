@@ -80,7 +80,9 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
    - [x] Bước 2: `types.ts` (tầng thứ 4 của hệ schema — interface khớp 1-1 response camelCase)
      + `api.ts` (fetch thuần: ApiError thống nhất 3 shape lỗi + status 0 cho network/timeout,
      AbortController 120s, 5 hàm cho 5 endpoint, FormData không tự set Content-Type). Build sạch.
-   - [ ] Bước 3: màn upload CV + danh sách CV (GET/DELETE)
+   - [x] Bước 3: UploadCV (kéo-thả, validate client phản chiếu luật backend) + CVList (chọn,
+     xóa 2 bước thay window.confirm) + App layout 2 cột. ĐÃ KIỂM CHỨNG SỐNG qua browser:
+     list đọc dữ liệu thật từ Chroma, upload qua proxy 200, xóa đúng CV, chọn hiển thị cột phải.
    - [ ] Bước 4: form JD + gọi phân tích (loading UX 5-15s)
    - [ ] Bước 5: trang kết quả (verdict, score 4 trục, skills + evidence, suggestions + resources)
 2. **Nâng cấp cân nhắc sau** (đã ghi trade-off ở README 4.9): multi-query theo khía cạnh JD

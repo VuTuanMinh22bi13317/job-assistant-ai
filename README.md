@@ -608,6 +608,9 @@ venv\Scripts\python eval\run_eval.py --runs 1
 22. **Frontend bước 2/5 — tầng hợp đồng**: `src/types.ts` (interface TS phản chiếu 1-1
     response camelCase — "tầng thứ 4" của hệ schema) + `src/api.ts` (fetch thuần: class
     `ApiError` gom 3 shape lỗi backend + network/timeout về một mối; 5 hàm / 5 endpoint).
+23. **Frontend bước 3/5 — quản lý CV**: `UploadCV` (kéo-thả + validate client phản chiếu
+    luật backend) + `CVList` (chọn / xóa 2 bước) + layout 2 cột. Kiểm chứng sống qua browser:
+    list đọc Chroma thật, upload qua proxy, xóa đúng CV, chọn phản ánh cột phải.
 
 ### ⏳ Còn lại (theo ưu tiên)
 1. Frontend ReactJS.
