@@ -5,9 +5,11 @@ gợi ý cải thiện. Khác với embedding_service (chỉ tạo vector), serv
 tạo ra văn bản/phản hồi có nghĩa cho người dùng.
 """
 import json
+import time
 from typing import TypeVar
 
 from google import genai
+from google.genai import errors as genai_errors
 from google.genai import types
 from pydantic import BaseModel, ValidationError
 
@@ -115,11 +117,33 @@ class LLMService:
             response_mime_type="application/json",
             response_schema=response_schema,  # <-- điểm nâng cấp so với generate_json
         )
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=config,
-        )
+
+        # Gọi Gemini có RETRY NGẮN cho lỗi tạm thời (bài học từ eval harness,
+        # đưa vào sản phẩm sau khi UI dính 503 "high demand" thành 500 trần):
+        # - 429/503 phía Google thường tự hết sau vài giây -> thử lại 2 lần,
+        #   backoff 3s/6s (NGẮN hơn eval vì người dùng đang ngồi chờ request web).
+        # - Lỗi khác (400 request sai, 401 key hỏng...) retry vô ích -> ném ngay.
+        # - Mọi APIError cuối cùng đều map về LLMResponseError 502 — client nhận
+        #   ErrorResponse sạch qua global handler, không bao giờ thấy 500 trần.
+        so_lan_goi = 3
+        response = None
+        for lan in range(so_lan_goi):
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=prompt,
+                    config=config,
+                )
+                break
+            except genai_errors.APIError as exc:
+                ma = getattr(exc, "code", None)
+                tam_thoi = ma in (429, 503)
+                if not tam_thoi or lan == so_lan_goi - 1:
+                    raise LLMResponseError(
+                        f"Gemini không phục vụ được lúc này (mã {ma}) — hãy thử lại sau."
+                    ) from exc
+                time.sleep(3.0 * (2 ** lan))  # 3s rồi 6s
+        assert response is not None  # break ở trên bảo đảm; giữ cho type checker
 
         # Đường sung sướng: SDK đã parse sẵn thành đúng model.
         parsed = response.parsed

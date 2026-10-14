@@ -83,7 +83,12 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
    - [x] Bước 3: UploadCV (kéo-thả, validate client phản chiếu luật backend) + CVList (chọn,
      xóa 2 bước thay window.confirm) + App layout 2 cột. ĐÃ KIỂM CHỨNG SỐNG qua browser:
      list đọc dữ liệu thật từ Chroma, upload qua proxy 200, xóa đúng CV, chọn hiển thị cột phải.
-   - [ ] Bước 4: form JD + gọi phân tích (loading UX 5-15s)
+   - [x] Bước 4: JDForm (textarea + đếm ký tự phản chiếu min 30, nút khóa theo điều kiện) +
+     App xử lý phân tích (map errorCode → thông điệp hành động được; đổi CV là dọn kết quả cũ)
+     + cột phải 4 trạng thái (chờ/spinner/lỗi/teaser verdict+điểm+summary). KIỂM CHỨNG SỐNG:
+     click Phân tích thật → 200 → "Khá phù hợp 75/100". Nhân tiện vá lỗ thật: Gemini 503
+     xuyên route thành 500 trần → llm_service thêm retry 3s/6s cho 429/503 + map mọi APIError
+     về LLMResponseError 502 (3 test mới — suite 61 xanh).
    - [ ] Bước 5: trang kết quả (verdict, score 4 trục, skills + evidence, suggestions + resources)
 2. **Nâng cấp cân nhắc sau** (đã ghi trade-off ở README 4.9): multi-query theo khía cạnh JD
    nếu thấy retrieval sót; BackgroundTasks cho upload nếu CV dài; RAG hai chiều cho JD file;

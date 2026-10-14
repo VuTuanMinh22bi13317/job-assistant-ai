@@ -405,6 +405,9 @@ trả JSON `ErrorResponse` thống nhất (`model_dump(by_alias=True, mode="json
   output chuẩn — truyền class Pydantic (vd `LLMAnalysis`) làm `response_schema`, Gemini bị ràng
   buộc lúc decode, SDK trả `response.parsed` là instance model. Có fallback tự
   `model_validate_json(response.text)`; thất bại → `LLMResponseError` 502.
+  **Retry ngắn 3s/6s cho 429/503** (lỗi tạm thời phía Google — ngắn hơn eval vì người dùng
+  đang chờ); APIError khác (400/401) ném ngay; MỌI lỗi Gemini map về `LLMResponseError` 502
+  — client luôn nhận `ErrorResponse` sạch, không bao giờ 500 trần.
 
 ### `vector_service.py`
 ChromaDB `PersistentClient`, kiến trúc B3 (xem [4.8](#48-vector-store-1-collection-chung--filter-cv_id-quyết-định-b3)):
@@ -611,6 +614,9 @@ venv\Scripts\python eval\run_eval.py --runs 1
 23. **Frontend bước 3/5 — quản lý CV**: `UploadCV` (kéo-thả + validate client phản chiếu
     luật backend) + `CVList` (chọn / xóa 2 bước) + layout 2 cột. Kiểm chứng sống qua browser:
     list đọc Chroma thật, upload qua proxy, xóa đúng CV, chọn phản ánh cột phải.
+24. **Frontend bước 4/5 — form JD + phân tích**: `JDForm` + App map `errorCode` → thông điệp
+    hành động được; cột phải 4 trạng thái. Kiểm chứng sống: Phân tích thật → "Khá phù hợp
+    75/100". Kèm vá lỗ sản phẩm: retry 429/503 trong `llm_service` (+3 test → suite 61).
 
 ### ⏳ Còn lại (theo ưu tiên)
 1. Frontend ReactJS.
@@ -635,6 +641,7 @@ venv\Scripts\python eval\run_eval.py --runs 1
 | **`n_results` > số chunk trong index** | Chroma in warning "updating n_results = N" | Vô hại — Chroma tự hạ k; chỉ là cosmetic |
 | **`-> None` + `status_code=204` nổ lúc import** | "Status code 204 must not have a response body" ngay khi đăng ký route | Do `from __future__ import annotations`: FastAPI đọc annotation `None` thành response model NoneType. Khai `response_model=None` TƯỜNG MINH trên decorator |
 | **Điểm LLM chấm rung giữa các lần gọi** | Cùng CV+JD ra 90/75/85; verdict nhảy band strong↔good | temperature=0.0 + verdict do backend suy từ overall (`MatchVerdict.from_score`) — logic tất định thì về code, đừng để trong prompt. Còn rung > ±5 → self-consistency (median 3 lần) |
+| **Lỗi SDK Gemini xuyên route thành 500 trần** | UI bấm Phân tích đúng lúc Gemini 503 "high demand" → client nhận 500 không shape, stacktrace vào log | Bắt `genai_errors.APIError` NGAY TẠI llm_service: 429/503 retry ngắn (3s/6s), còn lại ném `LLMResponseError` 502 → luôn ra `ErrorResponse` sạch. Lỗi hạ tầng phải được "thuần hóa" ở tầng service, đừng để lộ tới handler |
 | **Luật "floor" trong prompt bị công thức đè** | Dặn "cùng ngành đừng chấm dưới 30" nhưng model vẫn ra 17 khi các trục điểm quá thấp (vòng eval #1) | Hai mệnh lệnh xung đột mà không nói thứ tự ưu tiên → model theo cái cụ thể hơn. Fix kiến trúc (A+B v2): LLM trả dữ kiện rời rạc `same_field`, backend áp floor trong `to_response` — vá bằng lời mãi không bằng chuyển logic tất định về code |
 
 ---

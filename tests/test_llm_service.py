@@ -11,8 +11,10 @@ Vì sao mock tầng SDK chứ không mock generate_structured như các test rou
   nên logic thật của generate_structured chạy nguyên bản, chỉ có SDK là giả.
 """
 import pytest
+from google.genai import errors as genai_errors
 from pydantic import BaseModel
 
+import app.services.llm_service as llm_module
 from app.core.exceptions import LLMResponseError
 from app.services.llm_service import llm_service
 
@@ -135,3 +137,69 @@ def test_response_rong_raise_llm_response_error(monkeypatch):
 
     with pytest.raises(LLMResponseError):
         llm_service.generate_structured(prompt="p", response_schema=MiniKQ)
+
+
+# ==========================================================================
+# 5-7. Lỗi API Gemini (429/503 tạm thời vs 400 cấu hình) — retry + map 502.
+#    Phát hiện từ test UI bước 4: 503 "high demand" xuyên route thành 500 trần.
+# ==========================================================================
+
+class _StubModelsLoi:
+    """Stub bắn sẵn một chuỗi 'kịch bản': mỗi phần tử là Exception (raise)
+    hoặc _FakeResponse (trả về) — mô phỏng 'chết 2 lần rồi sống lại'."""
+
+    def __init__(self, kich_ban):
+        self._kich_ban = list(kich_ban)
+        self.so_lan_goi = 0
+
+    def generate_content(self, *, model, contents, config):
+        self.so_lan_goi += 1
+        buoc = self._kich_ban.pop(0)
+        if isinstance(buoc, Exception):
+            raise buoc
+        return buoc
+
+
+def _loi_gemini(ma: int) -> genai_errors.APIError:
+    # APIError thật của SDK (constructor: status_code, response_json, response).
+    return genai_errors.APIError(ma, {"error": {"message": "gia lap", "code": ma}}, None)
+
+
+def _install_stub_loi(monkeypatch, kich_ban) -> _StubModelsLoi:
+    stub = _StubModelsLoi(kich_ban)
+    client = type("C", (), {"models": stub})()
+    monkeypatch.setattr(llm_service, "client", client)
+    monkeypatch.setattr(llm_module.time, "sleep", lambda s: None)  # khỏi chờ thật
+    return stub
+
+
+def test_503_tam_thoi_retry_cuu_duoc(monkeypatch):
+    ok = _FakeResponse(parsed=MiniKQ(ket_luan="ok", diem=70), text="{}")
+    stub = _install_stub_loi(monkeypatch, [_loi_gemini(503), _loi_gemini(429), ok])
+
+    ket_qua = llm_service.generate_structured(prompt="p", response_schema=MiniKQ)
+
+    assert ket_qua.diem == 70
+    assert stub.so_lan_goi == 3  # chết 2 lần, lần 3 sống — đúng kịch bản
+
+
+def test_503_dai_dang_map_thanh_502(monkeypatch):
+    stub = _install_stub_loi(
+        monkeypatch, [_loi_gemini(503), _loi_gemini(503), _loi_gemini(503)]
+    )
+
+    with pytest.raises(LLMResponseError) as excinfo:
+        llm_service.generate_structured(prompt="p", response_schema=MiniKQ)
+
+    assert excinfo.value.status_code == 502  # ErrorResponse sạch, không 500 trần
+    assert stub.so_lan_goi == 3  # đã thử đủ số lần rồi mới bỏ cuộc
+
+
+def test_400_khong_retry_nem_ngay(monkeypatch):
+    # 400 = request/cấu hình sai — retry chỉ đốt thời gian người dùng đang chờ.
+    stub = _install_stub_loi(monkeypatch, [_loi_gemini(400)])
+
+    with pytest.raises(LLMResponseError):
+        llm_service.generate_structured(prompt="p", response_schema=MiniKQ)
+
+    assert stub.so_lan_goi == 1  # KHÔNG có lần gọi thứ hai
