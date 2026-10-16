@@ -1,0 +1,16 @@
+Vị trí: Data Analyst
+
+Mô tả công việc:
+Phân tích dữ liệu kinh doanh cho công ty thương mại điện tử: xây dashboard,
+trả lời câu hỏi của các phòng ban bằng dữ liệu, theo dõi hiệu quả chiến dịch.
+
+Yêu cầu bắt buộc:
+- Tối thiểu 1 năm kinh nghiệm phân tích dữ liệu.
+- Thành thạo SQL (viết truy vấn phức tạp, join nhiều bảng).
+- Kinh nghiệm xây dashboard với Power BI hoặc Tableau.
+- Excel nâng cao; tư duy diễn giải số liệu cho người không chuyên.
+
+Điểm cộng:
+- Python (pandas) cho xử lý dữ liệu.
+- Hiểu biết A/B testing và thống kê cơ bản.
+- Kinh nghiệm ngành thương mại điện tử.

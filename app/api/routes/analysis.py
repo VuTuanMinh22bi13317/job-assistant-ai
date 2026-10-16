@@ -96,6 +96,10 @@ RUBRIC CHẤM ĐIỂM (0-100, chấm từng trục độc lập):
 - `missing_skills`: các kỹ năng JD đòi hỏi nhưng hoàn toàn không có bằng chứng.
 - `suggestions`: cụ thể, hành động được (viết lại bullet nào, thêm số liệu gì,
   học chứng chỉ nào), gắn priority theo mức ảnh hưởng tới khả năng đậu JD này.
+- `related_skill` (trong suggestions): phải là TÊN KỸ NĂNG NGẮN GỌN 1-4 từ
+  (vd "CRM", "Excel", "Kubernetes", "kỹ năng giao tiếp") — TUYỆT ĐỐI không
+  chép nguyên câu yêu cầu của JD vào đây (backend dùng field này tra link
+  học tập, câu dài sẽ tra hỏng).
 """
 
 

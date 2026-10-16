@@ -1,0 +1,24 @@
+Trương Mỹ Linh
+Email: linh.truong@example.com | SĐT: 0933 555 777 | TP. Hồ Chí Minh
+
+Tóm tắt
+UI/UX Designer 3 năm kinh nghiệm thiết kế sản phẩm web và mobile cho fintech
+và thương mại điện tử. Làm chủ quy trình từ research tới handoff cho developer.
+
+Kinh nghiệm làm việc
+UI/UX Designer — Fintech PayViet (2024 - nay)
+- Thiết kế lại luồng mở tài khoản trên app, tăng tỉ lệ hoàn thành từ 61% lên 78%.
+- Xây dựng và duy trì design system 120+ component trên Figma cho 2 squad.
+- Thực hiện user research: 15 phiên phỏng vấn người dùng, 4 đợt usability testing.
+- Bàn giao thiết kế cho developer bằng Figma Dev Mode, viết spec tương tác.
+
+Junior Designer — Agency BrightLab (2022 - 2024)
+- Thiết kế landing page và banner cho 20+ chiến dịch của khách hàng bán lẻ.
+
+Học vấn
+Đại học Kiến trúc TP.HCM — Cử nhân Thiết kế Đồ họa (2018 - 2022)
+
+Kỹ năng
+- Figma (component, auto-layout, prototype), design system
+- User research, usability testing, wireframe
+- HTML/CSS cơ bản, hiểu giới hạn kỹ thuật khi làm việc với developer

@@ -74,6 +74,8 @@ evidence, gợi ý + link học) chạy mượt qua UI thật. Còn lại chỉ 
 
 | 21 | Resources cho suggestions (bước 0 frontend) | `ResourceLink` schema + `resource_service.py`: catalog ~30 skill biên soạn tay (docs/roadmap/course, ưu tiên tiếng Việt) + fallback search-link TỰ RÁP — **LLM không bao giờ sinh URL** (chống bịa link). Match chứa-chuỗi + lọc key chuỗi-con. Enrich tất định trong `_run_analysis`. Suite 58 test xanh. Hợp đồng API chốt xong TRƯỚC khi viết types.ts frontend |
 
+| 22 | Mở rộng eval ĐA NGÀNH (được duyệt — "AI hỗ trợ xin việc không được giới hạn vài ngành") | Dataset 20→**39 case / 17 CV / 13 JD**: +5 CV (sales, HR, designer, mobile RN, CSKH) +7 JD (QA, CSKH, sales B2B, recruiter, UI/UX, mobile RN, data analyst). 12 case nhãn chắc (7 match ngành mới + 5 trái ngành) + **7 case vùng-xám-ngành-gần đánh dấu `uncertain` CHỜ USER DUYỆT NHÃN**. Kèm 2 vá từ test tay của user: prompt bắt `related_skill` là TÊN kỹ năng ngắn (không chép nguyên câu JD — link search từng bị ráp vô nghĩa) + catalog nở 13 key ngoài IT (HubSpot Academy, Figma, NN/g, Zendesk, Jira, Tableau, React Native...). Quota: chia 2-3 ngày (`--only`), ngày 1 = 12 case mới |
+
 ## ⏳ Chưa làm (theo thứ tự ưu tiên)
 
 1. ~~Frontend ReactJS~~ → **HOÀN THÀNH 5/5** (giữ checklist làm lịch sử):

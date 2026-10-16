@@ -1,0 +1,17 @@
+Vị trí: Mobile Developer (React Native)
+
+Mô tả công việc:
+Phát triển ứng dụng di động đa nền tảng cho chuỗi bán lẻ 2 triệu người dùng,
+từ tính năng mới tới tối ưu hiệu năng và phát hành.
+
+Yêu cầu bắt buộc:
+- Tối thiểu 1 năm kinh nghiệm React Native; hoặc React web vững và sẵn sàng
+  chuyển sang mobile.
+- Thành thạo TypeScript, quản lý state (Redux hoặc tương đương).
+- Tích hợp REST API, xử lý điều hướng (React Navigation) và thông báo đẩy.
+- Từng phát hành hoặc tham gia phát hành app lên App Store / Google Play.
+
+Điểm cộng:
+- Hiểu native module (Swift/Kotlin cơ bản).
+- Firebase (Auth, FCM, Crashlytics), tối ưu hiệu năng danh sách lớn.
+- Kinh nghiệm CI/CD cho mobile (Fastlane, EAS).

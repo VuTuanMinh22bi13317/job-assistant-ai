@@ -1,0 +1,15 @@
+Vị trí: QA Engineer (Web & API)
+
+Mô tả công việc:
+Đảm bảo chất lượng cho nền tảng web bán lẻ: thiết kế test case, thực thi test
+thủ công và tự động, phối hợp developer tái hiện và theo dõi bug.
+
+Yêu cầu bắt buộc:
+- Tối thiểu 2 năm kinh nghiệm kiểm thử web/API.
+- Thành thạo viết test case, test plan; tư duy phân tích yêu cầu tốt.
+- Kinh nghiệm test API với Postman; biết SQL cơ bản để đối chiếu dữ liệu.
+- Quản lý bug và quy trình trên Jira theo Agile/Scrum.
+
+Điểm cộng:
+- Automation với Selenium hoặc tương đương; biết Python/Java scripting.
+- Kinh nghiệm CI (Jenkins) và kiểm thử hiệu năng (JMeter).

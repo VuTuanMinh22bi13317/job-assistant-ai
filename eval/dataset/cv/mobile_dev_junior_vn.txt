@@ -1,0 +1,21 @@
+Đặng Hải Nam
+Email: nam.dang@example.com | SĐT: 0988 444 666 | Đà Nẵng
+
+Tóm tắt
+Mobile developer 1.5 năm kinh nghiệm xây dựng ứng dụng React Native cho cả
+iOS và Android, đã phát hành 2 app lên App Store và Google Play.
+
+Kinh nghiệm làm việc
+Mobile Developer — Startup bán lẻ MuaLe (2024 - nay)
+- Phát triển app mua sắm bằng React Native + TypeScript, 50.000 lượt tải.
+- Quản lý state bằng Redux Toolkit; tích hợp REST API, thanh toán và thông báo đẩy Firebase.
+- Tối ưu hiệu năng danh sách sản phẩm (FlatList, memo) giảm giật lag trên máy yếu.
+- Phát hành và cập nhật app lên App Store / Google Play, xử lý quy trình review.
+
+Học vấn
+Đại học Bách Khoa Đà Nẵng — Kỹ sư Công nghệ Thông tin (2019 - 2023)
+
+Kỹ năng
+- React Native, TypeScript, Redux Toolkit, React Navigation
+- Firebase (Auth, FCM, Analytics), REST API, Git
+- Hiểu cơ bản native module (Android), chưa làm Swift/Kotlin thuần

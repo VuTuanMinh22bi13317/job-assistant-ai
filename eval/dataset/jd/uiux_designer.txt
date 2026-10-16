@@ -1,0 +1,16 @@
+Vị trí: UI/UX Designer (Middle)
+
+Mô tả công việc:
+Thiết kế trải nghiệm cho hệ sinh thái app và web của ngân hàng số, làm việc
+trong squad cùng product owner và developer.
+
+Yêu cầu bắt buộc:
+- Tối thiểu 2 năm kinh nghiệm thiết kế sản phẩm số (app/web).
+- Thành thạo Figma: component, auto-layout, prototype; từng xây/duy trì design system.
+- Kinh nghiệm user research hoặc usability testing thực tế.
+- Tư duy bàn giao thiết kế rõ ràng cho developer (spec, Dev Mode).
+
+Điểm cộng:
+- Hiểu HTML/CSS cơ bản để trao đổi khả thi kỹ thuật.
+- Kinh nghiệm ngành tài chính/fintech.
+- Motion design (After Effects, Lottie).

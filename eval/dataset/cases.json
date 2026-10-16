@@ -13,7 +13,12 @@
     "cv/khong_heading_vanxuoi_vn.txt": { "expect_sections": false },
     "cv/heading_la_vn.txt":          { "expect_sections": false },
     "cv/pdf_ngat_dong_xau.txt":      { "expect_sections": true },
-    "cv/song_ngu_qa_en.txt":         { "expect_sections": true }
+    "cv/song_ngu_qa_en.txt":         { "expect_sections": true },
+    "cv/sales_mid_vn.txt":           { "expect_sections": true },
+    "cv/hr_junior_vn.txt":           { "expect_sections": true },
+    "cv/designer_mid_vn.txt":        { "expect_sections": true },
+    "cv/mobile_dev_junior_vn.txt":   { "expect_sections": true },
+    "cv/customer_service_junior_vn.txt": { "expect_sections": true }
   },
 
   "cases": [
@@ -176,6 +181,167 @@
       "expect": { "verdict_in": ["weak_match", "partial_match"],
                   "must_matched": ["Python"],
                   "must_missing": ["FastAPI", "PostgreSQL"] }
+    },
+
+    {
+      "id": "qa_vs_qa",
+      "note": "[Mở rộng đa ngành] QA cuối cùng cũng có JD đúng nhà — match chuẩn",
+      "cv": "cv/song_ngu_qa_en.txt", "jd": "jd/qa_engineer.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Postman", "Selenium"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "cs_vs_cs",
+      "note": "[Mở rộng] CSKH khớp CSKH — ngành dịch vụ khách hàng",
+      "cv": "cv/customer_service_junior_vn.txt", "jd": "jd/customer_service.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Zendesk", "Excel"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "sales_vs_sales",
+      "note": "[Mở rộng] Kinh doanh B2B khớp JD sales",
+      "cv": "cv/sales_mid_vn.txt", "jd": "jd/sales_b2b.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["CRM", "đàm phán"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "hr_vs_hr",
+      "note": "[Mở rộng] Tuyển dụng khớp JD recruiter",
+      "cv": "cv/hr_junior_vn.txt", "jd": "jd/hr_recruiter.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["sourcing", "phỏng vấn"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "designer_vs_designer",
+      "note": "[Mở rộng] UI/UX designer khớp JD designer",
+      "cv": "cv/designer_mid_vn.txt", "jd": "jd/uiux_designer.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Figma", "design system"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "mobile_vs_mobile",
+      "note": "[Mở rộng] React Native dev khớp JD mobile",
+      "cv": "cv/mobile_dev_junior_vn.txt", "jd": "jd/mobile_react_native.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["React Native", "Redux"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "da_vs_da",
+      "note": "[Mở rộng] Data analyst có JD đúng nhà (trước chỉ có cặp lệch vs data engineer)",
+      "cv": "cv/data_analyst_junior_vn.txt", "jd": "jd/data_analyst.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["SQL", "Power BI", "Excel"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "designer_vs_ketoan",
+      "note": "[Mở rộng] Trái ngành: designer vs kế toán",
+      "cv": "cv/designer_mid_vn.txt", "jd": "jd/ketoan_tonghop.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["MISA"] }
+    },
+    {
+      "id": "sales_vs_backend",
+      "note": "[Mở rộng] Trái ngành: sales vs backend IT",
+      "cv": "cv/sales_mid_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["Python"] }
+    },
+    {
+      "id": "mobile_vs_hr",
+      "note": "[Mở rộng] Trái ngành: mobile dev vs tuyển dụng",
+      "cv": "cv/mobile_dev_junior_vn.txt", "jd": "jd/hr_recruiter.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["sourcing"] }
+    },
+    {
+      "id": "bs_vs_cs",
+      "note": "[Mở rộng] Trái ngành chiều ngược: senior IT vs CSKH — giỏi ngành khác không cứu được",
+      "cv": "cv/backend_senior_en.txt", "jd": "jd/customer_service.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["CRM"] }
+    },
+    {
+      "id": "cs_vs_data",
+      "note": "[Mở rộng] Trái ngành: CSKH vs data engineer",
+      "cv": "cv/customer_service_junior_vn.txt", "jd": "jd/data_engineer.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["Spark"] }
+    },
+
+    {
+      "id": "fe_vs_mobile",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — React web sang React Native: JD chấp nhận 'React web vững'; con người chấm partial hay good?",
+      "cv": "cv/frontend_junior_en.txt", "jd": "jd/mobile_react_native.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["TypeScript", "Redux"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "mobile_vs_frontend",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — chiều ngược: RN dev ứng tuyển React web (biết React/TS nhưng chưa làm web thuần)",
+      "cv": "cv/mobile_dev_junior_vn.txt", "jd": "jd/frontend_react.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["TypeScript"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "bj_vs_qa",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — dev biết pytest/Postman ứng tuyển QA: cùng khối IT, thiếu tư duy test case",
+      "cv": "cv/backend_junior_vn.txt", "jd": "jd/qa_engineer.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": ["Postman"],
+                  "must_missing": ["Jira"] }
+    },
+    {
+      "id": "sales_vs_cs",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — sales có CRM + chăm sóc sau bán ứng tuyển CSKH: ngành gần đến đâu?",
+      "cv": "cv/sales_mid_vn.txt", "jd": "jd/customer_service.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["CRM"],
+                  "must_missing": ["Zendesk"] }
+    },
+    {
+      "id": "cs_vs_sales",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — chiều ngược: CSKH sang sales B2B (giao tiếp tốt nhưng chưa bán hàng/chốt đơn)",
+      "cv": "cv/customer_service_junior_vn.txt", "jd": "jd/sales_b2b.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": [],
+                  "must_missing": ["đàm phán"] }
+    },
+    {
+      "id": "ketoan_vs_cs",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — kế toán sang CSKH: cùng khối văn phòng + Excel nhưng không có kỹ năng khách hàng",
+      "cv": "cv/ketoan_junior_vn.txt", "jd": "jd/customer_service.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": ["Excel"],
+                  "must_missing": ["Zendesk"] }
+    },
+    {
+      "id": "da_vs_marketing",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — analyst sang digital marketing: đọc số giỏi nhưng chưa chạy ads/SEO",
+      "cv": "cv/data_analyst_junior_vn.txt", "jd": "jd/marketing_digital.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": [],
+                  "must_missing": ["SEO"] }
     }
   ]
 }

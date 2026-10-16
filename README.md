@@ -627,6 +627,11 @@ venv\Scripts\python eval\run_eval.py --runs 1
     progress bar (màu ăn theo band `from_score`), checklist kỹ năng ✓/✗ + evidence nguyên văn,
     chips thiếu, suggestions theo priority + resources link. Kiểm chứng sống: 78/100.
 
+26. **Mở rộng eval đa ngành (đang đo)**: dataset 39 case / 17 CV / 13 JD phủ 11 ngành
+    (IT đủ nhánh + kế toán, marketing, sales, HR, design, CSKH, QA, mobile, data);
+    7 case vùng-xám-ngành-gần chờ duyệt nhãn. Kèm fix prompt `related_skill` ngắn gọn
+    + catalog resources nở 13 key ngoài IT.
+
 🏆 **DỰ ÁN CHẠY HOÀN CHỈNH ĐẦU-CUỐI** — upload CV → dán JD → báo cáo trong ~10 giây.
 
 ### ⏳ Backlog tùy chọn (không chặn gì)

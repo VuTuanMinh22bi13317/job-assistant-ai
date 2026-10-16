@@ -147,6 +147,48 @@ _CATALOG: dict[str, list[ResourceLink]] = {
     "facebook ads": [
         ResourceLink(title="Meta Blueprint — khóa chính thức", url="https://www.facebook.com/business/learn", kind="course"),
     ],
+    # --- Mobile / Design (đợt mở rộng đa ngành) ---
+    "react native": [
+        ResourceLink(title="React Native — docs chính thức", url="https://reactnative.dev/docs/getting-started", kind="docs"),
+    ],
+    "figma": [
+        ResourceLink(title="Figma Help Center — học Figma chính thức", url="https://help.figma.com/", kind="docs"),
+    ],
+    "ui/ux": [
+        ResourceLink(title="Nielsen Norman Group — bài viết UX nền tảng", url="https://www.nngroup.com/articles/", kind="docs"),
+        ResourceLink(title="Google UX Design (Coursera)", url="https://www.coursera.org/professional-certificates/google-ux-design", kind="course"),
+    ],
+    "user research": [
+        ResourceLink(title="Nielsen Norman Group — bài viết UX nền tảng", url="https://www.nngroup.com/articles/", kind="docs"),
+    ],
+    # --- Văn phòng / CSKH / Sales / HR (ngoài IT) ---
+    "crm": [
+        ResourceLink(title="HubSpot Academy — khóa CRM/Sales/Service miễn phí", url="https://academy.hubspot.com/", kind="course"),
+    ],
+    "hubspot": [
+        ResourceLink(title="HubSpot Academy — khóa miễn phí chính thức", url="https://academy.hubspot.com/", kind="course"),
+    ],
+    "zendesk": [
+        ResourceLink(title="Zendesk Help — tài liệu chính thức", url="https://support.zendesk.com/", kind="docs"),
+    ],
+    "chăm sóc khách hàng": [
+        ResourceLink(title="HubSpot Academy — khóa Customer Service miễn phí", url="https://academy.hubspot.com/", kind="course"),
+    ],
+    "customer service": [
+        ResourceLink(title="HubSpot Academy — khóa Customer Service miễn phí", url="https://academy.hubspot.com/", kind="course"),
+    ],
+    "bán hàng": [
+        ResourceLink(title="HubSpot Academy — khóa Sales miễn phí", url="https://academy.hubspot.com/", kind="course"),
+    ],
+    "tin học văn phòng": [
+        ResourceLink(title="Trợ giúp Microsoft Office", url="https://support.microsoft.com/office", kind="docs"),
+    ],
+    "jira": [
+        ResourceLink(title="Jira Guides — Atlassian chính thức", url="https://www.atlassian.com/software/jira/guides", kind="docs"),
+    ],
+    "tableau": [
+        ResourceLink(title="Tableau Training — khóa chính thức", url="https://www.tableau.com/learn/training", kind="course"),
+    ],
 }
 
 
