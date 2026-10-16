@@ -5,18 +5,9 @@ import { useCallback, useEffect, useState } from 'react'
 import { analyze, ApiError, listCVs } from './api'
 import CVList from './components/CVList'
 import JDForm from './components/JDForm'
+import KetQuaPhanTich from './components/KetQuaPhanTich'
 import UploadCV from './components/UploadCV'
-import type { AnalysisResponse, CVListItem, Verdict } from './types'
-
-// Nhãn tiếng Việt + màu cho verdict — dùng cho teaser (bước 4) và trang
-// kết quả đầy đủ (bước 5).
-const VERDICT_HIEN_THI: Record<Verdict, { nhan: string; mau: string }> = {
-  strong_match: { nhan: 'Rất phù hợp', mau: 'bg-green-100 text-green-800' },
-  good_match: { nhan: 'Khá phù hợp', mau: 'bg-emerald-100 text-emerald-800' },
-  partial_match: { nhan: 'Phù hợp một phần', mau: 'bg-yellow-100 text-yellow-800' },
-  weak_match: { nhan: 'Còn yếu', mau: 'bg-orange-100 text-orange-800' },
-  not_a_match: { nhan: 'Không phù hợp', mau: 'bg-red-100 text-red-800' },
-}
+import type { AnalysisResponse, CVListItem } from './types'
 
 function App() {
   const [dsCV, setDsCV] = useState<CVListItem[]>([])
@@ -153,29 +144,7 @@ function App() {
               <p className="font-medium text-red-700">⚠️ {loiPhanTich}</p>
             </div>
           ) : ketQua ? (
-            <div className="rounded-xl border bg-white p-6 shadow-sm">
-              {/* Teaser bước 4 — bước 5 sẽ thay bằng trang báo cáo đầy đủ */}
-              <div className="flex items-center justify-between gap-4">
-                <div>
-                  <p className="text-sm text-slate-500">{ketQua.jdTitle ?? 'Kết quả phân tích'}</p>
-                  <span
-                    className={`mt-1 inline-block rounded-full px-3 py-1 text-sm font-semibold ${VERDICT_HIEN_THI[ketQua.verdict].mau}`}
-                  >
-                    {VERDICT_HIEN_THI[ketQua.verdict].nhan}
-                  </span>
-                </div>
-                <div className="text-right">
-                  <p className="text-4xl font-bold text-blue-600">{ketQua.score.overall}</p>
-                  <p className="text-xs text-slate-500">/ 100 điểm</p>
-                </div>
-              </div>
-              <p className="mt-4 border-t pt-4 text-sm leading-relaxed text-slate-700">
-                {ketQua.summary}
-              </p>
-              <p className="mt-4 rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-400">
-                Bước 5/5 sẽ hiển thị đầy đủ: điểm 4 trục, skills + bằng chứng, gợi ý + link học.
-              </p>
-            </div>
+            <KetQuaPhanTich ketQua={ketQua} />
           ) : (
             <div className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center">
               <p className="text-lg font-medium">

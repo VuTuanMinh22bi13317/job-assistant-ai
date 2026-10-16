@@ -16,7 +16,9 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
 → dán JD → retrieve top-k → prompt grounding + rubric → Gemini structured output
 → điểm số + bằng chứng + gợi ý cải thiện.
 
-**Backend + pytest (52 test) + eval 3 vòng cải thiện (20/20) ĐÃ XONG.** Việc lớn còn lại: **frontend ReactJS**.
+🏆 **DỰ ÁN HOÀN CHỈNH ĐẦU-CUỐI (16/10/2026)**: backend RAG + 61 pytest + eval 3 vòng cải thiện
+(20/20) + **frontend React 5/5 bước** — upload CV → dán JD → báo cáo đầy đủ (điểm 4 trục,
+evidence, gợi ý + link học) chạy mượt qua UI thật. Còn lại chỉ là backlog nâng cấp tùy chọn.
 
 ---
 
@@ -74,7 +76,7 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
 
 ## ⏳ Chưa làm (theo thứ tự ưu tiên)
 
-1. **Frontend ReactJS — ĐANG LÀM, xong bước 1/5**:
+1. ~~Frontend ReactJS~~ → **HOÀN THÀNH 5/5** (giữ checklist làm lịch sử):
    - [x] Bước 1: scaffold Vite + React 19 + TS 6 + Tailwind 4 (`frontend/`), proxy `/api`→:8000,
      build sạch, preview chạy `localhost:5173`. Node 24.20 LTS đã có trên máy.
    - [x] Bước 2: `types.ts` (tầng thứ 4 của hệ schema — interface khớp 1-1 response camelCase)
@@ -89,7 +91,10 @@ upload CV → parse/chunk hybrid → embed (Gemini) → index (ChromaDB, cô l�
      click Phân tích thật → 200 → "Khá phù hợp 75/100". Nhân tiện vá lỗ thật: Gemini 503
      xuyên route thành 500 trần → llm_service thêm retry 3s/6s cho 429/503 + map mọi APIError
      về LLMResponseError 502 (3 test mới — suite 61 xanh).
-   - [ ] Bước 5: trang kết quả (verdict, score 4 trục, skills + evidence, suggestions + resources)
+   - [x] Bước 5: `KetQuaPhanTich` — trang báo cáo đầy đủ: verdict badge + điểm 3 trục progress
+     bar (màu ăn theo band của from_score), checklist kỹ năng ✓/✗ kèm evidence nguyên văn,
+     chips thiếu, suggestions sort theo priority kèm resources link (target _blank + noopener).
+     KIỂM CHỨNG SỐNG: phân tích thật → 78/100 "Khá phù hợp", đủ evidence + link catalog hiển thị.
 2. **Nâng cấp cân nhắc sau** (đã ghi trade-off ở README 4.9): multi-query theo khía cạnh JD
    nếu thấy retrieval sót; BackgroundTasks cho upload nếu CV dài; RAG hai chiều cho JD file;
    test route health + fixture PDF + 1-2 smoke test `@pytest.mark.live` phủ nốt chỗ trắng coverage.

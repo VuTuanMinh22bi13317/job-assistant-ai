@@ -94,7 +94,7 @@ app/
 data/
   uploads/             # file CV người dùng upload
   chroma/              # ChromaDB persist ở đây
-frontend/              # Vite + React 19 + TS + Tailwind v4 (đang xây — xong bước 1/5 scaffold)
+frontend/              # Vite + React 19 + TS + Tailwind v4 — HOÀN CHỈNH (types/api + 4 component)
 tests/                 # pytest thật                               [CHƯA LÀM]
 .env / .env.example / .gitignore / requirements.txt
 ```
@@ -519,6 +519,12 @@ pip install -r requirements.txt
 # chạy API
 uvicorn app.main:app --reload
 # docs tự sinh: http://localhost:8000/docs
+
+# chạy frontend (terminal thứ 2; cần Node >= 18)
+cd frontend
+npm install
+npm run dev
+# mở http://localhost:5173 — proxy /api tự trỏ về backend :8000
 ```
 
 **Test tự động (pytest)** — 52 test trong `tests/`, chạy hết ~5 giây, không cần mạng/API key:
@@ -617,11 +623,17 @@ venv\Scripts\python eval\run_eval.py --runs 1
 24. **Frontend bước 4/5 — form JD + phân tích**: `JDForm` + App map `errorCode` → thông điệp
     hành động được; cột phải 4 trạng thái. Kiểm chứng sống: Phân tích thật → "Khá phù hợp
     75/100". Kèm vá lỗ sản phẩm: retry 429/503 trong `llm_service` (+3 test → suite 61).
+25. **Frontend bước 5/5 — trang báo cáo đầy đủ (`KetQuaPhanTich`)**: verdict badge, điểm 3 trục
+    progress bar (màu ăn theo band `from_score`), checklist kỹ năng ✓/✗ + evidence nguyên văn,
+    chips thiếu, suggestions theo priority + resources link. Kiểm chứng sống: 78/100.
 
-### ⏳ Còn lại (theo ưu tiên)
-1. Frontend ReactJS.
-2. Cân nhắc sau: multi-query theo khía cạnh JD nếu retrieval sót; BackgroundTasks nếu CV dài;
-   test route health + fixture PDF + 1-2 smoke test `@pytest.mark.live` để phủ nốt phần trắng coverage.
+🏆 **DỰ ÁN CHẠY HOÀN CHỈNH ĐẦU-CUỐI** — upload CV → dán JD → báo cáo trong ~10 giây.
+
+### ⏳ Backlog tùy chọn (không chặn gì)
+1. Multi-query theo khía cạnh JD nếu retrieval sót; BackgroundTasks nếu CV dài.
+2. Test route health + fixture PDF + 1-2 smoke test `@pytest.mark.live` phủ nốt phần trắng coverage.
+3. Tính năng mới "gợi ý ngành nghề phù hợp từ CV" (endpoint riêng, cần eval riêng).
+4. Sinh `types.ts` tự động từ `/openapi.json` khi schema phình to (openapi-typescript).
 
 ---
 

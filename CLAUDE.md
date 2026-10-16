@@ -54,7 +54,7 @@ app/core/exceptions.py
 data/{uploads, chroma}
 tests/              pytest (52 test, fake Gemini — miễn phí)
 eval/               eval harness (dataset 20 case nhãn tay + run_eval.py + reports/)
-frontend/           (chưa làm)
+frontend/           Vite + React 19 + TS + Tailwind v4 — hoàn chỉnh (types.ts/api.ts + 4 component)
 ```
 
 ---
@@ -102,7 +102,10 @@ xem README mục 10.
 2 lần chuyển logic từ prompt về code (verdict `from_score`, floor `same_field`) và tiêm ngày
 hiện tại vào prompt. Dừng tinh chỉnh prompt tại đây — tránh overfit vào 20 case.
 
-**⏳ Tiếp theo: frontend ReactJS**; cân nhắc multi-query/BackgroundTasks.
+**✅ Frontend hoàn chỉnh (5 bước, kiểm chứng sống qua browser)** — DỰ ÁN CHẠY ĐẦU-CUỐI:
+upload CV → dán JD → báo cáo đầy đủ (verdict, điểm 4 trục, evidence, gợi ý + link học).
+Backlog tùy chọn: multi-query, BackgroundTasks, gợi ý ngành nghề, test health/PDF/live,
+sinh types.ts từ OpenAPI.
 
 ---
 
