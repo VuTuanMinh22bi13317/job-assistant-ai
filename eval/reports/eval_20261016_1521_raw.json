@@ -1,0 +1,1529 @@
+{
+  "qa_vs_qa": {
+    "cv": "cv/song_ngu_qa_en.txt",
+    "jd": "jd/qa_engineer.txt",
+    "runs": [
+      {
+        "cvId": "36042bc20d554e8a94ba9d07dfde6972",
+        "jdTitle": "QA Engineer (Web & API)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 91,
+          "skillsMatch": 95,
+          "experienceMatch": 95,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Truong Gia Han là một ứng cử viên rất phù hợp cho vị trí QA Engineer (Web & API), với kinh nghiệm vượt trội so với yêu cầu tối thiểu và sự phù hợp cao về kỹ năng. Kinh nghiệm kiểm thử web bán lẻ và API, cùng với khả năng tự động hóa mạnh mẽ, là những điểm cộng lớn. Ứng viên có bằng cấp phù hợp mặc dù JD không nêu yêu cầu cụ thể về học vấn.",
+        "matchedSkills": [
+          {
+            "skill": "Kinh nghiệm kiểm thử web/API",
+            "presentInCv": true,
+            "evidence": "QA Automation Engineer với 2 năm kinh nghiệm test web và API."
+          },
+          {
+            "skill": "Viết test case",
+            "presentInCv": true,
+            "evidence": "viết 300+ test case."
+          },
+          {
+            "skill": "Viết test plan",
+            "presentInCv": true,
+            "evidence": "Viết test plan, phối hợp dev tái hiện bug, quản lý ticket trên Jira."
+          },
+          {
+            "skill": "Tư duy phân tích yêu cầu",
+            "presentInCv": true,
+            "evidence": "Phát hiện trung bình 15 bug nghiêm trọng mỗi release trước khi lên production."
+          },
+          {
+            "skill": "Test API với Postman",
+            "presentInCv": true,
+            "evidence": "Automated API testing với Postman/Newman và Python requests, cover 12 services."
+          },
+          {
+            "skill": "SQL cơ bản",
+            "presentInCv": true,
+            "evidence": "Languages: Python (automation scripting), SQL cơ bản"
+          },
+          {
+            "skill": "Quản lý bug trên Jira",
+            "presentInCv": true,
+            "evidence": "quản lý ticket trên Jira."
+          },
+          {
+            "skill": "Quy trình Agile/Scrum",
+            "presentInCv": true,
+            "evidence": "Khác: Jira, Agile/Scrum, English - upper intermediate"
+          },
+          {
+            "skill": "Automation với Selenium",
+            "presentInCv": true,
+            "evidence": "Xây dựng framework test UI bằng Selenium + pytest, chạy 400 test case mỗi đêm trên Jenkins."
+          },
+          {
+            "skill": "Python scripting",
+            "presentInCv": true,
+            "evidence": "Automated API testing với Postman/Newman và Python requests, cover 12 services."
+          },
+          {
+            "skill": "Java scripting",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI (Jenkins)",
+            "presentInCv": true,
+            "evidence": "chạy 400 test case mỗi đêm trên Jenkins."
+          },
+          {
+            "skill": "Kiểm thử hiệu năng (JMeter)",
+            "presentInCv": true,
+            "evidence": "Testing: Selenium, pytest, Postman, JMeter cơ bản, Jenkins CI"
+          }
+        ],
+        "missingSkills": [
+          "Java scripting"
+        ],
+        "suggestions": [
+          {
+            "priority": "medium",
+            "title": "Định lượng hóa tác động",
+            "detail": "Trong phần kinh nghiệm, hãy bổ sung thêm các con số cụ thể về tác động của công việc bạn đã làm, ví dụ như 'giảm X% lỗi nghiêm trọng trên production' hoặc 'tăng Y% hiệu quả quy trình kiểm thử'. Điều này sẽ làm nổi bật hơn giá trị bạn mang lại.",
+            "relatedSkill": null,
+            "resources": []
+          },
+          {
+            "priority": "low",
+            "title": "Phát triển kỹ năng Java scripting",
+            "detail": "Mặc dù không bắt buộc, việc bổ sung kinh nghiệm với Java scripting sẽ là một điểm cộng đáng giá, đặc biệt nếu công ty có sử dụng Java trong hệ thống của họ. Bạn có thể cân nhắc học thêm hoặc thực hiện một dự án nhỏ để thể hiện kỹ năng này.",
+            "relatedSkill": "Java scripting",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Java scripting\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Java+scripting+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:16:59.041881Z"
+      }
+    ]
+  },
+  "cs_vs_cs": {
+    "cv": "cv/customer_service_junior_vn.txt",
+    "jd": "jd/customer_service.txt",
+    "runs": [
+      {
+        "cvId": "b16232a6cef44126891f97f9e5f80da8",
+        "jdTitle": "Nhân viên Chăm sóc Khách hàng (Customer Service)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 86,
+          "skillsMatch": 85,
+          "experienceMatch": 95,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Võ Thị Hồng Nhung có kinh nghiệm 2 năm 10 tháng làm Nhân viên Chăm sóc Khách hàng tại sàn thương mại điện tử, hoàn toàn phù hợp với yêu cầu về kinh nghiệm và lĩnh vực của vị trí. Các kỹ năng chuyên môn như giao tiếp, xử lý tình huống, sử dụng Zendesk và Excel đều được thể hiện rõ ràng và có bằng chứng cụ thể. Mặc dù JD không yêu cầu về học vấn, bằng Cao đẳng Quản trị Kinh doanh của ứng viên cũng là một điểm cộng.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 1 năm kinh nghiệm chăm sóc khách hàng hoặc tổng đài",
+            "presentInCv": true,
+            "evidence": "Nhân viên Chăm sóc Khách hàng — Sàn TMĐT ShopOnline (2024 - nay)"
+          },
+          {
+            "skill": "Kỹ năng giao tiếp và xử lý tình huống tốt",
+            "presentInCv": true,
+            "evidence": "Giao tiếp, xử lý tình huống và khiếu nại"
+          },
+          {
+            "skill": "Giọng nói rõ ràng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thành thạo tin học văn phòng",
+            "presentInCv": true,
+            "evidence": "Excel, Google Sheets; gõ máy nhanh"
+          },
+          {
+            "skill": "Từng dùng phần mềm CRM hoặc helpdesk (Zendesk, Freshdesk hoặc tương đương)",
+            "presentInCv": true,
+            "evidence": "Zendesk"
+          },
+          {
+            "skill": "Chịu được áp lực về chỉ tiêu cuộc gọi và đánh giá hài lòng (CSAT)",
+            "presentInCv": true,
+            "evidence": "chịu áp lực chỉ tiêu tốt"
+          },
+          {
+            "skill": "Tiếng Anh giao tiếp (hỗ trợ khách nước ngoài)",
+            "presentInCv": true,
+            "evidence": "Tiếng Anh giao tiếp cơ bản (hỗ trợ khách nước ngoài qua chat)"
+          },
+          {
+            "skill": "Kinh nghiệm ngành thương mại điện tử hoặc logistics",
+            "presentInCv": true,
+            "evidence": "Sàn TMĐT ShopOnline"
+          },
+          {
+            "skill": "Biết làm báo cáo Excel cơ bản",
+            "presentInCv": true,
+            "evidence": "Lập báo cáo tuần về nhóm lỗi phổ biến bằng Excel"
+          }
+        ],
+        "missingSkills": [
+          "Giọng nói rõ ràng"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung thông tin về giọng nói",
+            "detail": "JD yêu cầu 'giọng nói rõ ràng'. Ứng viên nên bổ sung thông tin này vào CV nếu đây là điểm mạnh, ví dụ trong phần kỹ năng hoặc mô tả bản thân.",
+            "relatedSkill": "Giọng nói",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Giọng nói\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Gi%E1%BB%8Dng+n%C3%B3i+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Định lượng tốc độ gõ phím",
+            "detail": "Ứng viên có đề cập 'gõ máy nhanh'. Để tăng tính thuyết phục, nên định lượng bằng số từ/phút (WPM) nếu có.",
+            "relatedSkill": "Tốc độ gõ phím",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Tốc độ gõ phím\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+T%E1%BB%91c+%C4%91%E1%BB%99+g%C3%B5+ph%C3%ADm+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Thêm số liệu cụ thể cho kỹ năng giao tiếp",
+            "detail": "Ngoài CSAT, nếu có các chỉ số khác về hiệu quả giao tiếp hoặc xử lý tình huống (ví dụ: thời gian xử lý trung bình, tỉ lệ giải quyết lần đầu), nên bổ sung để làm nổi bật hơn kỹ năng này.",
+            "relatedSkill": "Giao tiếp",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Giao tiếp\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Giao+ti%E1%BA%BFp+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:17:22.400312Z"
+      }
+    ]
+  },
+  "sales_vs_sales": {
+    "cv": "cv/sales_mid_vn.txt",
+    "jd": "jd/sales_b2b.txt",
+    "runs": [
+      {
+        "cvId": "94534dce4eb44c94905f0a79452815f4",
+        "jdTitle": "Nhân viên Kinh doanh B2B",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 94,
+          "skillsMatch": 100,
+          "experienceMatch": 95,
+          "educationMatch": 70
+        },
+        "summary": "Phạm Quốc Đạt có tổng cộng gần 4 năm kinh nghiệm bán hàng B2B, trong đó có gần 3 năm chuyên sâu về giải pháp phần mềm và dịch vụ, vượt xa yêu cầu tối thiểu của JD. Ứng viên thể hiện tốt các kỹ năng tìm kiếm khách hàng mới, đàm phán, và quản lý pipeline bằng CRM HubSpot, cùng với khả năng đạt và vượt chỉ tiêu doanh số. Mức độ phù hợp tổng thể rất cao.",
+        "matchedSkills": [
+          {
+            "skill": "Bán hàng B2B",
+            "presentInCv": true,
+            "evidence": "Bán hàng B2B"
+          },
+          {
+            "skill": "Kỹ năng tìm kiếm khách hàng mới",
+            "presentInCv": true,
+            "evidence": "Tìm kiếm khách hàng mới qua cold call, triển lãm và giới thiệu; chốt trung bình 6 hợp đồng/tháng."
+          },
+          {
+            "skill": "Cold call",
+            "presentInCv": true,
+            "evidence": "Tìm kiếm khách hàng mới qua cold call"
+          },
+          {
+            "skill": "Networking",
+            "presentInCv": true,
+            "evidence": "Tìm kiếm khách hàng mới qua cold call, triển lãm và giới thiệu"
+          },
+          {
+            "skill": "Đàm phán",
+            "presentInCv": true,
+            "evidence": "đàm phán"
+          },
+          {
+            "skill": "CRM",
+            "presentInCv": true,
+            "evidence": "CRM HubSpot"
+          },
+          {
+            "skill": "Quản lý pipeline bán hàng",
+            "presentInCv": true,
+            "evidence": "Quản lý pipeline trên CRM HubSpot"
+          },
+          {
+            "skill": "Chịu áp lực chỉ tiêu doanh số",
+            "presentInCv": true,
+            "evidence": "đạt 120% chỉ tiêu doanh số năm 2025."
+          },
+          {
+            "skill": "Tiếng Anh giao tiếp",
+            "presentInCv": true,
+            "evidence": "Tiếng Anh giao tiếp khá"
+          },
+          {
+            "skill": "Hiểu biết sản phẩm công nghệ/SaaS",
+            "presentInCv": true,
+            "evidence": "Nhân viên kinh doanh B2B — Công ty Giải pháp Văn phòng Số"
+          },
+          {
+            "skill": "Thuyết trình demo sản phẩm",
+            "presentInCv": true,
+            "evidence": "thuyết trình"
+          }
+        ],
+        "missingSkills": [],
+        "suggestions": [
+          {
+            "priority": "low",
+            "title": "Định lượng thành tích ở vị trí cũ",
+            "detail": "Bổ sung các con số cụ thể về doanh số, số lượng hợp đồng, hoặc các thành tựu khác đạt được tại vị trí Nhân viên kinh doanh tại Nhà phân phối thiết bị ABC để làm nổi bật hơn kinh nghiệm tổng thể.",
+            "relatedSkill": "Bán hàng B2B",
+            "resources": [
+              {
+                "title": "HubSpot Academy — khóa Sales miễn phí",
+                "url": "https://academy.hubspot.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Làm rõ kỹ năng networking và demo sản phẩm",
+            "detail": "Mặc dù CV đã đề cập đến 'triển lãm và giới thiệu' và 'thuyết trình', bạn có thể làm rõ hơn về kỹ năng networking (ví dụ: số lượng mối quan hệ xây dựng, sự kiện tham gia) và kinh nghiệm thuyết trình demo sản phẩm cụ thể nếu có.",
+            "relatedSkill": "Networking",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Networking\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Networking+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:17:47.908368Z"
+      }
+    ]
+  },
+  "hr_vs_hr": {
+    "cv": "cv/hr_junior_vn.txt",
+    "jd": "jd/hr_recruiter.txt",
+    "runs": [
+      {
+        "cvId": "1f422012d22a4688a7187821ab1f0aaf",
+        "jdTitle": "Chuyên viên Tuyển dụng (Recruiter)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 85,
+          "skillsMatch": 85,
+          "experienceMatch": 90,
+          "educationMatch": 70
+        },
+        "summary": "Lê Ngọc Ánh là một ứng viên rất phù hợp với vị trí Chuyên viên Tuyển dụng, với 1.5 năm kinh nghiệm trong công ty công nghệ, đáp ứng tốt các yêu cầu về sourcing đa kênh, sàng lọc CV, phỏng vấn sơ loại và quản lý dữ liệu ứng viên. Ứng viên cũng có kinh nghiệm tuyển vị trí IT và employer branding, là những điểm cộng đáng giá. JD không yêu cầu cụ thể về học vấn, nên điểm học vấn được chấm trung lập.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 1 năm kinh nghiệm tuyển dụng",
+            "presentInCv": true,
+            "evidence": "Chuyên viên tuyển dụng 1.5 năm kinh nghiệm trong công ty công nghệ"
+          },
+          {
+            "skill": "Thành thạo sourcing ứng viên đa kênh (LinkedIn, TopCV, ITviec, referral)",
+            "presentInCv": true,
+            "evidence": "Sourcing ứng viên đa kênh: LinkedIn, TopCV, ITviec, giới thiệu nội bộ"
+          },
+          {
+            "skill": "Kỹ năng sàng lọc CV và phỏng vấn sơ loại; phối hợp tốt với hiring manager",
+            "presentInCv": true,
+            "evidence": "Sàng lọc CV, phỏng vấn sơ loại qua điện thoại và trực tiếp cùng hiring manager."
+          },
+          {
+            "skill": "Quản lý dữ liệu ứng viên có hệ thống (ATS hoặc Excel/Sheets)",
+            "presentInCv": true,
+            "evidence": "Quản lý quy trình ứng viên trên Google Sheets và phần mềm ATS Base E-Hiring."
+          },
+          {
+            "skill": "Từng tuyển vị trí IT (developer, tester)",
+            "presentInCv": true,
+            "evidence": "tuyển thành công cả vị trí IT lẫn khối văn phòng."
+          },
+          {
+            "skill": "Kinh nghiệm employer branding, viết bài đăng tuyển thu hút",
+            "presentInCv": true,
+            "evidence": "Viết bài đăng tuyển và nội dung employer branding trên fanpage công ty."
+          },
+          {
+            "skill": "Tiếng Anh phỏng vấn được ứng viên nước ngoài",
+            "presentInCv": true,
+            "evidence": "tiếng Anh đọc viết khá"
+          }
+        ],
+        "missingSkills": [],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Cải thiện và làm rõ kỹ năng Tiếng Anh phỏng vấn",
+            "detail": "CV hiện chỉ nêu \"tiếng Anh đọc viết khá\". Để đáp ứng yêu cầu \"Tiếng Anh phỏng vấn được ứng viên nước ngoài\", ứng viên nên bổ sung các chứng chỉ tiếng Anh (IELTS/TOEIC Speaking) hoặc mô tả cụ thể kinh nghiệm phỏng vấn ứng viên nước ngoài (nếu có) để làm nổi bật khả năng giao tiếp và phỏng vấn bằng tiếng Anh.",
+            "relatedSkill": "Tiếng Anh phỏng vấn",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Tiếng Anh phỏng vấn\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ti%E1%BA%BFng+Anh+ph%E1%BB%8Fng+v%E1%BA%A5n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Bổ sung số liệu định lượng cho các thành tựu",
+            "detail": "Ngoài số lượng offer thành công, CV có thể bổ sung thêm các chỉ số khác như thời gian trung bình để tuyển dụng (time-to-hire), tỷ lệ chấp nhận offer (offer acceptance rate), hoặc mức độ hài lòng của hiring manager để làm nổi bật hiệu quả công việc.",
+            "relatedSkill": "Phân tích hiệu suất tuyển dụng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Phân tích hiệu suất tuyển dụng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ph%C3%A2n+t%C3%ADch+hi%E1%BB%87u+su%E1%BA%A5t+tuy%E1%BB%83n+d%E1%BB%A5ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Mô tả chi tiết hơn về hoạt động Employer Branding",
+            "detail": "CV đã đề cập \"Viết bài đăng tuyển và nội dung employer branding trên fanpage công ty\". Ứng viên có thể mô tả rõ hơn về loại nội dung đã tạo, các kênh đã sử dụng, và nếu có thể, kết quả đạt được (ví dụ: tăng tương tác, tăng lượng ứng viên chất lượng) để thể hiện tác động của hoạt động này.",
+            "relatedSkill": "Employer Branding",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Employer Branding\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Employer+Branding+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:18:11.318218Z"
+      }
+    ]
+  },
+  "designer_vs_designer": {
+    "cv": "cv/designer_mid_vn.txt",
+    "jd": "jd/uiux_designer.txt",
+    "runs": [
+      {
+        "cvId": "a4b7d3e0f8ba4f38a841ff7c8ee870b5",
+        "jdTitle": "UI/UX Designer (Middle)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 91,
+          "skillsMatch": 92,
+          "experienceMatch": 95,
+          "educationMatch": 75
+        },
+        "summary": "Trương Mỹ Linh có kinh nghiệm và kỹ năng rất phù hợp với vị trí UI/UX Designer (Middle) tại ngân hàng số. Ứng viên thể hiện sự thành thạo trong Figma, design system, user research, usability testing và quy trình bàn giao thiết kế cho developer. Kinh nghiệm làm việc trong ngành fintech cũng là một điểm cộng lớn.",
+        "matchedSkills": [
+          {
+            "skill": "2+ năm kinh nghiệm thiết kế sản phẩm số (app/web)",
+            "presentInCv": true,
+            "evidence": "UI/UX Designer 3 năm kinh nghiệm thiết kế sản phẩm web và mobile cho fintech và thương mại điện tử."
+          },
+          {
+            "skill": "Figma (component, auto-layout, prototype)",
+            "presentInCv": true,
+            "evidence": "Figma (component, auto-layout, prototype)"
+          },
+          {
+            "skill": "Xây/duy trì design system",
+            "presentInCv": true,
+            "evidence": "design system; Xây dựng và duy trì design system 120+ component trên Figma cho 2 squad."
+          },
+          {
+            "skill": "User research",
+            "presentInCv": true,
+            "evidence": "User research; Thực hiện user research: 15 phiên phỏng vấn người dùng"
+          },
+          {
+            "skill": "Usability testing",
+            "presentInCv": true,
+            "evidence": "usability testing; 4 đợt usability testing."
+          },
+          {
+            "skill": "Bàn giao thiết kế cho developer (spec, Dev Mode)",
+            "presentInCv": true,
+            "evidence": "hiểu giới hạn kỹ thuật khi làm việc với developer; Bàn giao thiết kế cho developer bằng Figma Dev Mode, viết spec tương tác."
+          },
+          {
+            "skill": "HTML/CSS cơ bản",
+            "presentInCv": true,
+            "evidence": "HTML/CSS cơ bản, hiểu giới hạn kỹ thuật khi làm việc với developer"
+          },
+          {
+            "skill": "Kinh nghiệm ngành tài chính/fintech",
+            "presentInCv": true,
+            "evidence": "UI/UX Designer — Fintech PayViet (2024 - nay); UI/UX Designer 3 năm kinh nghiệm thiết kế sản phẩm web và mobile cho fintech"
+          },
+          {
+            "skill": "Motion design (After Effects, Lottie)",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Motion design (After Effects, Lottie)"
+        ],
+        "suggestions": [
+          {
+            "priority": "medium",
+            "title": "Bổ sung kỹ năng Motion Design",
+            "detail": "JD có nhắc đến Motion design (After Effects, Lottie) là một điểm cộng. Nếu có kinh nghiệm hoặc đã từng học qua, hãy bổ sung vào CV để tăng tính cạnh tranh.",
+            "relatedSkill": "Motion design",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Motion design\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Motion+design+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Định lượng thêm kết quả công việc",
+            "detail": "Ở vị trí Junior Designer, hãy cố gắng định lượng các kết quả đạt được (ví dụ: số lượng khách hàng, mức độ hài lòng, tác động đến doanh số) để làm nổi bật hơn đóng góp của bạn.",
+            "relatedSkill": null,
+            "resources": []
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:18:30.128230Z"
+      }
+    ]
+  },
+  "mobile_vs_mobile": {
+    "cv": "cv/mobile_dev_junior_vn.txt",
+    "jd": "jd/mobile_react_native.txt",
+    "runs": [
+      {
+        "cvId": "e5434352d0014778adaf3d6fc28c0f50",
+        "jdTitle": "Mobile Developer (React Native)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 85,
+          "skillsMatch": 90,
+          "experienceMatch": 85,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Đặng Hải Nam có mức độ phù hợp cao với vị trí Mobile Developer (React Native) nhờ kinh nghiệm thực tế vững chắc trong phát triển ứng dụng React Native cho ngành bán lẻ, thành thạo các kỹ năng cốt lõi như TypeScript, Redux Toolkit, tích hợp REST API và đã phát hành ứng dụng lên các chợ. Mặc dù có một vài điểm cần cải thiện ở các kỹ năng điểm cộng, nhưng tổng thể đây là một hồ sơ rất tiềm năng.",
+        "matchedSkills": [
+          {
+            "skill": "React Native (kinh nghiệm tối thiểu 1 năm)",
+            "presentInCv": true,
+            "evidence": "Mobile developer 1.5 năm kinh nghiệm xây dựng ứng dụng React Native cho cả iOS và Android"
+          },
+          {
+            "skill": "TypeScript",
+            "presentInCv": true,
+            "evidence": "Phát triển app mua sắm bằng React Native + TypeScript"
+          },
+          {
+            "skill": "Quản lý state (Redux hoặc tương đương)",
+            "presentInCv": true,
+            "evidence": "Quản lý state bằng Redux Toolkit"
+          },
+          {
+            "skill": "Tích hợp REST API",
+            "presentInCv": true,
+            "evidence": "tích hợp REST API"
+          },
+          {
+            "skill": "Xử lý điều hướng (React Navigation)",
+            "presentInCv": true,
+            "evidence": "React Navigation"
+          },
+          {
+            "skill": "Thông báo đẩy",
+            "presentInCv": true,
+            "evidence": "thông báo đẩy Firebase"
+          },
+          {
+            "skill": "Phát hành app lên App Store / Google Play",
+            "presentInCv": true,
+            "evidence": "Phát hành và cập nhật app lên App Store / Google Play, xử lý quy trình review"
+          },
+          {
+            "skill": "Hiểu native module (Swift/Kotlin cơ bản)",
+            "presentInCv": true,
+            "evidence": "Hiểu cơ bản native module (Android), chưa làm Swift/Kotlin thuần"
+          },
+          {
+            "skill": "Firebase (Auth, FCM, Crashlytics)",
+            "presentInCv": true,
+            "evidence": "Firebase (Auth, FCM, Analytics)"
+          },
+          {
+            "skill": "Tối ưu hiệu năng danh sách lớn",
+            "presentInCv": true,
+            "evidence": "Tối ưu hiệu năng danh sách sản phẩm (FlatList, memo) giảm giật lag trên máy yếu"
+          },
+          {
+            "skill": "Kinh nghiệm CI/CD cho mobile (Fastlane, EAS)",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Firebase Crashlytics",
+          "CI/CD cho mobile (Fastlane, EAS)"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm CI/CD cho mobile",
+            "detail": "CV chưa đề cập kinh nghiệm về CI/CD cho mobile (Fastlane, EAS). Nếu có, hãy bổ sung các dự án hoặc công việc đã thực hiện liên quan đến tự động hóa quy trình phát triển và triển khai ứng dụng di động để tăng điểm cộng.",
+            "relatedSkill": "CI/CD",
+            "resources": [
+              {
+                "title": "GitHub Actions — docs chính thức",
+                "url": "https://docs.github.com/actions",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình DevOps (roadmap.sh)",
+                "url": "https://roadmap.sh/devops",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Làm rõ kinh nghiệm với native module (Swift/Kotlin)",
+            "detail": "CV có đề cập hiểu cơ bản native module (Android) nhưng chưa làm Swift/Kotlin thuần. Nếu có kinh nghiệm làm việc với Swift/Kotlin ở mức độ cơ bản hoặc đã tìm hiểu, hãy làm rõ hơn để đáp ứng yêu cầu điểm cộng của JD.",
+            "relatedSkill": "Native module",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Native module\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Native+module+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Bổ sung kinh nghiệm Firebase Crashlytics",
+            "detail": "CV đã liệt kê Firebase Auth và FCM, nhưng chưa đề cập Crashlytics. Nếu có kinh nghiệm sử dụng Crashlytics để theo dõi và xử lý lỗi ứng dụng, hãy bổ sung vào phần kỹ năng hoặc kinh nghiệm làm việc.",
+            "relatedSkill": "Firebase Crashlytics",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Firebase Crashlytics\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Firebase+Crashlytics+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Định lượng hóa các thành tựu",
+            "detail": "Các mô tả như \"giảm giật lag trên máy yếu\" sẽ ấn tượng hơn nếu có số liệu cụ thể (ví dụ: giảm X% thời gian tải, cải thiện Y% FPS) để thể hiện rõ hơn tác động công việc của bạn.",
+            "relatedSkill": "Định lượng thành tựu",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Định lượng thành tựu\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+%C4%90%E1%BB%8Bnh+l%C6%B0%E1%BB%A3ng+th%C3%A0nh+t%E1%BB%B1u+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:18:54.808200Z"
+      }
+    ]
+  },
+  "da_vs_da": {
+    "cv": "cv/data_analyst_junior_vn.txt",
+    "jd": "jd/data_analyst.txt",
+    "runs": [
+      {
+        "cvId": "96c0a1fbe8834841966fadc1829a66ac",
+        "jdTitle": "Data Analyst",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 92,
+          "skillsMatch": 96,
+          "experienceMatch": 95,
+          "educationMatch": 70
+        },
+        "summary": "Vũ Thị Lan có kinh nghiệm 1 năm 3 tháng làm Data Analyst tại công ty thương mại điện tử, đáp ứng tốt các yêu cầu bắt buộc về SQL, Power BI, Excel nâng cao và khả năng diễn giải số liệu. Ứng viên cũng có kinh nghiệm về Python (pandas), A/B testing và thống kê cơ bản, là những điểm cộng quan trọng. Mức độ phù hợp tổng thể rất cao.",
+        "matchedSkills": [
+          {
+            "skill": "Kinh nghiệm phân tích dữ liệu",
+            "presentInCv": true,
+            "evidence": "Data Analyst — Công ty TMĐT MuaNhanh (07/2025 - nay)"
+          },
+          {
+            "skill": "SQL",
+            "presentInCv": true,
+            "evidence": "Viết truy vấn SQL trên PostgreSQL phục vụ báo cáo doanh thu tuần cho 3 phòng ban."
+          },
+          {
+            "skill": "Power BI",
+            "presentInCv": true,
+            "evidence": "Xây dựng 8 dashboard Power BI theo dõi phễu chuyển đổi và tỉ lệ hủy đơn."
+          },
+          {
+            "skill": "Excel nâng cao",
+            "presentInCv": true,
+            "evidence": "Excel nâng cao"
+          },
+          {
+            "skill": "Diễn giải số liệu",
+            "presentInCv": true,
+            "evidence": "Viết truy vấn SQL trên PostgreSQL phục vụ báo cáo doanh thu tuần cho 3 phòng ban."
+          },
+          {
+            "skill": "Python (pandas)",
+            "presentInCv": true,
+            "evidence": "Python (pandas, matplotlib) mức cơ bản"
+          },
+          {
+            "skill": "A/B testing và thống kê cơ bản",
+            "presentInCv": true,
+            "evidence": "Phối hợp team product làm A/B test, đọc kết quả bằng thống kê cơ bản."
+          },
+          {
+            "skill": "Kinh nghiệm thương mại điện tử",
+            "presentInCv": true,
+            "evidence": "Data Analyst — Công ty TMĐT MuaNhanh"
+          }
+        ],
+        "missingSkills": [],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Nâng cao kỹ năng Python (pandas)",
+            "detail": "CV ghi rõ Python (pandas) ở mức cơ bản. Để đáp ứng tốt hơn yêu cầu \"Python (pandas) cho xử lý dữ liệu\", ứng viên nên bổ sung các dự án hoặc mô tả chi tiết hơn về cách sử dụng pandas để xử lý dữ liệu phức tạp, ví dụ như làm sạch, biến đổi, tổng hợp dữ liệu quy mô lớn.",
+            "relatedSkill": "Python (pandas)",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Cụ thể hóa kinh nghiệm diễn giải số liệu",
+            "detail": "Mặc dù kinh nghiệm làm báo cáo cho nhiều phòng ban đã thể hiện khả năng diễn giải, CV nên bổ sung các ví dụ cụ thể về cách ứng viên đã đơn giản hóa các phân tích phức tạp hoặc đưa ra các khuyến nghị dựa trên dữ liệu cho người không chuyên, và kết quả đạt được.",
+            "relatedSkill": "Diễn giải số liệu",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Diễn giải số liệu\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Di%E1%BB%85n+gi%E1%BA%A3i+s%E1%BB%91+li%E1%BB%87u+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Chi tiết hơn về SQL",
+            "detail": "CV đã thể hiện kinh nghiệm SQL với PostgreSQL. Để làm nổi bật kỹ năng \"viết truy vấn phức tạp, join nhiều bảng\" theo yêu cầu JD, ứng viên có thể thêm ví dụ về các loại truy vấn phức tạp đã thực hiện hoặc số lượng bảng thường xuyên join.",
+            "relatedSkill": "SQL",
+            "resources": [
+              {
+                "title": "SQLBolt — học SQL tương tác",
+                "url": "https://sqlbolt.com/",
+                "kind": "course"
+              },
+              {
+                "title": "Lộ trình SQL (roadmap.sh)",
+                "url": "https://roadmap.sh/sql",
+                "kind": "roadmap"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:19:13.868756Z"
+      }
+    ]
+  },
+  "designer_vs_ketoan": {
+    "cv": "cv/designer_mid_vn.txt",
+    "jd": "jd/ketoan_tonghop.txt",
+    "runs": [
+      {
+        "cvId": "a4b7d3e0f8ba4f38a841ff7c8ee870b5",
+        "jdTitle": "Kế toán tổng hợp",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 0,
+          "skillsMatch": 0,
+          "experienceMatch": 0,
+          "educationMatch": 0
+        },
+        "summary": "Ứng viên Trương Mỹ Linh là một UI/UX Designer với 3 năm kinh nghiệm, chuyên về thiết kế sản phẩm web và mobile. Hồ sơ của ứng viên hoàn toàn không phù hợp với vị trí Kế toán tổng hợp, thiếu tất cả các kỹ năng, kinh nghiệm và bằng cấp chuyên môn cần thiết cho vai trò này.",
+        "matchedSkills": [
+          {
+            "skill": "Kinh nghiệm kế toán doanh nghiệp (tối thiểu 2 năm)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thành thạo phần mềm MISA",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thành thạo Excel nâng cao",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nghiệp vụ thuế GTGT",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nghiệp vụ thuế TNCN",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nghiệp vụ thuế TNDN",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm làm việc với hóa đơn điện tử",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Từng tham gia lập báo cáo tài chính",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tốt nghiệp đại học chuyên ngành Kế toán/Kiểm toán/Tài chính",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Chứng chỉ kế toán trưởng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm quyết toán với cơ quan thuế",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Kinh nghiệm kế toán doanh nghiệp",
+          "MISA",
+          "Excel nâng cao",
+          "Nghiệp vụ thuế GTGT",
+          "Nghiệp vụ thuế TNCN",
+          "Nghiệp vụ thuế TNDN",
+          "Kinh nghiệm làm việc với hóa đơn điện tử",
+          "Lập báo cáo tài chính",
+          "Chứng chỉ kế toán trưởng",
+          "Kinh nghiệm quyết toán với cơ quan thuế"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Phát triển kiến thức và kinh nghiệm kế toán",
+            "detail": "CV hiện tại không thể hiện bất kỳ kinh nghiệm hay kiến thức nào về kế toán doanh nghiệp. Để ứng tuyển vị trí này, bạn cần có tối thiểu 2 năm kinh nghiệm thực tế trong lĩnh vực kế toán.",
+            "relatedSkill": "Kế toán doanh nghiệp",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kế toán doanh nghiệp\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BA%BF+to%C3%A1n+doanh+nghi%E1%BB%87p+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Học và thành thạo phần mềm kế toán MISA và Excel",
+            "detail": "Vị trí yêu cầu thành thạo MISA và Excel nâng cao. Bạn cần bổ sung các chứng chỉ hoặc kinh nghiệm sử dụng các phần mềm này để đáp ứng yêu cầu công việc.",
+            "relatedSkill": "MISA",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"MISA\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+MISA+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nâng cao trình độ học vấn chuyên ngành",
+            "detail": "Bằng Cử nhân Thiết kế Đồ họa không phù hợp với yêu cầu chuyên ngành Kế toán/Kiểm toán/Tài chính của vị trí. Bạn có thể cân nhắc các khóa học văn bằng 2 hoặc chứng chỉ chuyên sâu về kế toán để đáp ứng yêu cầu.",
+            "relatedSkill": "Kế toán",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kế toán\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BA%BF+to%C3%A1n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:19:34.868377Z"
+      }
+    ]
+  },
+  "sales_vs_backend": {
+    "cv": "cv/sales_mid_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "94534dce4eb44c94905f0a79452815f4",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 0,
+          "skillsMatch": 0,
+          "experienceMatch": 0,
+          "educationMatch": 0
+        },
+        "summary": "Ứng viên Phạm Quốc Đạt có kinh nghiệm và kỹ năng chuyên sâu trong lĩnh vực kinh doanh B2B, đặc biệt là bán hàng và quản lý khách hàng. Tuy nhiên, CV không thể hiện bất kỳ kỹ năng kỹ thuật nào được yêu cầu cho vị trí Junior Backend Engineer (Python), bao gồm Python, FastAPI, cơ sở dữ liệu, Docker hay Git. Kinh nghiệm làm việc và bằng cấp của ứng viên cũng không liên quan đến ngành công nghệ thông tin.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Git",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Dịch vụ cloud tương đương",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Python",
+          "FastAPI",
+          "Django",
+          "PostgreSQL",
+          "MySQL",
+          "Docker",
+          "Git",
+          "Tư duy viết unit test",
+          "AWS",
+          "Dịch vụ cloud tương đương",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng lập trình Python",
+            "detail": "Ứng viên cần học và thực hành Python, đặc biệt là với các framework backend như FastAPI hoặc Django, để đáp ứng yêu cầu cốt lõi của vị trí.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nắm vững cơ sở dữ liệu",
+            "detail": "Cần học cách thiết kế schema, tối ưu truy vấn và làm việc với các hệ quản trị cơ sở dữ liệu quan hệ như PostgreSQL hoặc MySQL.",
+            "relatedSkill": "PostgreSQL",
+            "resources": [
+              {
+                "title": "PostgreSQL — docs chính thức",
+                "url": "https://www.postgresql.org/docs/",
+                "kind": "docs"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Học công cụ phát triển",
+            "detail": "Ứng viên cần làm quen với Docker để container hóa ứng dụng và Git để quản lý mã nguồn theo quy trình chuẩn.",
+            "relatedSkill": "Docker",
+            "resources": [
+              {
+                "title": "Docker Get Started — docs chính thức",
+                "url": "https://docs.docker.com/get-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Docker (roadmap.sh)",
+                "url": "https://roadmap.sh/docker",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Xây dựng tư duy kiểm thử",
+            "detail": "Phát triển kỹ năng viết unit test để đảm bảo chất lượng mã nguồn, một yêu cầu bắt buộc của vị trí.",
+            "relatedSkill": "Unit test",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Tích lũy kinh nghiệm thực tế",
+            "detail": "Tạo các dự án cá nhân hoặc tham gia các khóa học thực hành để có kinh nghiệm thực tế về phát triển backend, đặc biệt là microservices.",
+            "relatedSkill": "Phát triển backend",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Phát triển backend\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ph%C3%A1t+tri%E1%BB%83n+backend+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Cân nhắc học vấn liên quan",
+            "detail": "Nếu có thể, xem xét các khóa học hoặc chứng chỉ về Khoa học Máy tính hoặc Kỹ thuật Phần mềm để bổ sung kiến thức nền tảng.",
+            "relatedSkill": "Khoa học Máy tính",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Khoa học Máy tính\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Khoa+h%E1%BB%8Dc+M%C3%A1y+t%C3%ADnh+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:19:52.373973Z"
+      }
+    ]
+  },
+  "mobile_vs_hr": {
+    "cv": "cv/mobile_dev_junior_vn.txt",
+    "jd": "jd/hr_recruiter.txt",
+    "runs": [
+      {
+        "cvId": "e5434352d0014778adaf3d6fc28c0f50",
+        "jdTitle": "Chuyên viên Tuyển dụng (Recruiter)",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 11,
+          "skillsMatch": 0,
+          "experienceMatch": 0,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Đặng Hải Nam là một Mobile Developer với 1.5 năm kinh nghiệm phát triển ứng dụng, hoàn toàn không có kinh nghiệm hay kỹ năng liên quan đến vị trí Chuyên viên Tuyển dụng. CV không thể hiện bất kỳ yêu cầu bắt buộc hay điểm cộng nào của JD. Mặc dù có bằng Kỹ sư Công nghệ Thông tin, nhưng không trực tiếp hỗ trợ cho vai trò tuyển dụng.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 1 năm kinh nghiệm tuyển dụng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thành thạo sourcing ứng viên đa kênh (LinkedIn, TopCV, ITviec, referral)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kỹ năng sàng lọc CV và phỏng vấn sơ loại; phối hợp tốt với hiring manager",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Quản lý dữ liệu ứng viên có hệ thống (ATS hoặc Excel/Sheets)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Từng tuyển vị trí IT (developer, tester)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm employer branding, viết bài đăng tuyển thu hút",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tiếng Anh phỏng vấn được ứng viên nước ngoài",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Kinh nghiệm tuyển dụng",
+          "Sourcing ứng viên đa kênh (LinkedIn, TopCV, ITviec, referral)",
+          "Sàng lọc CV",
+          "Phỏng vấn sơ loại",
+          "Phối hợp với hiring manager",
+          "Quản lý dữ liệu ứng viên (ATS/Excel/Sheets)",
+          "Tuyển vị trí IT (developer, tester)",
+          "Employer branding",
+          "Viết bài đăng tuyển thu hút",
+          "Tiếng Anh phỏng vấn"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Xác định lại mục tiêu nghề nghiệp",
+            "detail": "CV hiện tại của bạn tập trung hoàn toàn vào phát triển phần mềm. Để ứng tuyển vị trí tuyển dụng, bạn cần xây dựng một CV mới thể hiện rõ kinh nghiệm và kỹ năng trong lĩnh vực này.",
+            "relatedSkill": null,
+            "resources": []
+          },
+          {
+            "priority": "high",
+            "title": "Tìm kiếm kinh nghiệm tuyển dụng",
+            "detail": "Vì bạn chưa có kinh nghiệm tuyển dụng, hãy cân nhắc các vị trí thực tập, cộng tác viên tuyển dụng hoặc các khóa học chuyên sâu về tuyển dụng để tích lũy kiến thức và kinh nghiệm thực tế.",
+            "relatedSkill": "Kinh nghiệm tuyển dụng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm tuyển dụng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+tuy%E1%BB%83n+d%E1%BB%A5ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Phát triển kỹ năng mềm liên quan",
+            "detail": "Các kỹ năng như giao tiếp, đàm phán, quản lý thời gian và phân tích là rất quan trọng trong tuyển dụng. Hãy tìm cách thể hiện những kỹ năng này thông qua các hoạt động khác nếu có.",
+            "relatedSkill": "Kỹ năng giao tiếp",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kỹ năng giao tiếp\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BB%B9+n%C4%83ng+giao+ti%E1%BA%BFp+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:20:09.178939Z"
+      }
+    ]
+  },
+  "bs_vs_cs": {
+    "cv": "cv/backend_senior_en.txt",
+    "jd": "jd/customer_service.txt",
+    "runs": [
+      {
+        "cvId": "b0990ae7d10b47ecb4f92fc3305296d7",
+        "jdTitle": "Nhân viên Chăm sóc Khách hàng (Customer Service)",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 23,
+          "skillsMatch": 15,
+          "experienceMatch": 15,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên là một kỹ sư backend cấp cao với 8 năm kinh nghiệm chuyên sâu về phát triển hệ thống phân tán, nhưng vị trí Nhân viên Chăm sóc Khách hàng yêu cầu kinh nghiệm và kỹ năng hoàn toàn khác biệt. Mặc dù có kinh nghiệm trong ngành thương mại điện tử và kỹ năng giao tiếp cơ bản từ vai trò mentoring, ứng viên thiếu các kỹ năng cốt lõi về chăm sóc khách hàng, tin học văn phòng và sử dụng phần mềm CRM/helpdesk.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 1 năm kinh nghiệm chăm sóc khách hàng hoặc tổng đài",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kỹ năng giao tiếp và xử lý tình huống tốt, giọng nói rõ ràng",
+            "presentInCv": true,
+            "evidence": "Mentored 4 junior engineers; ran weekly design review sessions."
+          },
+          {
+            "skill": "Thành thạo tin học văn phòng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Từng dùng phần mềm CRM hoặc helpdesk (Zendesk, Freshdesk hoặc tương đương)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Chịu được áp lực về chỉ tiêu cuộc gọi và đánh giá hài lòng (CSAT)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tiếng Anh giao tiếp (hỗ trợ khách nước ngoài)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm ngành thương mại điện tử hoặc logistics",
+            "presentInCv": true,
+            "evidence": "Backend Engineer — VNShop (2018 - 2022) - Developed order and inventory services"
+          },
+          {
+            "skill": "Biết làm báo cáo Excel cơ bản",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Kinh nghiệm chăm sóc khách hàng hoặc tổng đài",
+          "Tin học văn phòng",
+          "Phần mềm CRM hoặc helpdesk (Zendesk, Freshdesk hoặc tương đương)",
+          "Chịu được áp lực về chỉ tiêu cuộc gọi và đánh giá hài lòng (CSAT)",
+          "Tiếng Anh giao tiếp (hỗ trợ khách nước ngoài)",
+          "Báo cáo Excel cơ bản"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm chăm sóc khách hàng trực tiếp",
+            "detail": "Ứng viên cần tìm kiếm các cơ hội làm việc hoặc tình nguyện trong lĩnh vực chăm sóc khách hàng, tổng đài để có kinh nghiệm thực tế. Đây là yêu cầu bắt buộc quan trọng nhất của JD.",
+            "relatedSkill": "Kinh nghiệm CSKH",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm CSKH\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+CSKH+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Học và thực hành các công cụ CRM/Helpdesk",
+            "detail": "CV không đề cập việc sử dụng các phần mềm CRM hoặc helpdesk. Ứng viên nên làm quen và thành thạo các công cụ phổ biến như Zendesk, Freshdesk để đáp ứng yêu cầu về công cụ làm việc.",
+            "relatedSkill": "CRM/Helpdesk",
+            "resources": [
+              {
+                "title": "HubSpot Academy — khóa CRM/Sales/Service miễn phí",
+                "url": "https://academy.hubspot.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Cải thiện kỹ năng tin học văn phòng",
+            "detail": "CV không thể hiện kỹ năng tin học văn phòng. Ứng viên cần bổ sung các chứng chỉ hoặc kinh nghiệm sử dụng thành thạo Word, Excel, PowerPoint.",
+            "relatedSkill": "Tin học văn phòng",
+            "resources": [
+              {
+                "title": "Trợ giúp Microsoft Office",
+                "url": "https://support.microsoft.com/office",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Làm rõ khả năng chịu áp lực trong môi trường CSKH",
+            "detail": "Mặc dù có kinh nghiệm vận hành hệ thống lớn, CV cần làm rõ khả năng chịu áp lực về chỉ tiêu cuộc gọi và đánh giá hài lòng của khách hàng trong bối cảnh chăm sóc khách hàng.",
+            "relatedSkill": "Chịu áp lực",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Chịu áp lực\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ch%E1%BB%8Bu+%C3%A1p+l%E1%BB%B1c+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Chứng minh kỹ năng giao tiếp khách hàng và giọng nói rõ ràng",
+            "detail": "CV chỉ đề cập kỹ năng mentoring. Ứng viên cần bổ sung bằng chứng về kỹ năng giao tiếp trực tiếp với khách hàng, xử lý tình huống và đảm bảo giọng nói rõ ràng, truyền cảm.",
+            "relatedSkill": "Kỹ năng giao tiếp",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kỹ năng giao tiếp\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BB%B9+n%C4%83ng+giao+ti%E1%BA%BFp+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Bổ sung khả năng giao tiếp tiếng Anh",
+            "detail": "Mặc dù CV viết bằng tiếng Anh, ứng viên nên nêu rõ khả năng giao tiếp tiếng Anh để hỗ trợ khách nước ngoài, đặc biệt nếu có chứng chỉ hoặc kinh nghiệm sử dụng trong công việc.",
+            "relatedSkill": "Tiếng Anh giao tiếp",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Tiếng Anh giao tiếp\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ti%E1%BA%BFng+Anh+giao+ti%E1%BA%BFp+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Nâng cao kỹ năng Excel cho báo cáo",
+            "detail": "JD có điểm cộng về báo cáo Excel. Ứng viên nên học các hàm cơ bản và cách tạo báo cáo đơn giản trên Excel để tăng tính cạnh tranh.",
+            "relatedSkill": "Excel",
+            "resources": [
+              {
+                "title": "Trợ giúp Excel — Microsoft",
+                "url": "https://support.microsoft.com/excel",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:20:39.858385Z"
+      }
+    ]
+  },
+  "cs_vs_data": {
+    "cv": "cv/customer_service_junior_vn.txt",
+    "jd": "jd/data_engineer.txt",
+    "runs": [
+      {
+        "cvId": "b16232a6cef44126891f97f9e5f80da8",
+        "jdTitle": "Data Engineer (Middle)",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 11,
+          "skillsMatch": 0,
+          "experienceMatch": 0,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Võ Thị Hồng Nhung có gần 3 năm kinh nghiệm trong lĩnh vực Chăm sóc Khách hàng tại sàn thương mại điện tử. Tuy nhiên, CV không thể hiện bất kỳ kỹ năng hay kinh nghiệm nào liên quan đến Data Engineering, Python, SQL, Apache Spark, hay các công cụ data warehouse và AWS được yêu cầu trong JD. Do đó, mức độ phù hợp với vị trí Data Engineer là rất thấp.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "SQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Apache Spark",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Airflow",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Redshift",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "BigQuery",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Snowflake",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "S3",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "EMR",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "dbt",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Data quality",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Data lineage",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinesis",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Python",
+          "SQL",
+          "Apache Spark",
+          "Công cụ điều phối (Airflow ưu tiên)",
+          "Data warehouse (Redshift, BigQuery hoặc Snowflake)",
+          "AWS (S3, EMR hoặc tương đương)",
+          "dbt",
+          "Quản lý data quality/lineage",
+          "Streaming (Kafka, Kinesis)",
+          "Docker, CI/CD cơ bản"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng kỹ thuật nền tảng",
+            "detail": "Để theo đuổi vị trí Data Engineer, bạn cần trang bị các kỹ năng lập trình và quản lý dữ liệu cốt lõi như Python và SQL. Hãy cân nhắc tham gia các khóa học chuyên sâu hoặc tự học qua các nền tảng trực tuyến.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Xây dựng kinh nghiệm thực tế về Data Engineering",
+            "detail": "Kinh nghiệm Chăm sóc Khách hàng không liên quan trực tiếp đến Data Engineering. Bạn cần tìm kiếm cơ hội thực tập, tham gia các dự án cá nhân hoặc đóng góp vào các dự án mã nguồn mở để tích lũy kinh nghiệm về xây dựng pipeline dữ liệu, làm việc với Spark, data warehouse và AWS.",
+            "relatedSkill": "Data Engineering",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Data Engineering\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Data+Engineering+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Tìm hiểu về các công cụ và nền tảng Data Engineering",
+            "detail": "Nghiên cứu và làm quen với các công nghệ được yêu cầu trong JD như Apache Spark, Airflow, Redshift/BigQuery/Snowflake, AWS (S3, EMR), dbt, Kafka/Kinesis và Docker/CI/CD. Việc này sẽ giúp bạn hiểu rõ hơn về vai trò và yêu cầu của một Data Engineer.",
+            "relatedSkill": "Apache Spark",
+            "resources": [
+              {
+                "title": "Apache Spark — docs chính thức",
+                "url": "https://spark.apache.org/docs/latest/",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-16T08:21:02.408222Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+WE'RE HIRING !!! FRONTEND DEVELOPER @ NIMBUS LABS (REMOTE-FRIENDLY)
+
+who we are >> fast-moving product studio building SaaS dashboards for logistics
+clients across SEA. small team, big ownership, no red tape.
+
+what you'll do
+* ship features end to end with React + TypeScript (we move fast, you own your code)
+* pair with design on pixel-perfect UI -- we care A LOT about polish
+* keep our component library tidy, write tests when it matters (Jest)
+* sometimes touch Next.js marketing pages / lighthouse score chasing
+
+you might be a fit if... you've done 1-2 yrs of modern React, you know your way
+around state mgmt (redux or whatever you prefer), CSS doesn't scare you, and git
+is second nature. bonus points: Figma fluency, a11y knowledge, side projects we
+can actually look at.
+
+perks: remote stipend, macbook, 15 days PTO. send github + cv to jobs@nimbuslabs.example

@@ -18,7 +18,8 @@
     "cv/hr_junior_vn.txt":           { "expect_sections": true },
     "cv/designer_mid_vn.txt":        { "expect_sections": true },
     "cv/mobile_dev_junior_vn.txt":   { "expect_sections": true },
-    "cv/customer_service_junior_vn.txt": { "expect_sections": true }
+    "cv/customer_service_junior_vn.txt": { "expect_sections": true },
+    "cv/Customer_service.txt":           { "expect_sections": false }
   },
 
   "cases": [
@@ -342,6 +343,50 @@
       "expect": { "verdict_in": ["weak_match", "partial_match"],
                   "must_matched": [],
                   "must_missing": ["SEO"] }
+    },
+
+    {
+      "id": "cs_vs_jd_doi_thuc",
+      "note": "[Đời thực] JD kiểu tin TopCV thật: emoji, giới thiệu công ty, quyền lợi trộn, yêu cầu lẫn tính cách — hệ có bóc đúng yêu cầu khỏi nhiễu không",
+      "cv": "cv/customer_service_junior_vn.txt", "jd": "jd/doi_thuc_cskh.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Excel"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "fe_vs_jd_weird",
+      "note": "[Đời thực] JD tiếng Anh format lạ (ALL CAPS, skill chôn trong văn xuôi, không tách bắt buộc/điểm cộng)",
+      "cv": "cv/frontend_junior_en.txt", "jd": "jd/weird_structure_frontend_en.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["React", "TypeScript", "Jest"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "bj_vs_jd_mo_ho",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — [Đời thực] JD mơ hồ gần như không có kỹ năng cụ thể ('đam mê, năng động, ưu tiên biết lập trình'): hệ có BỊA yêu cầu không, điểm phản ánh sự mơ hồ thế nào?",
+      "cv": "cv/backend_junior_vn.txt", "jd": "jd/mo_ho_it.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": [],
+                  "must_missing": [] }
+    },
+    {
+      "id": "template_vs_cs",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — [Đời thực] CV template Anh (CRM manager 14 năm, heading không khớp regex → fallback) vs JD CSKH tuyến đầu VN: overqualified + lệch tính chất quản lý/vận hành",
+      "cv": "cv/Customer_service.txt", "jd": "jd/customer_service.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["CRM"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "template_vs_sales",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — [Đời thực] CRM manager (B2B client care, acquisition) vs JD sales B2B: ngành gần xuyên ngôn ngữ",
+      "cv": "cv/Customer_service.txt", "jd": "jd/sales_b2b.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["CRM"],
+                  "must_missing": [] }
     }
   ]
 }
