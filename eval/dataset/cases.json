@@ -19,7 +19,7 @@
     "cv/designer_mid_vn.txt":        { "expect_sections": true },
     "cv/mobile_dev_junior_vn.txt":   { "expect_sections": true },
     "cv/customer_service_junior_vn.txt": { "expect_sections": true },
-    "cv/Customer_service.txt":           { "expect_sections": false }
+    "cv/crm_manager_template_en.txt":    { "expect_sections": false }
   },
 
   "cases": [
@@ -374,7 +374,7 @@
       "id": "template_vs_cs",
       "uncertain": true,
       "note": "NHÁP CHỜ DUYỆT — [Đời thực] CV template Anh (CRM manager 14 năm, heading không khớp regex → fallback) vs JD CSKH tuyến đầu VN: overqualified + lệch tính chất quản lý/vận hành",
-      "cv": "cv/Customer_service.txt", "jd": "jd/customer_service.txt",
+      "cv": "cv/crm_manager_template_en.txt", "jd": "jd/customer_service.txt",
       "expect": { "verdict_in": ["partial_match", "good_match"],
                   "must_matched": ["CRM"],
                   "must_missing": [] }
@@ -383,7 +383,7 @@
       "id": "template_vs_sales",
       "uncertain": true,
       "note": "NHÁP CHỜ DUYỆT — [Đời thực] CRM manager (B2B client care, acquisition) vs JD sales B2B: ngành gần xuyên ngôn ngữ",
-      "cv": "cv/Customer_service.txt", "jd": "jd/sales_b2b.txt",
+      "cv": "cv/crm_manager_template_en.txt", "jd": "jd/sales_b2b.txt",
       "expect": { "verdict_in": ["partial_match", "good_match"],
                   "must_matched": ["CRM"],
                   "must_missing": [] }

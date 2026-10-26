@@ -1,10 +1,73 @@
 # Job Assistant AI
 
-AI phân tích CV và Job Description (JD), chấm điểm mức độ phù hợp, gợi ý cải thiện CV.
+> **AI phân tích CV với Job Description** — chấm điểm phù hợp theo 4 trục, đối chiếu từng kỹ năng
+> kèm **bằng chứng trích nguyên văn từ CV**, gợi ý cải thiện xếp ưu tiên kèm link học tập.
+> Tự xây RAG pipeline (không LangChain), kiểm soát chất lượng bằng **eval harness 44 case gán nhãn
+> tay qua nhiều vòng đo lường** — không vibe-code.
 
-Đây là **living document** — nguồn sự thật (source of truth) cho toàn bộ dự án. Mục tiêu: khi cần
-thay đổi bất kỳ thứ gì, đọc file này là biết *đổi ở đâu, đổi cái gì kéo theo cái gì*. Mỗi khi thêm
-tính năng hoặc đổi quyết định thiết kế, cập nhật lại các mục liên quan bên dưới.
+![Giao diện Job Assistant AI](docs/screenshot-ui.jpg)
+
+**Stack**: FastAPI · Gemini 2.5 Flash (structured output) · gemini-embedding-001 · ChromaDB ·
+React 19 + TypeScript + Tailwind v4 · pytest (61 test, coverage 91%)
+
+## Kiến trúc
+
+```mermaid
+flowchart LR
+    subgraph FE["Frontend — React 19 + TS"]
+        UI[Upload CV · Dán JD · Báo cáo]
+    end
+    subgraph BE["Backend — FastAPI"]
+        ING[Ingest: chunk hybrid<br/>section-based + fallback]
+        RAG[Analysis: retrieve top-k<br/>→ prompt grounding + rubric]
+        POST[Hậu xử lý tất định:<br/>verdict · floor same_field · resources]
+    end
+    subgraph AI["Google AI"]
+        EMB[gemini-embedding-001<br/>3072d, task_type]
+        LLM[gemini-2.5-flash<br/>structured output, temp 0]
+    end
+    DB[(ChromaDB<br/>multi-tenant theo cv_id)]
+
+    UI -->|/api| ING --> EMB --> DB
+    UI -->|/api| RAG --> DB
+    RAG --> LLM --> POST --> UI
+```
+
+**Nguyên tắc cốt lõi** (đúc từ các vòng eval): *LLM sinh dữ kiện — backend quyết phần tất định.*
+Verdict suy từ điểm bằng code, floor cùng-ngành áp từ dữ kiện `same_field`, URL tài liệu học lấy
+từ catalog biên soạn tay (LLM không bao giờ sinh URL).
+
+## Chất lượng đo được — không phải cảm giác
+
+Vòng lặp *đo → chẩn đoán bằng raw data → sửa có mục tiêu → đo lại* trên dataset gán nhãn tay:
+
+| Lượt đo | Thay đổi | Case pass | Bài học chính |
+|---|---|---|---|
+| Baseline | prompt gốc | 18/20 | Metric nhiễu ≠ model sai — soi raw trước khi kết luận |
+| Vòng #1 | luật floor trong prompt | 17/20 | Luật trong prompt bị công thức đè; sửa prompt không miễn phí |
+| Vòng #2 | floor chuyển về **code** (`same_field`) | 14/20* | *verdict 19/20 — kiến trúc thắng, nhưng lộ 2 bug mới |
+| Vòng #3 | luật 3-trạng-thái + tiêm ngày hiện tại | **20/20** | Khép vòng; dừng đúng lúc tránh overfit |
+| Mở rộng đa ngành | +24 case / 11 ngành (sales, HR, design, CSKH, QA...) | **12/12 nhóm mới, grounding 100%** | AI không giới hạn ở IT |
+
+## Chạy thử (5 phút)
+
+```bash
+python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt
+# tạo .env theo .env.example (cần GEMINI_API_KEY miễn phí từ aistudio.google.com)
+uvicorn app.main:app --reload          # backend :8000
+cd frontend && npm install && npm run dev   # frontend :5173
+```
+
+Chi tiết: [mục 9 — Chạy & test](#9-chạy--test). Chạy eval: `python eval/run_eval.py`.
+
+---
+
+## 📚 Phần còn lại: tài liệu kỹ thuật đầy đủ
+
+Từ đây trở xuống là **living document** — nguồn sự thật (source of truth) cho toàn bộ dự án:
+kiến trúc chi tiết, mọi quyết định thiết kế kèm trade-off, concept LLM engineering đúc từ quá
+trình xây, các bẫy đã gặp và 30 câu hỏi phỏng vấn tự kiểm. Khi cần thay đổi bất kỳ thứ gì,
+đọc tài liệu này là biết *đổi ở đâu, đổi cái gì kéo theo cái gì*.
 
 ---
 
