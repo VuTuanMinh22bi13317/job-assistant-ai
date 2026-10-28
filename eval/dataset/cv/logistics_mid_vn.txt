@@ -1,0 +1,23 @@
+Lê Văn Phúc
+Email: phuc.le@example.com | SĐT: 0938 789 456 | Bình Dương
+
+Tóm tắt
+Nhân viên điều phối kho vận 3 năm kinh nghiệm tại công ty phân phối hàng tiêu dùng,
+quen vận hành kho theo WMS và điều phối đội xe giao hàng nội tỉnh.
+
+Kinh nghiệm làm việc
+Nhân viên điều phối kho vận — Công ty Phân phối Hưng Thịnh (2023 - nay)
+- Điều phối 12 xe tải giao hàng cho 300+ điểm bán, tối ưu tuyến giảm 15% chi phí xăng dầu.
+- Vận hành kho 4.000 m2 trên phần mềm WMS: nhập xuất, kiểm kê định kỳ, sai lệch tồn <0.5%.
+- Xử lý chứng từ giao nhận, đối chiếu công nợ vận chuyển với đối tác 3PL.
+- Lập báo cáo tồn kho và hiệu suất giao hàng hằng tuần bằng Excel (pivot, vlookup).
+
+Nhân viên kho — Siêu thị BigMart (2022 - 2023)
+- Nhận hàng, sắp xếp kho lạnh, kiểm đếm theo quy trình FIFO.
+
+Học vấn
+Cao đẳng Giao thông Vận tải TP.HCM — Quản trị Logistics (2019 - 2022)
+
+Kỹ năng
+- WMS, Excel nâng cao, điều phối vận tải, chứng từ xuất nhập kho
+- Hiểu quy trình FIFO/FEFO, kiểm kê, an toàn kho bãi

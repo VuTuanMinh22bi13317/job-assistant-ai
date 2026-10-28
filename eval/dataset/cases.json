@@ -19,7 +19,15 @@
     "cv/designer_mid_vn.txt":        { "expect_sections": true },
     "cv/mobile_dev_junior_vn.txt":   { "expect_sections": true },
     "cv/customer_service_junior_vn.txt": { "expect_sections": true },
-    "cv/crm_manager_template_en.txt":    { "expect_sections": false }
+    "cv/crm_manager_template_en.txt":    { "expect_sections": false },
+    "cv/giaovien_tienganh_vn.txt":       { "expect_sections": true },
+    "cv/dieuduong_junior_vn.txt":        { "expect_sections": true },
+    "cv/logistics_mid_vn.txt":           { "expect_sections": true },
+    "cv/content_writer_junior_vn.txt":   { "expect_sections": true },
+    "cv/gap_2nam_backend_vn.txt":        { "expect_sections": true },
+    "cv/nhayviec_sales_vn.txt":          { "expect_sections": true },
+    "cv/senior_fullstack_dai_en.txt":    { "expect_sections": true },
+    "cv/soisai_5dong_vn.txt":            { "expect_sections": false }
   },
 
   "cases": [
@@ -387,6 +395,82 @@
       "expect": { "verdict_in": ["partial_match", "good_match"],
                   "must_matched": ["CRM"],
                   "must_missing": [] }
+    },
+
+    {
+      "id": "gv_vs_gv",
+      "note": "[Đa dạng CV] Giáo viên tiếng Anh khớp JD trung tâm — ngành giáo dục",
+      "cv": "cv/giaovien_tienganh_vn.txt", "jd": "jd/giaovien_tienganh.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["IELTS", "TESOL"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "dd_vs_dd",
+      "note": "[Đa dạng CV] Điều dưỡng khớp JD phòng khám — ngành y tế",
+      "cv": "cv/dieuduong_junior_vn.txt", "jd": "jd/dieuduong.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["tiêm truyền", "chứng chỉ hành nghề"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "log_vs_log",
+      "note": "[Đa dạng CV] Điều phối kho vận khớp JD logistics",
+      "cv": "cv/logistics_mid_vn.txt", "jd": "jd/logistics_dieuphoi.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["WMS", "Excel"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "content_vs_content",
+      "note": "[Đa dạng CV] Content writer khớp JD content marketing",
+      "cv": "cv/content_writer_junior_vn.txt", "jd": "jd/content_marketing.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["SEO", "Canva"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "senior_dai_vs_backend_senior",
+      "note": "[CV đời thực] CV senior RẤT DÀI (10 năm, 4 job, ~nhiều chunk) — test retrieval TOP_K trên CV lớn: evidence có phủ đủ các giai đoạn không",
+      "cv": "cv/senior_fullstack_dai_en.txt", "jd": "jd/backend_senior.txt",
+      "expect": { "verdict_in": ["good_match", "strong_match"],
+                  "must_matched": ["Kubernetes", "Kafka", "AWS"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "soisai_vs_backend",
+      "note": "[CV đời thực] CV sơ sài 5 dòng ('biết python, việc gì cũng làm') — hệ xử lý hồ sơ thiếu thông tin thế nào, có bịa thêm không",
+      "cv": "cv/soisai_5dong_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["not_a_match", "weak_match"],
+                  "must_matched": [],
+                  "must_missing": ["FastAPI", "Docker"] }
+    },
+    {
+      "id": "gap_vs_backend",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — [CV đời thực] Gap 2 năm chăm người thân, trước đó 2 năm Django vững, đang freelance lại: JD junior chấp nhận Django. Con người chấm partial hay good? Soi thêm: model có nhắc tới gap một cách CÔNG BẰNG không",
+      "cv": "cv/gap_2nam_backend_vn.txt", "jd": "jd/backend_junior.txt",
+      "expect": { "verdict_in": ["partial_match", "good_match"],
+                  "must_matched": ["Python", "Django", "Docker"],
+                  "must_missing": [] }
+    },
+    {
+      "id": "nhayviec_vs_sales",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — [CV đời thực] 4 năm sales / 5 công ty, mỗi nơi 6-10 tháng, toàn B2C lẻ tẻ vs JD đòi 2 năm B2B + CRM: nhà tuyển dụng thật cũng chia phe về job hopper",
+      "cv": "cv/nhayviec_sales_vn.txt", "jd": "jd/sales_b2b.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": [],
+                  "must_missing": ["CRM"] }
+    },
+    {
+      "id": "content_vs_marketing",
+      "uncertain": true,
+      "note": "NHÁP CHỜ DUYỆT — [Ngành gần] Content writer vs JD digital marketing specialist (chạy ads + SEO): viết giỏi nhưng chưa cầm ngân sách quảng cáo",
+      "cv": "cv/content_writer_junior_vn.txt", "jd": "jd/marketing_digital.txt",
+      "expect": { "verdict_in": ["weak_match", "partial_match"],
+                  "must_matched": ["SEO"],
+                  "must_missing": ["Google Ads"] }
     }
   ]
 }

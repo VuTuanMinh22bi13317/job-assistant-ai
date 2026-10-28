@@ -1,0 +1,26 @@
+Hoàng Minh Trí
+Email: tri.hoang@example.com | SĐT: 0903 654 987 | TP. Hồ Chí Minh
+
+Tóm tắt
+Backend developer với 2 năm kinh nghiệm Python/Django, vừa quay lại ngành sau
+2 năm gián đoạn vì việc gia đình. Trong thời gian nghỉ vẫn duy trì kỹ năng qua
+các dự án freelance nhỏ và hiện sẵn sàng làm việc toàn thời gian.
+
+Kinh nghiệm làm việc
+Freelance Backend Developer (2025 - nay)
+- Nhận 3 dự án nhỏ: website đặt bàn nhà hàng, API quản lý phòng gym (Django + PostgreSQL).
+- Tự triển khai lên VPS, cấu hình Nginx và backup tự động.
+
+(2023 - 2025: tạm nghỉ việc để chăm sóc người thân bệnh dài ngày)
+
+Backend Developer — Công ty phần mềm Saigon Tech (2021 - 2023)
+- Phát triển API cho hệ thống quản lý bán hàng bằng Python + Django REST Framework.
+- Thiết kế schema PostgreSQL, viết unit test với pytest, làm việc theo Scrum.
+- Đóng gói ứng dụng bằng Docker, tham gia review code.
+
+Học vấn
+Đại học Khoa học Tự nhiên TP.HCM — Cử nhân CNTT (2017 - 2021)
+
+Kỹ năng
+- Python, Django, PostgreSQL, Docker, Git, pytest
+- Nginx, Linux cơ bản

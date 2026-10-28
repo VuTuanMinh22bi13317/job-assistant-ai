@@ -78,6 +78,8 @@ evidence, gợi ý + link học) chạy mượt qua UI thật. Còn lại chỉ 
 
 | 23 | Chuẩn bị PUBLIC repo (theo feedback reviewer GitHub) | Quét secrets TOÀN BỘ lịch sử git → SẠCH. Thay `Customer_service.txt` (template tải từ web, rủi ro bản quyền khi public) bằng `crm_manager_template_en.txt` tự viết (giữ nguyên đặc tính eval: EN, CRM manager 14 năm, heading không khớp regex). README thêm HERO section đầu file: giới thiệu + ảnh UI (`docs/screenshot-ui.jpg`) + sơ đồ kiến trúc Mermaid + bảng eval các vòng + quick start — phần giáo trình giữ nguyên bên dưới. Draft Profile README tại `docs/profile_README_draft.md`. LƯU Ý: file template cũ vẫn nằm trong LỊCH SỬ git (commit b515226) — đã đánh giá rủi ro thấp, muốn sạch tuyệt đối thì rewrite history (chưa làm). Việc user tự làm trên GitHub: đổi Public, ghim repo, tạo repo profile |
 
+| 24 | Đa dạng hóa CV đợt 2 (user yêu cầu "nâng số lượng CV đa dạng hơn") | Dataset lên **53 case / 26 CV / 20 JD**. +4 ngành mới hoàn toàn phi-IT: giáo viên tiếng Anh, điều dưỡng, logistics kho vận, content writer (+4 JD khớp). +4 **CV "đời thực có vấn đề"** — trục đa dạng giá trị nhất: gap 2 năm chăm người thân, nhảy việc 5 công ty/4 năm, CV senior RẤT DÀI (test TOP_K trên CV nhiều chunk), CV sơ sài 5 dòng không heading. +9 case (6 chắc, 3 uncertain: gap/job-hopper/content→marketing). **ĐANG CHỜ ĐO: regression 20 (chạy hôm nay) + 21 case (12 treo cũ + 9 mới) ngày mai** |
+
 ## ⏳ Chưa làm (theo thứ tự ưu tiên)
 
 1. ~~Frontend ReactJS~~ → **HOÀN THÀNH 5/5** (giữ checklist làm lịch sử):

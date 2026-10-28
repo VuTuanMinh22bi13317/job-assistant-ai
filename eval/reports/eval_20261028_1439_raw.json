@@ -1,0 +1,3149 @@
+{
+  "bj_vs_junior": {
+    "cv": "cv/backend_junior_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "8567218d95d54c8aae6ab062ca17683d",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 86,
+          "skillsMatch": 78,
+          "experienceMatch": 90,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Trần Văn Bình là một ứng cử viên rất phù hợp cho vị trí Junior Backend Engineer, với 1 năm 2 tháng kinh nghiệm thực tế về Python, FastAPI, PostgreSQL, Docker và unit test. Anh ấy đáp ứng tốt tất cả các yêu cầu bắt buộc của JD. Các điểm cần cải thiện nằm ở các kỹ năng cộng điểm như kinh nghiệm về cloud, Kubernetes, CI/CD và message queue.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Lập trình viên backend 1 năm kinh nghiệm với Python và FastAPI."
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": true,
+            "evidence": "Phát triển REST API cho hệ thống đặt lịch khám bệnh bằng Python 3.12 + FastAPI"
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": true,
+            "evidence": "Thiết kế schema PostgreSQL, viết truy vấn tối ưu giảm thời gian tải trang danh sách từ 4 giây xuống 0.8 giây."
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Đóng gói service bằng Docker"
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Công cụ: Git"
+          },
+          {
+            "skill": "Quy trình Git (branch, pull request, review)",
+            "presentInCv": true,
+            "evidence": "tham gia review code hằng tuần."
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": true,
+            "evidence": "Viết unit test bằng pytest, duy trì coverage 80%"
+          },
+          {
+            "skill": "Tốt nghiệp đại học ngành CNTT",
+            "presentInCv": true,
+            "evidence": "Đại học Công nghệ - ĐHQG Hà Nội — Cử nhân Công nghệ Thông tin (2021 - 2025)"
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "AWS",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm về Cloud",
+            "detail": "JD đề cập kinh nghiệm AWS hoặc dịch vụ cloud tương đương là điểm cộng. Ứng viên nên tìm hiểu và bổ sung kinh nghiệm thực tế với một nền tảng cloud phổ biến như AWS hoặc GCP.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Tìm hiểu về Kubernetes",
+            "detail": "Kubernetes là một công nghệ quan trọng trong phát triển microservices hiện đại. Ứng viên nên tìm hiểu về Kubernetes để tăng cường khả năng triển khai và quản lý ứng dụng.",
+            "relatedSkill": "Kubernetes",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng CI/CD",
+            "detail": "Kinh nghiệm về CI/CD (ví dụ GitHub Actions) là một điểm cộng. Ứng viên nên tìm hiểu và áp dụng các công cụ CI/CD vào các dự án cá nhân hoặc công việc để tự động hóa quy trình phát triển.",
+            "relatedSkill": "CI/CD",
+            "resources": [
+              {
+                "title": "GitHub Actions — docs chính thức",
+                "url": "https://docs.github.com/actions",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình DevOps (roadmap.sh)",
+                "url": "https://roadmap.sh/devops",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nghiên cứu Message Queue",
+            "detail": "JD nhắc đến kinh nghiệm với message queue (Kafka, RabbitMQ) là một điểm cộng. Ứng viên nên tìm hiểu về cách hoạt động và ứng dụng của các hệ thống message queue để xử lý các tác vụ bất đồng bộ.",
+            "relatedSkill": "Message Queue",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Message Queue\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Message+Queue+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:30:47.021558Z"
+      }
+    ]
+  },
+  "bj_vs_senior": {
+    "cv": "cv/backend_junior_vn.txt",
+    "jd": "jd/backend_senior.txt",
+    "runs": [
+      {
+        "cvId": "8567218d95d54c8aae6ab062ca17683d",
+        "jdTitle": "Senior Backend Engineer",
+        "verdict": "weak_match",
+        "score": {
+          "overall": 32,
+          "skillsMatch": 15,
+          "experienceMatch": 12,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên có kinh nghiệm 1 năm 3 tháng làm Backend Developer với Python và FastAPI, nhưng còn thiếu nhiều kỹ năng và kinh nghiệm cần thiết cho vị trí Senior Backend Engineer (yêu cầu tối thiểu 5 năm). Các kỹ năng quan trọng như thiết kế hệ thống phân tán, Kubernetes, cloud, message queue và mentoring đều chưa được thể hiện rõ. Kinh nghiệm trong lĩnh vực fintech cũng chưa có.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Phát triển REST API cho hệ thống đặt lịch khám bệnh bằng Python 3.12 + FastAPI"
+          },
+          {
+            "skill": "Go",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm backend (5 năm)",
+            "presentInCv": true,
+            "evidence": "Lập trình viên backend 1 năm kinh nghiệm với Python và FastAPI."
+          },
+          {
+            "skill": "Thiết kế hệ thống phân tán",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Microservices",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Cloud platform",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Message Queue",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Xây dựng/duy trì CI/CD",
+            "presentInCv": true,
+            "evidence": "phối hợp DevOps triển khai staging."
+          },
+          {
+            "skill": "Mentoring",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Domain thanh toán/tài chính",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Terraform",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Prometheus",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Grafana",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": true,
+            "evidence": "Phát triển REST API cho hệ thống đặt lịch khám bệnh bằng Python 3.12 + FastAPI"
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": true,
+            "evidence": "Thiết kế schema PostgreSQL, viết truy vấn tối ưu giảm thời gian tải trang danh sách từ 4 giây xuống 0.8 giây."
+          },
+          {
+            "skill": "SQL",
+            "presentInCv": true,
+            "evidence": "Ngôn ngữ: SQL"
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Đóng gói service bằng Docker"
+          },
+          {
+            "skill": "Unit test (pytest)",
+            "presentInCv": true,
+            "evidence": "Viết unit test bằng pytest, duy trì coverage 80%"
+          },
+          {
+            "skill": "Code review",
+            "presentInCv": true,
+            "evidence": "tham gia review code hằng tuần."
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Công cụ: Git"
+          },
+          {
+            "skill": "Agile",
+            "presentInCv": true,
+            "evidence": "Quen làm việc theo Agile"
+          }
+        ],
+        "missingSkills": [
+          "Go",
+          "Thiết kế hệ thống phân tán",
+          "Microservices",
+          "Kubernetes",
+          "AWS",
+          "Cloud platform",
+          "Message Queue (Kafka hoặc tương đương)",
+          "Mentoring",
+          "Kinh nghiệm domain thanh toán/tài chính",
+          "Terraform",
+          "Prometheus",
+          "Grafana"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Tăng cường kinh nghiệm và kỹ năng cấp cao",
+            "detail": "CV cần thể hiện rõ kinh nghiệm làm việc trên 5 năm và các kỹ năng thiết kế hệ thống phân tán, microservices. Hãy tìm kiếm các dự án hoặc vị trí cho phép bạn đảm nhận vai trò kiến trúc sư hoặc trưởng nhóm.",
+            "relatedSkill": "Kinh nghiệm backend",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm backend\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+backend+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Bổ sung kiến thức về hạ tầng và DevOps",
+            "detail": "Học và thực hành thành thạo Kubernetes, một nền tảng cloud (ưu tiên AWS) và các hệ thống message queue quy mô lớn như Kafka. Cập nhật CV với các chứng chỉ hoặc dự án cá nhân liên quan.",
+            "relatedSkill": "Kubernetes",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng lãnh đạo và mentoring",
+            "detail": "Vị trí Senior yêu cầu khả năng dẫn dắt kỹ thuật. Hãy tìm cơ hội hướng dẫn các kỹ sư junior hoặc tham gia các hoạt động chia sẻ kiến thức để có bằng chứng cụ thể trong CV.",
+            "relatedSkill": "Mentoring",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Mentoring\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Mentoring+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Làm sâu sắc kinh nghiệm CI/CD",
+            "detail": "Thay vì chỉ 'phối hợp DevOps', hãy mô tả cụ thể vai trò của bạn trong việc xây dựng hoặc duy trì các pipeline CI/CD, các công cụ đã sử dụng và kết quả đạt được.",
+            "relatedSkill": "CI/CD",
+            "resources": [
+              {
+                "title": "GitHub Actions — docs chính thức",
+                "url": "https://docs.github.com/actions",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình DevOps (roadmap.sh)",
+                "url": "https://roadmap.sh/devops",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Tìm hiểu về lĩnh vực Fintech",
+            "detail": "Nếu muốn làm việc trong ngành fintech, hãy tìm hiểu về các nghiệp vụ thanh toán/tài chính, các quy định liên quan và các công nghệ đặc thù của ngành. Có thể tham gia các dự án cá nhân hoặc khóa học về fintech.",
+            "relatedSkill": "Fintech",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Fintech\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Fintech+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Bổ sung các công cụ DevOps và Observability",
+            "detail": "Tìm hiểu và thực hành với Terraform để quản lý hạ tầng dưới dạng code, cùng với các công cụ observability như Prometheus và Grafana để giám sát hệ thống.",
+            "relatedSkill": "Terraform",
+            "resources": [
+              {
+                "title": "Terraform Tutorials — HashiCorp",
+                "url": "https://developer.hashicorp.com/terraform/tutorials",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:32:15.568446Z"
+      }
+    ]
+  },
+  "bj_vs_ketoan": {
+    "cv": "cv/backend_junior_vn.txt",
+    "jd": "jd/ketoan_tonghop.txt",
+    "runs": [
+      {
+        "cvId": "8567218d95d54c8aae6ab062ca17683d",
+        "jdTitle": "Kế toán tổng hợp",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 7,
+          "skillsMatch": 8,
+          "experienceMatch": 0,
+          "educationMatch": 20
+        },
+        "summary": "Ứng viên Trần Văn Bình có kinh nghiệm 1 năm 2 tháng làm lập trình viên backend, chuyên về Python và FastAPI. Tuy nhiên, kinh nghiệm và kỹ năng của ứng viên hoàn toàn không phù hợp với vị trí Kế toán tổng hợp, đặc biệt là về nghiệp vụ kế toán, thuế, phần mềm MISA và Excel nâng cao. Bằng cấp chuyên ngành Công nghệ Thông tin cũng không đáp ứng yêu cầu của vị trí này.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 2 năm kinh nghiệm kế toán doanh nghiệp",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thành thạo phần mềm MISA",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Excel nâng cao",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nắm vững nghiệp vụ thuế GTGT, TNCN, TNDN",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm làm việc với hóa đơn điện tử",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Từng tham gia lập báo cáo tài chính",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tốt nghiệp đại học chuyên ngành Kế toán/Kiểm toán/Tài chính",
+            "presentInCv": true,
+            "evidence": "Đại học Công nghệ - ĐHQG Hà Nội — Cử nhân Công nghệ Thông tin (2021 - 2025)"
+          },
+          {
+            "skill": "Chứng chỉ kế toán trưởng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm quyết toán với cơ quan thuế",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Kinh nghiệm kế toán doanh nghiệp",
+          "MISA",
+          "Excel nâng cao",
+          "Nghiệp vụ thuế (GTGT, TNCN, TNDN)",
+          "Hóa đơn điện tử",
+          "Lập báo cáo tài chính",
+          "Chứng chỉ kế toán trưởng",
+          "Kinh nghiệm quyết toán thuế"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Thay đổi định hướng nghề nghiệp",
+            "detail": "CV hiện tại hoàn toàn không có kinh nghiệm và kỹ năng liên quan đến lĩnh vực kế toán. Nếu muốn theo đuổi vị trí Kế toán tổng hợp, ứng viên cần học lại chuyên ngành Kế toán/Kiểm toán/Tài chính và tích lũy kinh nghiệm thực tế trong lĩnh vực này.",
+            "relatedSkill": "Kế toán",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kế toán\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BA%BF+to%C3%A1n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Bổ sung kiến thức chuyên môn kế toán",
+            "detail": "Ứng viên cần học và nắm vững các nghiệp vụ kế toán doanh nghiệp, đặc biệt là về thuế GTGT, TNCN, TNDN, hóa đơn điện tử và cách lập báo cáo tài chính.",
+            "relatedSkill": "Nghiệp vụ kế toán",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Nghiệp vụ kế toán\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Nghi%E1%BB%87p+v%E1%BB%A5+k%E1%BA%BF+to%C3%A1n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Thành thạo phần mềm kế toán và công cụ văn phòng",
+            "detail": "Cần học và thành thạo phần mềm MISA cũng như kỹ năng Excel nâng cao, đây là những công cụ thiết yếu cho vị trí kế toán.",
+            "relatedSkill": "MISA",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"MISA\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+MISA+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:32:39.955084Z"
+      }
+    ]
+  },
+  "bs_vs_senior": {
+    "cv": "cv/backend_senior_en.txt",
+    "jd": "jd/backend_senior.txt",
+    "runs": [
+      {
+        "cvId": "996409ffb28b45a8893aac273a5400d4",
+        "jdTitle": "Senior Backend Engineer",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 96,
+          "skillsMatch": 100,
+          "experienceMatch": 100,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Lê Quang Huy có mức độ phù hợp xuất sắc với vị trí Senior Backend Engineer. Với gần 9 năm kinh nghiệm backend, thành thạo các công nghệ cốt lõi như Python, Go, Kubernetes, Kafka và AWS, cùng kinh nghiệm dẫn dắt kỹ thuật và mentoring, ứng viên đáp ứng vượt trội mọi yêu cầu bắt buộc và điểm cộng của JD. Kinh nghiệm làm việc trong lĩnh vực fintech càng củng cố sự phù hợp.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 5 năm kinh nghiệm backend với Python hoặc Go",
+            "presentInCv": true,
+            "evidence": "Senior backend engineer with 8 years of experience designing and operating distributed systems. Developed order and inventory services in Python and Go"
+          },
+          {
+            "skill": "Kinh nghiệm thiết kế hệ thống phân tán, microservices ở môi trường production",
+            "presentInCv": true,
+            "evidence": "Designed event-driven payment processing platform on Kafka handling 2M transactions/day. Operated 40+ microservices on AWS EKS (Kubernetes). Senior backend engineer with 8 years of experience designing and operating distributed systems."
+          },
+          {
+            "skill": "Thành thạo Kubernetes và một nền tảng cloud (ưu tiên AWS)",
+            "presentInCv": true,
+            "evidence": "Operated 40+ microservices on AWS EKS (Kubernetes). AWS (EC2, S3, Lambda, EKS). AWS Certified Solutions Architect - Associate (2023)"
+          },
+          {
+            "skill": "Kinh nghiệm với message queue (Kafka hoặc tương đương) ở quy mô lớn",
+            "presentInCv": true,
+            "evidence": "Designed event-driven payment processing platform on Kafka handling 2M transactions/day. Kafka"
+          },
+          {
+            "skill": "Từng xây dựng/duy trì pipeline CI/CD",
+            "presentInCv": true,
+            "evidence": "Built CI/CD pipelines with GitHub Actions; deploy time reduced from 45 to 8 minutes. CI/CD (GitHub Actions)"
+          },
+          {
+            "skill": "Có kinh nghiệm mentoring",
+            "presentInCv": true,
+            "evidence": "Mentored 4 junior engineers; ran weekly design review sessions. Led teams of up to 5 engineers"
+          },
+          {
+            "skill": "Kinh nghiệm domain thanh toán/tài chính",
+            "presentInCv": true,
+            "evidence": "Senior Backend Engineer — FinPay JSC. Designed event-driven payment processing platform on Kafka handling 2M transactions/day."
+          },
+          {
+            "skill": "Kinh nghiệm Terraform",
+            "presentInCv": true,
+            "evidence": "Introduced Terraform for infrastructure as code across 3 environments. Terraform"
+          },
+          {
+            "skill": "Observability (Prometheus, Grafana)",
+            "presentInCv": true,
+            "evidence": "observability (Grafana, Prometheus)"
+          }
+        ],
+        "missingSkills": [],
+        "suggestions": [
+          {
+            "priority": "medium",
+            "title": "Làm nổi bật vai trò lãnh đạo kiến trúc hệ thống",
+            "detail": "Mặc dù CV đã đề cập 'ran weekly design review sessions' và 'Led teams', hãy cân nhắc bổ sung chi tiết hơn về các quyết định kiến trúc quan trọng bạn đã dẫn dắt hoặc ảnh hưởng, đặc biệt là trong bối cảnh hệ thống phân tán và microservices.",
+            "relatedSkill": "Kiến trúc hệ thống",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kiến trúc hệ thống\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ki%E1%BA%BFn+tr%C3%BAc+h%E1%BB%87+th%E1%BB%91ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Thêm liên kết portfolio/GitHub",
+            "detail": "Nếu có các dự án cá nhân, đóng góp mã nguồn mở hoặc bài viết kỹ thuật, việc thêm liên kết đến GitHub hoặc portfolio cá nhân sẽ giúp nhà tuyển dụng có cái nhìn sâu sắc hơn về kỹ năng thực tế và niềm đam mê của bạn.",
+            "relatedSkill": "Portfolio",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Portfolio\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Portfolio+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:33:00.763453Z"
+      }
+    ]
+  },
+  "bs_vs_junior": {
+    "cv": "cv/backend_senior_en.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "996409ffb28b45a8893aac273a5400d4",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "good_match",
+        "score": {
+          "overall": 84,
+          "skillsMatch": 71,
+          "experienceMatch": 95,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Le Quang Huy có kinh nghiệm dày dặn (gần 9 năm) và chuyên môn cao trong lĩnh vực backend, đặc biệt là với các hệ thống phân tán, microservices và thương mại điện tử, vượt xa yêu cầu của vị trí Junior. Anh ấy thành thạo nhiều công nghệ cốt lõi như Python, PostgreSQL, Docker, Kubernetes, AWS và CI/CD. Tuy nhiên, CV chưa thể hiện kinh nghiệm cụ thể với FastAPI/Django và tư duy viết unit test, cũng như chưa làm rõ các kỹ năng thiết kế schema và tối ưu truy vấn cho PostgreSQL.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Developed order and inventory services in Python and Go"
+          },
+          {
+            "skill": "FastAPI hoặc Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL hoặc MySQL",
+            "presentInCv": true,
+            "evidence": "Developed order and inventory services in Python and Go, PostgreSQL and Redis."
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Systems: PostgreSQL, Redis, Kafka, Kubernetes, Docker, AWS (EC2, S3, Lambda, EKS)"
+          },
+          {
+            "skill": "Git cơ bản",
+            "presentInCv": true,
+            "evidence": "Built CI/CD pipelines with GitHub Actions"
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tốt nghiệp đại học ngành CNTT hoặc liên quan",
+            "presentInCv": true,
+            "evidence": "Bach Khoa University HCMC — B.Eng. Computer Science (2014 - 2018)"
+          },
+          {
+            "skill": "AWS hoặc dịch vụ cloud tương đương",
+            "presentInCv": true,
+            "evidence": "Operated 40+ microservices on AWS EKS (Kubernetes), cut infra cost 30% via autoscaling tuning."
+          },
+          {
+            "skill": "Kubernetes, CI/CD (GitHub Actions)",
+            "presentInCv": true,
+            "evidence": "Operated 40+ microservices on AWS EKS (Kubernetes), cut infra cost 30% via autoscaling tuning. Built CI/CD pipelines with GitHub Actions; deploy time reduced from 45 to 8 minutes."
+          },
+          {
+            "skill": "Message queue (Kafka, RabbitMQ)",
+            "presentInCv": true,
+            "evidence": "Designed event-driven payment processing platform on Kafka handling 2M transactions/day."
+          }
+        ],
+        "missingSkills": [
+          "FastAPI hoặc Django",
+          "Tư duy viết unit test"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm về framework Python",
+            "detail": "JD yêu cầu kinh nghiệm thực tế với FastAPI hoặc Django. Nếu có, hãy bổ sung chi tiết các dự án đã sử dụng một trong hai framework này. Nếu chưa, có thể cân nhắc học và thêm vào phần dự án cá nhân hoặc nêu rõ sự sẵn lòng học hỏi.",
+            "relatedSkill": "FastAPI/Django",
+            "resources": [
+              {
+                "title": "FastAPI — docs chính thức (học qua ví dụ)",
+                "url": "https://fastapi.tiangolo.com/",
+                "kind": "docs"
+              },
+              {
+                "title": "Django — docs chính thức",
+                "url": "https://docs.djangoproject.com/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Làm rõ tư duy và kinh nghiệm Unit Test",
+            "detail": "JD nhấn mạnh 'tư duy viết unit test'. Hãy thêm các bullet point mô tả cách bạn đã áp dụng unit test trong các dự án, công cụ đã dùng (pytest, unittest), và lợi ích mang lại (ví dụ: giảm bug, tăng chất lượng code).",
+            "relatedSkill": "Unit test",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Chi tiết hóa kinh nghiệm PostgreSQL",
+            "detail": "Mặc dù có kinh nghiệm với PostgreSQL, JD yêu cầu cụ thể về 'thiết kế schema, tối ưu truy vấn'. Hãy bổ sung các ví dụ cụ thể về việc bạn đã thiết kế cơ sở dữ liệu, tối ưu các câu truy vấn phức tạp hoặc xử lý các vấn đề hiệu năng liên quan đến PostgreSQL.",
+            "relatedSkill": "PostgreSQL",
+            "resources": [
+              {
+                "title": "PostgreSQL — docs chính thức",
+                "url": "https://www.postgresql.org/docs/",
+                "kind": "docs"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Điều chỉnh CV cho vị trí Junior",
+            "detail": "Với kinh nghiệm Senior và quản lý đội nhóm, CV của bạn có thể bị coi là 'overqualified' cho vị trí Junior. Nếu thực sự quan tâm đến vị trí này, hãy cân nhắc điều chỉnh một số mô tả công việc để tập trung hơn vào vai trò kỹ thuật cá nhân và khả năng học hỏi, thay vì vai trò lãnh đạo hoặc thiết kế hệ thống quy mô lớn.",
+            "relatedSkill": null,
+            "resources": []
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:33:29.200817Z"
+      }
+    ]
+  },
+  "intern_vs_junior": {
+    "cv": "cv/backend_intern_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "e4bae5cab9b348359f680019279d37d3",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "weak_match",
+        "score": {
+          "overall": 32,
+          "skillsMatch": 23,
+          "experienceMatch": 15,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên là sinh viên mới tốt nghiệp ngành Kỹ sư CNTT, có kiến thức cơ bản về Python, MySQL và Git từ các đồ án môn học. Tuy nhiên, ứng viên chưa có kinh nghiệm làm việc chính thức và thiếu nhiều kỹ năng bắt buộc cho vị trí Junior Backend Engineer như FastAPI/Django, Docker, tư duy viết unit test, cũng như các kỹ năng cộng điểm về cloud và message queue.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Python cơ bản, Lập trình Python (A)"
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": true,
+            "evidence": "SQL (MySQL), web quản lý thư viện bằng Flask + MySQL, Cơ sở dữ liệu (A)"
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Git"
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "FastAPI",
+          "Django",
+          "Docker",
+          "Tư duy viết unit test",
+          "AWS",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Tích lũy kinh nghiệm thực tế với framework backend",
+            "detail": "CV cần thể hiện kinh nghiệm thực tế với FastAPI hoặc Django. Ứng viên nên tham gia các dự án cá nhân hoặc tìm kiếm vị trí thực tập để áp dụng các framework này, vì CV hiện tại ghi rõ 'chưa dùng framework backend nào trong dự án thực tế'.",
+            "relatedSkill": "FastAPI, Django",
+            "resources": [
+              {
+                "title": "FastAPI — docs chính thức (học qua ví dụ)",
+                "url": "https://fastapi.tiangolo.com/",
+                "kind": "docs"
+              },
+              {
+                "title": "Django — docs chính thức",
+                "url": "https://docs.djangoproject.com/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Học và thực hành Docker",
+            "detail": "Docker là một công cụ quan trọng trong phát triển microservices. Ứng viên nên học cách sử dụng Docker để đóng gói và triển khai ứng dụng.",
+            "relatedSkill": "Docker",
+            "resources": [
+              {
+                "title": "Docker Get Started — docs chính thức",
+                "url": "https://docs.docker.com/get-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Docker (roadmap.sh)",
+                "url": "https://roadmap.sh/docker",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển tư duy và kỹ năng viết unit test",
+            "detail": "Kỹ năng viết unit test là bắt buộc để đảm bảo chất lượng code. Ứng viên cần học cách viết test cho các thành phần backend.",
+            "relatedSkill": "Unit Test",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Tìm kiếm kinh nghiệm làm việc chính thức hoặc thực tập",
+            "detail": "Vị trí Junior Backend Engineer thường yêu cầu ít nhất một chút kinh nghiệm thực tế. Việc tìm kiếm một vị trí thực tập hoặc tham gia các dự án mã nguồn mở sẽ giúp ứng viên có kinh nghiệm làm việc chính thức, thay vì chỉ đồ án môn học.",
+            "relatedSkill": "Kinh nghiệm làm việc",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm làm việc\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+l%C3%A0m+vi%E1%BB%87c+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Nâng cao kỹ năng Python",
+            "detail": "JD yêu cầu 'thành thạo Python' trong khi CV chỉ ghi 'Python cơ bản'. Ứng viên nên tập trung vào các khía cạnh nâng cao của Python, cấu trúc dữ liệu, thuật toán và các thư viện phổ biến trong backend.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Cải thiện kỹ năng làm việc với cơ sở dữ liệu",
+            "detail": "JD yêu cầu 'làm việc tốt với PostgreSQL hoặc MySQL: thiết kế schema, tối ưu truy vấn'. Ứng viên cần thực hành sâu hơn về thiết kế cơ sở dữ liệu, tối ưu hóa truy vấn và quản lý dữ liệu trong MySQL hoặc PostgreSQL.",
+            "relatedSkill": "SQL, Tối ưu truy vấn",
+            "resources": [
+              {
+                "title": "SQLBolt — học SQL tương tác",
+                "url": "https://sqlbolt.com/",
+                "kind": "course"
+              },
+              {
+                "title": "Lộ trình SQL (roadmap.sh)",
+                "url": "https://roadmap.sh/sql",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Tìm hiểu về AWS hoặc các dịch vụ cloud khác",
+            "detail": "Kinh nghiệm về cloud là một điểm cộng lớn. Ứng viên nên bắt đầu tìm hiểu về các dịch vụ cơ bản của AWS như EC2, S3, RDS.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Nghiên cứu Kubernetes, CI/CD và Message Queue",
+            "detail": "Đây là các kỹ năng cộng điểm giúp ứng viên nổi bật hơn. Việc tìm hiểu về Kubernetes, quy trình CI/CD (ví dụ GitHub Actions) và các hệ thống message queue (Kafka, RabbitMQ) sẽ rất hữu ích cho sự nghiệp backend.",
+            "relatedSkill": "Kubernetes, CI/CD, Kafka",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              },
+              {
+                "title": "Apache Kafka — docs chính thức",
+                "url": "https://kafka.apache.org/documentation/",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:33:56.938477Z"
+      }
+    ]
+  },
+  "intern_vs_senior": {
+    "cv": "cv/backend_intern_vn.txt",
+    "jd": "jd/backend_senior.txt",
+    "runs": [
+      {
+        "cvId": "e4bae5cab9b348359f680019279d37d3",
+        "jdTitle": "Senior Backend Engineer",
+        "verdict": "weak_match",
+        "score": {
+          "overall": 32,
+          "skillsMatch": 2,
+          "experienceMatch": 0,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Phạm Thu Hà là sinh viên mới tốt nghiệp ngành CNTT, đang tìm kiếm vị trí thực tập backend. CV thể hiện kiến thức cơ bản về Python, SQL và Git thông qua đồ án môn học. Tuy nhiên, ứng viên hoàn toàn thiếu kinh nghiệm làm việc chính thức và các kỹ năng chuyên sâu mà vị trí Senior Backend Engineer yêu cầu, như kinh nghiệm 5 năm, thiết kế hệ thống phân tán, Kubernetes, cloud, message queue và CI/CD.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Python cơ bản"
+          },
+          {
+            "skill": "Go",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Thiết kế hệ thống phân tán",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Microservices",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nền tảng cloud (AWS)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Message queue (Kafka)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Mentoring",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Domain thanh toán/tài chính",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Terraform",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Prometheus",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Grafana",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Go",
+          "Thiết kế hệ thống phân tán",
+          "Microservices",
+          "Kubernetes",
+          "Nền tảng cloud (AWS)",
+          "Message queue (Kafka hoặc tương đương)",
+          "CI/CD",
+          "Mentoring",
+          "Kinh nghiệm domain thanh toán/tài chính",
+          "Terraform",
+          "Prometheus",
+          "Grafana"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Tìm kiếm vị trí thực tập/Fresher",
+            "detail": "Ứng viên nên tập trung vào các vị trí thực tập hoặc fresher để tích lũy kinh nghiệm làm việc chính thức, thay vì ứng tuyển vào vị trí Senior đòi hỏi 5+ năm kinh nghiệm.",
+            "relatedSkill": "Kinh nghiệm làm việc",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm làm việc\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+l%C3%A0m+vi%E1%BB%87c+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nâng cao kỹ năng backend chuyên sâu",
+            "detail": "Học và thực hành các framework backend phổ biến (vd: Django, FastAPI), kiến trúc microservices, thiết kế hệ thống phân tán để đáp ứng yêu cầu của vị trí Senior.",
+            "relatedSkill": "Backend",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Backend\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Backend+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Học và thực hành DevOps/Cloud",
+            "detail": "Nắm vững Kubernetes, AWS (hoặc các nền tảng cloud khác), Kafka/message queue và xây dựng pipeline CI/CD để có thể vận hành các service lõi ở môi trường production.",
+            "relatedSkill": "Kubernetes",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Tham gia dự án thực tế",
+            "detail": "Tìm kiếm các dự án mã nguồn mở hoặc dự án cá nhân có quy mô lớn hơn đồ án môn học để áp dụng các kiến thức đã học vào môi trường thực tế và thể hiện khả năng giải quyết vấn đề.",
+            "relatedSkill": "Kinh nghiệm dự án",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm dự án\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+d%E1%BB%B1+%C3%A1n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Phát triển kỹ năng mentoring",
+            "detail": "Khi đã có kinh nghiệm chuyên môn, tìm cơ hội hướng dẫn các bạn sinh viên hoặc junior để phát triển kỹ năng lãnh đạo và mentoring.",
+            "relatedSkill": "Mentoring",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Mentoring\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Mentoring+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Tìm hiểu domain fintech",
+            "detail": "Nếu quan tâm đến ngành tài chính/thanh toán, nên tìm hiểu thêm về các nghiệp vụ và công nghệ đặc thù trong lĩnh vực này để tăng tính phù hợp với các công ty fintech.",
+            "relatedSkill": "Fintech",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Fintech\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Fintech+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:34:24.588026Z"
+      }
+    ]
+  },
+  "fe_vs_frontend": {
+    "cv": "cv/frontend_junior_en.txt",
+    "jd": "jd/frontend_react.txt",
+    "runs": [
+      {
+        "cvId": "097e4172b38f479883ee9c0c90133e84",
+        "jdTitle": "Frontend Developer (React)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 95,
+          "skillsMatch": 100,
+          "experienceMatch": 95,
+          "educationMatch": 80
+        },
+        "summary": "Ứng viên Ngo Minh Chau có kinh nghiệm 1.5 năm làm Frontend Developer với React và TypeScript, đáp ứng tốt các yêu cầu bắt buộc của JD. CV thể hiện rõ các kỹ năng về phát triển UI, responsive design, state management (Redux Toolkit), viết UI test với Jest, và làm việc với Figma. Các kỹ năng điểm cộng như Next.js, tối ưu hiệu năng Lighthouse và design system cũng được thể hiện rõ.",
+        "matchedSkills": [
+          {
+            "skill": "React (1+ năm kinh nghiệm)",
+            "presentInCv": true,
+            "evidence": "Frontend developer with 1.5 years of experience building responsive web apps with React and TypeScript."
+          },
+          {
+            "skill": "TypeScript (thành thạo)",
+            "presentInCv": true,
+            "evidence": "Frontend developer with 1.5 years of experience building responsive web apps with React and TypeScript."
+          },
+          {
+            "skill": "HTML/CSS (vững)",
+            "presentInCv": true,
+            "evidence": "Languages: HTML, CSS"
+          },
+          {
+            "skill": "Responsive design",
+            "presentInCv": true,
+            "evidence": "building responsive web apps"
+          },
+          {
+            "skill": "State management (Redux hoặc tương đương)",
+            "presentInCv": true,
+            "evidence": "Frameworks: Redux Toolkit"
+          },
+          {
+            "skill": "UI testing (Jest hoặc tương đương)",
+            "presentInCv": true,
+            "evidence": "Wrote UI tests with Jest and React Testing Library."
+          },
+          {
+            "skill": "Git (thành thạo trong làm việc nhóm)",
+            "presentInCv": true,
+            "evidence": "Tools: Git"
+          },
+          {
+            "skill": "Next.js",
+            "presentInCv": true,
+            "evidence": "Frameworks: Next.js"
+          },
+          {
+            "skill": "Tối ưu performance (Lighthouse)",
+            "presentInCv": true,
+            "evidence": "Lighthouse scores above 90."
+          },
+          {
+            "skill": "Figma",
+            "presentInCv": true,
+            "evidence": "Collaborated with designers in Figma, converted mockups pixel-perfect."
+          },
+          {
+            "skill": "Design system",
+            "presentInCv": true,
+            "evidence": "Implemented shared component library with Storybook"
+          }
+        ],
+        "missingSkills": [],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm làm việc nhóm với Git",
+            "detail": "Mặc dù CV có liệt kê Git, nhưng JD yêu cầu \"Dùng Git thành thạo trong làm việc nhóm\". Ứng viên nên bổ sung các ví dụ cụ thể về việc sử dụng Git trong môi trường nhóm, giải quyết xung đột (merge conflicts), hoặc quy trình review code để làm rõ mức độ thành thạo.",
+            "relatedSkill": "Git làm việc nhóm",
+            "resources": [
+              {
+                "title": "Pro Git (có bản tiếng Việt)",
+                "url": "https://git-scm.com/book/vi/v2",
+                "kind": "docs"
+              },
+              {
+                "title": "Learn Git Branching — học tương tác (có tiếng Việt)",
+                "url": "https://learngitbranching.js.org/?locale=vi_VN",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Làm rõ kinh nghiệm với sản phẩm B2B/SaaS",
+            "detail": "JD đề cập đến \"sản phẩm SaaS B2B\" và \"web app quản trị\". Nếu các dự án \"client websites\" của ứng viên có tính chất tương tự (ví dụ: các dashboard quản trị, cổng thông tin doanh nghiệp), hãy làm rõ điều này trong mô tả công việc để tăng tính phù hợp với yêu cầu của JD.",
+            "relatedSkill": "SaaS B2B",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"SaaS B2B\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+SaaS+B2B+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Định lượng thêm kết quả công việc",
+            "detail": "Các thành tích như \"Lighthouse scores above 90\" và \"cutting new page build time by 40%\" rất tốt. Ứng viên có thể tìm cách định lượng thêm các kết quả khác, ví dụ: số lượng người dùng ảnh hưởng, mức độ cải thiện trải nghiệm người dùng, hoặc giá trị kinh doanh mang lại từ các dự án đã thực hiện.",
+            "relatedSkill": "Định lượng kết quả",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Định lượng kết quả\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+%C4%90%E1%BB%8Bnh+l%C6%B0%E1%BB%A3ng+k%E1%BA%BFt+qu%E1%BA%A3+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:34:48.113922Z"
+      }
+    ]
+  },
+  "fe_vs_backend": {
+    "cv": "cv/frontend_junior_en.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "097e4172b38f479883ee9c0c90133e84",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "weak_match",
+        "score": {
+          "overall": 39,
+          "skillsMatch": 27,
+          "experienceMatch": 30,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên có bằng cấp phù hợp với yêu cầu (Kỹ sư Phần mềm). Tuy nhiên, kinh nghiệm làm việc chủ yếu là Frontend Developer với React và TypeScript, không có kinh nghiệm trực tiếp về Python, các framework backend (FastAPI/Django), cơ sở dữ liệu (PostgreSQL/MySQL) hay Docker như JD yêu cầu. Mặc dù có kinh nghiệm với Git và unit test, các kỹ năng cốt lõi cho vị trí Backend Engineer còn thiếu.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Tools: Git"
+          },
+          {
+            "skill": "Unit Test",
+            "presentInCv": true,
+            "evidence": "Wrote UI tests with Jest and React Testing Library."
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Python",
+          "FastAPI",
+          "Django",
+          "PostgreSQL",
+          "MySQL",
+          "Docker",
+          "AWS",
+          "Kubernetes",
+          "CI/CD",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng Backend cốt lõi",
+            "detail": "Tập trung học và thực hành Python, các framework như FastAPI hoặc Django. Xây dựng các dự án cá nhân hoặc đóng góp mã nguồn mở để thể hiện kinh nghiệm này.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nâng cao kiến thức về Cơ sở dữ liệu",
+            "detail": "Học cách thiết kế schema, viết và tối ưu truy vấn với PostgreSQL hoặc MySQL.",
+            "relatedSkill": "PostgreSQL",
+            "resources": [
+              {
+                "title": "PostgreSQL — docs chính thức",
+                "url": "https://www.postgresql.org/docs/",
+                "kind": "docs"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Làm quen với Docker",
+            "detail": "Tìm hiểu và thực hành đóng gói ứng dụng bằng Docker để đáp ứng yêu cầu về triển khai.",
+            "relatedSkill": "Docker",
+            "resources": [
+              {
+                "title": "Docker Get Started — docs chính thức",
+                "url": "https://docs.docker.com/get-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Docker (roadmap.sh)",
+                "url": "https://roadmap.sh/docker",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Khám phá các dịch vụ Cloud và CI/CD",
+            "detail": "Tìm hiểu về AWS hoặc các dịch vụ cloud khác, cũng như quy trình CI/CD (ví dụ: GitHub Actions) và Kubernetes để có thêm điểm cộng.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Điều chỉnh CV cho vị trí Backend",
+            "detail": "Nếu có bất kỳ dự án cá nhân hoặc khóa học nào liên quan đến backend, hãy thêm vào CV để làm nổi bật các kỹ năng phù hợp.",
+            "relatedSkill": null,
+            "resources": []
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:35:09.268396Z"
+      }
+    ]
+  },
+  "de_vs_data": {
+    "cv": "cv/data_engineer_mid_en.txt",
+    "jd": "jd/data_engineer.txt",
+    "runs": [
+      {
+        "cvId": "8c4409fd0edd4994b1eb46533cd7ae37",
+        "jdTitle": "Data Engineer (Middle)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 90,
+          "skillsMatch": 92,
+          "experienceMatch": 95,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Đặng Văn Khoa có kinh nghiệm vững chắc với khoảng 4 năm làm Data Engineer, vượt yêu cầu 2+ năm của JD. Khoa thể hiện kỹ năng mạnh về Python, SQL, Apache Spark, Apache Airflow, Redshift và AWS, cùng với kinh nghiệm dbt và quản lý data quality/lineage. Mặc dù có kinh nghiệm Kafka cơ bản và Docker, CV có thể làm rõ hơn về CI/CD. Học vấn phù hợp dù JD không yêu cầu cụ thể.",
+        "matchedSkills": [
+          {
+            "skill": "Data engineering experience (2+ years)",
+            "presentInCv": true,
+            "evidence": "Data engineer with 3 years of experience building batch and streaming pipelines on AWS."
+          },
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Wrote ingestion services in Python, landing data to S3 with schema validation. automated reports with Python. Languages: Python"
+          },
+          {
+            "skill": "SQL",
+            "presentInCv": true,
+            "evidence": "Maintained SQL transformation jobs on PostgreSQL; automated reports with Python. Languages: SQL"
+          },
+          {
+            "skill": "Apache Spark",
+            "presentInCv": true,
+            "evidence": "Processed 500GB/day clickstream data with Spark on EMR. Data: Apache Spark"
+          },
+          {
+            "skill": "Apache Airflow",
+            "presentInCv": true,
+            "evidence": "Built daily ETL pipelines with Apache Airflow orchestrating 60+ DAGs. Data: Airflow"
+          },
+          {
+            "skill": "Redshift",
+            "presentInCv": true,
+            "evidence": "Modeled warehouse tables on Redshift with dbt. Data: Redshift"
+          },
+          {
+            "skill": "AWS S3",
+            "presentInCv": true,
+            "evidence": "landing data to S3. Cloud/Tools: AWS (S3, EMR, Redshift, Lambda)"
+          },
+          {
+            "skill": "AWS EMR",
+            "presentInCv": true,
+            "evidence": "Processed 500GB/day clickstream data with Spark on EMR. Cloud/Tools: AWS (S3, EMR, Redshift, Lambda)"
+          },
+          {
+            "skill": "dbt",
+            "presentInCv": true,
+            "evidence": "Modeled warehouse tables on Redshift with dbt. Data: dbt"
+          },
+          {
+            "skill": "Data quality",
+            "presentInCv": true,
+            "evidence": "Comfortable owning data quality from ingestion to warehouse."
+          },
+          {
+            "skill": "Data lineage",
+            "presentInCv": true,
+            "evidence": "documented lineage for 120 models."
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": true,
+            "evidence": "Data: Kafka (consumer basics). building batch and streaming pipelines"
+          },
+          {
+            "skill": "Kinesis",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Cloud/Tools: Docker"
+          },
+          {
+            "skill": "CI/CD",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "BigQuery",
+          "Snowflake",
+          "Kinesis",
+          "CI/CD"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm CI/CD",
+            "detail": "JD đề cập CI/CD là một điểm cộng. Nếu bạn có kinh nghiệm về CI/CD, dù là cơ bản, hãy thêm vào CV để tăng cường sự phù hợp với vị trí.",
+            "relatedSkill": "CI/CD",
+            "resources": [
+              {
+                "title": "GitHub Actions — docs chính thức",
+                "url": "https://docs.github.com/actions",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình DevOps (roadmap.sh)",
+                "url": "https://roadmap.sh/devops",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Làm rõ kinh nghiệm Kafka",
+            "detail": "CV ghi \"Kafka (consumer basics)\". Nếu bạn có kinh nghiệm sâu hơn về Kafka (ví dụ: producer, stream processing, quản lý cluster), hãy mô tả chi tiết hơn để thể hiện khả năng xử lý streaming mạnh mẽ.",
+            "relatedSkill": "Kafka",
+            "resources": [
+              {
+                "title": "Apache Kafka — docs chính thức",
+                "url": "https://kafka.apache.org/documentation/",
+                "kind": "docs"
+              },
+              {
+                "title": "Confluent Developer — học Kafka miễn phí",
+                "url": "https://developer.confluent.io/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Thêm số liệu định lượng",
+            "detail": "Bạn đã có một số số liệu tốt như \"cut job runtime 45%\". Hãy tìm cách bổ sung thêm các con số cụ thể khác (ví dụ: số lượng người dùng ảnh hưởng, quy mô dữ liệu xử lý, tiết kiệm chi phí) vào các gạch đầu dòng kinh nghiệm để làm nổi bật tác động công việc của bạn.",
+            "relatedSkill": "Kỹ năng định lượng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kỹ năng định lượng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BB%B9+n%C4%83ng+%C4%91%E1%BB%8Bnh+l%C6%B0%E1%BB%A3ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:35:35.804067Z"
+      }
+    ]
+  },
+  "de_vs_backend_junior": {
+    "cv": "cv/data_engineer_mid_en.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "8c4409fd0edd4994b1eb46533cd7ae37",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "partial_match",
+        "score": {
+          "overall": 66,
+          "skillsMatch": 56,
+          "experienceMatch": 65,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên có nền tảng học vấn vững chắc và 4 năm kinh nghiệm trong lĩnh vực Data Engineering, sử dụng Python, SQL, AWS, Docker và Git. Tuy nhiên, kinh nghiệm trực tiếp với phát triển backend microservices và các framework như FastAPI/Django còn hạn chế, cũng như chưa thể hiện rõ tư duy viết unit test. Đây là những điểm cần cải thiện để phù hợp hơn với vị trí Junior Backend Engineer.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Wrote ingestion services in Python, landing data to S3 with schema validation. Automated reports with Python. Languages: Python"
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": true,
+            "evidence": "Maintained SQL transformation jobs on PostgreSQL; automated reports with Python. Data: PostgreSQL"
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Cloud/Tools: Docker"
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Cloud/Tools: Git"
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": true,
+            "evidence": "Processed 500GB/day clickstream data with Spark on EMR; cut job runtime 45%. Modeled warehouse tables on Redshift with dbt; documented lineage for 120 models. Wrote ingestion services in Python, landing data to S3 with schema validation. Cloud/Tools: AWS (S3, EMR, Redshift, Lambda). Data engineer with 3 years of experience building batch and streaming pipelines on AWS."
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": true,
+            "evidence": "Data: Kafka (consumer basics)"
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "FastAPI",
+          "Django",
+          "Tư duy viết unit test",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm phát triển web framework",
+            "detail": "CV chưa thể hiện kinh nghiệm thực tế với FastAPI hoặc Django, đây là yêu cầu bắt buộc cho vị trí Backend Engineer. Ứng viên nên học và thực hành các framework này, có thể thông qua dự án cá nhân hoặc khóa học để bổ sung vào CV.",
+            "relatedSkill": "FastAPI, Django",
+            "resources": [
+              {
+                "title": "FastAPI — docs chính thức (học qua ví dụ)",
+                "url": "https://fastapi.tiangolo.com/",
+                "kind": "docs"
+              },
+              {
+                "title": "Django — docs chính thức",
+                "url": "https://docs.djangoproject.com/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Thể hiện tư duy viết unit test",
+            "detail": "Yêu cầu về tư duy viết unit test là bắt buộc nhưng chưa được đề cập trong CV. Ứng viên nên bổ sung các kinh nghiệm hoặc dự án có áp dụng unit test vào CV để chứng minh khả năng này.",
+            "relatedSkill": "Unit test",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Chi tiết hóa kinh nghiệm PostgreSQL",
+            "detail": "Mặc dù có kinh nghiệm với PostgreSQL, CV chưa làm rõ khả năng thiết kế schema và tối ưu truy vấn. Ứng viên nên bổ sung các ví dụ cụ thể về việc này để thể hiện mức độ thành thạo.",
+            "relatedSkill": "PostgreSQL",
+            "resources": [
+              {
+                "title": "PostgreSQL — docs chính thức",
+                "url": "https://www.postgresql.org/docs/",
+                "kind": "docs"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Mở rộng kiến thức Kafka",
+            "detail": "CV chỉ đề cập \"Kafka (consumer basics)\". Để phù hợp hơn với vai trò backend trong hệ thống microservices, ứng viên nên tìm hiểu sâu hơn về Kafka, bao gồm cả việc publish message và quản lý topic.",
+            "relatedSkill": "Kafka",
+            "resources": [
+              {
+                "title": "Apache Kafka — docs chính thức",
+                "url": "https://kafka.apache.org/documentation/",
+                "kind": "docs"
+              },
+              {
+                "title": "Confluent Developer — học Kafka miễn phí",
+                "url": "https://developer.confluent.io/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Khám phá Kubernetes và CI/CD",
+            "detail": "Đây là các kỹ năng cộng điểm quan trọng trong môi trường microservices hiện đại. Ứng viên nên tìm hiểu và tích lũy kinh nghiệm với Kubernetes và CI/CD (ví dụ GitHub Actions) để tăng lợi thế cạnh tranh.",
+            "relatedSkill": "Kubernetes, CI/CD",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              },
+              {
+                "title": "GitHub Actions — docs chính thức",
+                "url": "https://docs.github.com/actions",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:36:00.051183Z"
+      }
+    ]
+  },
+  "da_vs_data": {
+    "cv": "cv/data_analyst_junior_vn.txt",
+    "jd": "jd/data_engineer.txt",
+    "runs": [
+      {
+        "cvId": "240000745e764835ba1a065d934082fd",
+        "jdTitle": "Data Engineer (Middle)",
+        "verdict": "weak_match",
+        "score": {
+          "overall": 32,
+          "skillsMatch": 18,
+          "experienceMatch": 25,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên có 1 năm 3 tháng kinh nghiệm làm Data Analyst, chưa đáp ứng yêu cầu 2+ năm kinh nghiệm Data Engineering. Kỹ năng SQL tốt và Python cơ bản, nhưng thiếu các công nghệ cốt lõi như Apache Spark, Airflow, Data Warehouse và AWS. Bằng cấp phù hợp với lĩnh vực dữ liệu, và JD không yêu cầu cụ thể về học vấn.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Python (pandas, matplotlib) mức cơ bản"
+          },
+          {
+            "skill": "SQL",
+            "presentInCv": true,
+            "evidence": "Viết truy vấn SQL trên PostgreSQL phục vụ báo cáo doanh thu tuần cho 3 phòng ban."
+          },
+          {
+            "skill": "Apache Spark",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Công cụ điều phối (Airflow ưu tiên)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Data warehouse (Redshift, BigQuery hoặc Snowflake)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS (S3, EMR hoặc tương đương)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "dbt",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Quản lý data quality/lineage",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Streaming (Kafka, Kinesis)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD cơ bản",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Apache Spark",
+          "Công cụ điều phối (Airflow)",
+          "Data warehouse (Redshift, BigQuery, Snowflake)",
+          "AWS (S3, EMR)",
+          "dbt",
+          "Quản lý data quality/lineage",
+          "Streaming (Kafka, Kinesis)",
+          "Docker",
+          "CI/CD"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm Data Engineering cốt lõi",
+            "detail": "CV hiện tại chủ yếu thể hiện kinh nghiệm Data Analyst. Để phù hợp với vị trí Data Engineer, ứng viên cần bổ sung kinh nghiệm thực tế về xây dựng và vận hành pipeline dữ liệu sử dụng Apache Spark, các công cụ điều phối như Airflow, làm việc với Data Warehouse (Redshift, BigQuery, Snowflake) và các dịch vụ AWS (S3, EMR).",
+            "relatedSkill": "Apache Spark, Airflow, Data Warehouse, AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              },
+              {
+                "title": "Apache Spark — docs chính thức",
+                "url": "https://spark.apache.org/docs/latest/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Nâng cao kỹ năng Python",
+            "detail": "Kỹ năng Python hiện được mô tả là 'cơ bản'. Vị trí Data Engineer yêu cầu Python ở mức độ thành thạo hơn, đặc biệt trong việc xử lý dữ liệu lớn và tự động hóa. Hãy bổ sung các dự án hoặc kinh nghiệm sử dụng Python cho các tác vụ DE phức tạp hơn.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Tìm hiểu các công nghệ điểm cộng",
+            "detail": "Để tăng lợi thế cạnh tranh, ứng viên nên tìm hiểu thêm về dbt, quản lý data quality/lineage, streaming (Kafka, Kinesis), Docker và CI/CD.",
+            "relatedSkill": "dbt, Kafka, Docker, CI/CD",
+            "resources": [
+              {
+                "title": "Docker Get Started — docs chính thức",
+                "url": "https://docs.docker.com/get-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Docker (roadmap.sh)",
+                "url": "https://roadmap.sh/docker",
+                "kind": "roadmap"
+              },
+              {
+                "title": "Apache Kafka — docs chính thức",
+                "url": "https://kafka.apache.org/documentation/",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:36:22.403622Z"
+      }
+    ]
+  },
+  "kt_vs_ketoan": {
+    "cv": "cv/ketoan_junior_vn.txt",
+    "jd": "jd/ketoan_tonghop.txt",
+    "runs": [
+      {
+        "cvId": "df6278c172404335a5ff813d535e2f18",
+        "jdTitle": "Kế toán tổng hợp",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 95,
+          "skillsMatch": 94,
+          "experienceMatch": 95,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Nguyễn Thị Mai có kinh nghiệm 2 năm 1 tháng làm Kế toán tổng hợp tại doanh nghiệp thương mại, hoàn toàn phù hợp với yêu cầu về kinh nghiệm và lĩnh vực của JD. Ứng viên thành thạo các nghiệp vụ kế toán tổng hợp, thuế GTGT, TNCN, TNDN, hóa đơn điện tử, MISA và Excel nâng cao, đồng thời có kinh nghiệm hỗ trợ lập báo cáo tài chính. Bằng cấp Cử nhân Kế toán cũng đáp ứng tốt yêu cầu.",
+        "matchedSkills": [
+          {
+            "skill": "Tối thiểu 2 năm kinh nghiệm kế toán doanh nghiệp",
+            "presentInCv": true,
+            "evidence": "Kế toán tổng hợp — Công ty TNHH Thương mại Hoà Phát Minh (09/2024 - nay)"
+          },
+          {
+            "skill": "Thành thạo phần mềm MISA",
+            "presentInCv": true,
+            "evidence": "Hạch toán chứng từ mua bán, công nợ phải thu/phải trả trên phần mềm MISA."
+          },
+          {
+            "skill": "Thành thạo Excel nâng cao",
+            "presentInCv": true,
+            "evidence": "Excel nâng cao (pivot, vlookup)"
+          },
+          {
+            "skill": "Nắm vững nghiệp vụ thuế GTGT, TNCN, TNDN",
+            "presentInCv": true,
+            "evidence": "Lập tờ khai thuế GTGT, TNCN hằng tháng; quyết toán thuế TNDN cuối năm."
+          },
+          {
+            "skill": "Kinh nghiệm làm việc với hóa đơn điện tử",
+            "presentInCv": true,
+            "evidence": "Xử lý hóa đơn điện tử"
+          },
+          {
+            "skill": "Từng tham gia lập báo cáo tài chính",
+            "presentInCv": true,
+            "evidence": "Hỗ trợ kế toán trưởng lập báo cáo tài chính năm 2025."
+          },
+          {
+            "skill": "Tốt nghiệp đại học chuyên ngành Kế toán/Kiểm toán/Tài chính",
+            "presentInCv": true,
+            "evidence": "Học viện Tài chính — Cử nhân Kế toán (2020 - 2024)"
+          },
+          {
+            "skill": "Chứng chỉ kế toán trưởng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm quyết toán với cơ quan thuế",
+            "presentInCv": true,
+            "evidence": "quyết toán thuế TNDN cuối năm."
+          }
+        ],
+        "missingSkills": [
+          "Chứng chỉ kế toán trưởng"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung chứng chỉ Kế toán trưởng",
+            "detail": "Cân nhắc bổ sung chứng chỉ Kế toán trưởng để đáp ứng điểm cộng của JD và nâng cao năng lực chuyên môn.",
+            "relatedSkill": "Chứng chỉ kế toán trưởng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Chứng chỉ kế toán trưởng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Ch%E1%BB%A9ng+ch%E1%BB%89+k%E1%BA%BF+to%C3%A1n+tr%C6%B0%E1%BB%9Fng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Định lượng hóa thành tựu",
+            "detail": "Định lượng hóa các thành tựu trong công việc (ví dụ: \"giảm X% sai sót\", \"tối ưu Y quy trình\") để CV ấn tượng hơn và thể hiện rõ giá trị đóng góp.",
+            "relatedSkill": "Kỹ năng định lượng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kỹ năng định lượng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BB%B9+n%C4%83ng+%C4%91%E1%BB%8Bnh+l%C6%B0%E1%BB%A3ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Làm rõ kinh nghiệm quyết toán thuế",
+            "detail": "Nếu có, làm rõ hơn về kinh nghiệm quyết toán thuế với cơ quan thuế để nhấn mạnh điểm cộng này, ví dụ như đã trực tiếp làm việc với cơ quan thuế trong quá trình quyết toán.",
+            "relatedSkill": "Quyết toán thuế",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Quyết toán thuế\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Quy%E1%BA%BFt+to%C3%A1n+thu%E1%BA%BF+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:36:46.819906Z"
+      }
+    ]
+  },
+  "kt_vs_backend": {
+    "cv": "cv/ketoan_junior_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "df6278c172404335a5ff813d535e2f18",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 0,
+          "skillsMatch": 0,
+          "experienceMatch": 0,
+          "educationMatch": 0
+        },
+        "summary": "Ứng viên Nguyễn Thị Mai có kinh nghiệm vững chắc trong lĩnh vực kế toán nhưng hoàn toàn không có bất kỳ kỹ năng, kinh nghiệm hay bằng cấp nào liên quan đến vị trí Junior Backend Engineer (Python). CV không thể hiện các yêu cầu bắt buộc về lập trình Python, cơ sở dữ liệu, Docker, Git hay tư duy unit test, cũng như các điểm cộng về cloud hay DevOps.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Git",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Python",
+          "FastAPI",
+          "Django",
+          "PostgreSQL",
+          "MySQL",
+          "Docker",
+          "Git",
+          "Tư duy viết unit test",
+          "AWS",
+          "Kubernetes",
+          "CI/CD",
+          "GitHub Actions",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng lập trình Python",
+            "detail": "CV hiện không có bất kỳ bằng chứng nào về kỹ năng lập trình Python. Ứng viên cần học và thực hành Python từ cơ bản đến nâng cao, đặc biệt là các kiến thức liên quan đến phát triển backend.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Học framework backend (FastAPI/Django)",
+            "detail": "Sau khi nắm vững Python, ứng viên cần học một trong các framework phổ biến như FastAPI hoặc Django để có kinh nghiệm thực tế trong việc xây dựng API và ứng dụng web.",
+            "relatedSkill": "FastAPI",
+            "resources": [
+              {
+                "title": "FastAPI — docs chính thức (học qua ví dụ)",
+                "url": "https://fastapi.tiangolo.com/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nắm vững cơ sở dữ liệu SQL",
+            "detail": "Ứng viên cần học về PostgreSQL hoặc MySQL, bao gồm thiết kế schema, viết và tối ưu truy vấn SQL, quản lý cơ sở dữ liệu.",
+            "relatedSkill": "PostgreSQL",
+            "resources": [
+              {
+                "title": "PostgreSQL — docs chính thức",
+                "url": "https://www.postgresql.org/docs/",
+                "kind": "docs"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Tìm hiểu Docker và Git",
+            "detail": "Đây là những công cụ cơ bản trong phát triển phần mềm hiện đại. Ứng viên cần học cách sử dụng Docker để đóng gói ứng dụng và Git để quản lý mã nguồn (branch, pull request, review).",
+            "relatedSkill": "Docker",
+            "resources": [
+              {
+                "title": "Docker Get Started — docs chính thức",
+                "url": "https://docs.docker.com/get-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Docker (roadmap.sh)",
+                "url": "https://roadmap.sh/docker",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển tư duy viết Unit Test",
+            "detail": "Kỹ năng viết unit test là cần thiết để đảm bảo chất lượng mã. Ứng viên nên tìm hiểu các nguyên tắc và cách viết unit test cho code Python.",
+            "relatedSkill": "Unit testing",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Xây dựng dự án cá nhân",
+            "detail": "Để chứng minh kỹ năng, ứng viên nên xây dựng các dự án backend cá nhân sử dụng Python, framework (FastAPI/Django), cơ sở dữ liệu và Docker/Git. Các dự án này sẽ là bằng chứng quan trọng cho kinh nghiệm thực tế.",
+            "relatedSkill": "Dự án cá nhân",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Dự án cá nhân\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+D%E1%BB%B1+%C3%A1n+c%C3%A1+nh%C3%A2n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Tìm hiểu về Cloud và DevOps",
+            "detail": "Các kiến thức về AWS, Kubernetes, CI/CD (GitHub Actions) và message queue (Kafka, RabbitMQ) sẽ là điểm cộng lớn. Ứng viên nên tìm hiểu các khái niệm cơ bản và cách chúng được sử dụng trong phát triển phần mềm.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Cân nhắc định hướng lại học vấn",
+            "detail": "Bằng cấp Cử nhân Kế toán không liên quan trực tiếp đến vị trí kỹ sư backend. Ứng viên có thể cân nhắc các khóa học chuyên sâu, chứng chỉ hoặc bằng cấp liên quan đến Khoa học Máy tính/Kỹ thuật Phần mềm nếu muốn theo đuổi lâu dài sự nghiệp này.",
+            "relatedSkill": "Học vấn CNTT",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Học vấn CNTT\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+H%E1%BB%8Dc+v%E1%BA%A5n+CNTT+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:37:07.377666Z"
+      }
+    ]
+  },
+  "mk_vs_marketing": {
+    "cv": "cv/marketing_mid_vn.txt",
+    "jd": "jd/marketing_digital.txt",
+    "runs": [
+      {
+        "cvId": "7b844553a2394568ad25700550023730",
+        "jdTitle": "Digital Marketing Specialist",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 94,
+          "skillsMatch": 100,
+          "experienceMatch": 95,
+          "educationMatch": 70
+        },
+        "summary": "Ứng viên Hoàng Đức Anh là một ứng cử viên rất mạnh cho vị trí Digital Marketing Specialist, với gần 5 năm kinh nghiệm trong ngành F&B và bán lẻ, cùng khả năng vận hành quảng cáo hiệu suất cao và SEO. Anh ấy thành thạo các công cụ và kỹ năng cốt lõi mà JD yêu cầu, bao gồm cả các điểm cộng. Mặc dù JD không yêu cầu về học vấn, bằng Cử nhân Marketing của ứng viên là hoàn toàn phù hợp.",
+        "matchedSkills": [
+          {
+            "skill": "2+ năm kinh nghiệm digital marketing",
+            "presentInCv": true,
+            "evidence": "Chuyên viên digital marketing 3 năm kinh nghiệm ngành F&B và bán lẻ"
+          },
+          {
+            "skill": "ưu tiên ngành hàng tiêu dùng",
+            "presentInCv": true,
+            "evidence": "ngành F&B và bán lẻ"
+          },
+          {
+            "skill": "Facebook Ads",
+            "presentInCv": true,
+            "evidence": "Quản lý ngân sách quảng cáo Facebook Ads và Google Ads 400 triệu/tháng, ROAS trung bình 4.2."
+          },
+          {
+            "skill": "Google Ads",
+            "presentInCv": true,
+            "evidence": "Quản lý ngân sách quảng cáo Facebook Ads và Google Ads 400 triệu/tháng, ROAS trung bình 4.2."
+          },
+          {
+            "skill": "ngân sách từ 200 triệu/tháng",
+            "presentInCv": true,
+            "evidence": "Quản lý ngân sách quảng cáo Facebook Ads và Google Ads 400 triệu/tháng"
+          },
+          {
+            "skill": "SEO",
+            "presentInCv": true,
+            "evidence": "Đưa 25 từ khóa ngành cà phê lên top 5 Google sau 8 tháng làm SEO."
+          },
+          {
+            "skill": "content marketing",
+            "presentInCv": true,
+            "evidence": "Lên kế hoạch content tháng cho fanpage 200k follower, tăng tương tác 35%."
+          },
+          {
+            "skill": "GA4",
+            "presentInCv": true,
+            "evidence": "Đo lường bằng GA4 và Looker Studio, báo cáo tuần cho ban giám đốc."
+          },
+          {
+            "skill": "đọc số và làm báo cáo",
+            "presentInCv": true,
+            "evidence": "Đo lường bằng GA4 và Looker Studio, báo cáo tuần cho ban giám đốc."
+          },
+          {
+            "skill": "TikTok Ads",
+            "presentInCv": true,
+            "evidence": "TikTok Ads"
+          },
+          {
+            "skill": "làm việc với KOL/KOC",
+            "presentInCv": true,
+            "evidence": "chạy chiến dịch KOL micro"
+          },
+          {
+            "skill": "Looker Studio",
+            "presentInCv": true,
+            "evidence": "Đo lường bằng GA4 và Looker Studio, báo cáo tuần cho ban giám đốc."
+          }
+        ],
+        "missingSkills": [],
+        "suggestions": [
+          {
+            "priority": "medium",
+            "title": "Nhấn mạnh khả năng thích ứng với ngành mỹ phẩm",
+            "detail": "Mặc dù kinh nghiệm trong F&B và thời trang rất liên quan, hãy thêm một câu ngắn gọn trong phần tóm tắt hoặc giới thiệu để làm rõ cách kinh nghiệm này có thể áp dụng trực tiếp vào ngành mỹ phẩm, đặc biệt là với thương hiệu nội địa đang tăng trưởng nhanh.",
+            "relatedSkill": "Kinh nghiệm ngành hàng tiêu dùng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm ngành hàng tiêu dùng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+ng%C3%A0nh+h%C3%A0ng+ti%C3%AAu+d%C3%B9ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Mô tả chi tiết hơn về chiến lược tối ưu quảng cáo",
+            "detail": "CV đã thể hiện khả năng quản lý ngân sách lớn và ROAS tốt. Để gây ấn tượng hơn, có thể bổ sung thêm các chiến lược cụ thể đã áp dụng để tối ưu hiệu suất quảng cáo (ví dụ: A/B testing, tối ưu đối tượng, sáng tạo nội dung quảng cáo).",
+            "relatedSkill": "Tối ưu quảng cáo",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Tối ưu quảng cáo\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+T%E1%BB%91i+%C6%B0u+qu%E1%BA%A3ng+c%C3%A1o+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Thêm ví dụ về các loại báo cáo đã thực hiện",
+            "detail": "Ứng viên đã đề cập đến việc làm báo cáo tuần cho ban giám đốc. Nếu có thể, hãy liệt kê một số loại báo cáo chính hoặc thông tin quan trọng thường được trình bày để thể hiện rõ hơn khả năng phân tích và trình bày dữ liệu.",
+            "relatedSkill": "Làm báo cáo",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Làm báo cáo\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+L%C3%A0m+b%C3%A1o+c%C3%A1o+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:37:31.096364Z"
+      }
+    ]
+  },
+  "mk_vs_ketoan": {
+    "cv": "cv/marketing_mid_vn.txt",
+    "jd": "jd/ketoan_tonghop.txt",
+    "runs": [
+      {
+        "cvId": "7b844553a2394568ad25700550023730",
+        "jdTitle": "Kế toán tổng hợp",
+        "verdict": "not_a_match",
+        "score": {
+          "overall": 3,
+          "skillsMatch": 0,
+          "experienceMatch": 0,
+          "educationMatch": 20
+        },
+        "summary": "Ứng viên Hoàng Đức Anh là chuyên viên Digital Marketing với gần 5 năm kinh nghiệm trong ngành F&B và bán lẻ. Tuy nhiên, CV không thể hiện bất kỳ kỹ năng, kinh nghiệm hay bằng cấp nào liên quan đến vị trí Kế toán tổng hợp, dẫn đến mức độ phù hợp rất thấp.",
+        "matchedSkills": [
+          {
+            "skill": "Kinh nghiệm kế toán doanh nghiệp",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Phần mềm MISA",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Excel nâng cao",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Nghiệp vụ thuế GTGT, TNCN, TNDN",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm làm việc với hóa đơn điện tử",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Lập báo cáo tài chính",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Chứng chỉ kế toán trưởng",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kinh nghiệm quyết toán với cơ quan thuế",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Kinh nghiệm kế toán doanh nghiệp",
+          "Phần mềm MISA",
+          "Excel nâng cao",
+          "Nghiệp vụ thuế GTGT, TNCN, TNDN",
+          "Kinh nghiệm làm việc với hóa đơn điện tử",
+          "Lập báo cáo tài chính",
+          "Chứng chỉ kế toán trưởng",
+          "Kinh nghiệm quyết toán với cơ quan thuế"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Thay đổi định hướng nghề nghiệp hoặc bổ sung kiến thức kế toán",
+            "detail": "CV hiện tại hoàn toàn tập trung vào Digital Marketing. Nếu muốn theo đuổi vị trí Kế toán tổng hợp, ứng viên cần học lại từ đầu các kiến thức và nghiệp vụ kế toán cơ bản, cũng như các phần mềm chuyên dụng.",
+            "relatedSkill": "Kế toán tổng hợp",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kế toán tổng hợp\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BA%BF+to%C3%A1n+t%E1%BB%95ng+h%E1%BB%A3p+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Bổ sung bằng cấp/chứng chỉ chuyên ngành",
+            "detail": "Bằng Cử nhân Marketing không đáp ứng yêu cầu về chuyên ngành Kế toán/Kiểm toán/Tài chính. Ứng viên nên cân nhắc học thêm văn bằng 2 hoặc các chứng chỉ kế toán có giá trị.",
+            "relatedSkill": "Kế toán",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kế toán\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BA%BF+to%C3%A1n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Tích lũy kinh nghiệm thực tế về kế toán",
+            "detail": "Ứng viên cần tìm kiếm các vị trí thực tập hoặc junior trong lĩnh vực kế toán để bắt đầu tích lũy kinh nghiệm làm việc với MISA, Excel, hóa đơn điện tử, và tham gia vào quy trình lập báo cáo tài chính.",
+            "relatedSkill": "Kinh nghiệm kế toán",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kinh nghiệm kế toán\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+Kinh+nghi%E1%BB%87m+k%E1%BA%BF+to%C3%A1n+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:37:47.974381Z"
+      }
+    ]
+  },
+  "vanxuoi_vs_backend": {
+    "cv": "cv/khong_heading_vanxuoi_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "5aeeb319542f4a73b8456f0d48dfcc50",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "strong_match",
+        "score": {
+          "overall": 87,
+          "skillsMatch": 80,
+          "experienceMatch": 90,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Đỗ Hoàng Nam là một ứng cử viên mạnh cho vị trí Junior Backend Engineer, sở hữu đầy đủ các kỹ năng bắt buộc như Python, FastAPI, PostgreSQL, Docker, Git và tư duy viết unit test. Kinh nghiệm 1.5 năm làm việc thực tế và bằng cấp phù hợp với yêu cầu của vị trí. Tuy nhiên, ứng viên còn thiếu kinh nghiệm với các kỹ năng điểm cộng như AWS/cloud, Kubernetes, CI/CD và message queue.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "xây dựng REST API cho hệ thống quản lý nhân sự bằng Python"
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": true,
+            "evidence": "xây dựng REST API cho hệ thống quản lý nhân sự bằng Python và FastAPI"
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": true,
+            "evidence": "làm việc trực tiếp với PostgreSQL để thiết kế bảng và tối ưu truy vấn"
+          },
+          {
+            "skill": "thiết kế schema",
+            "presentInCv": true,
+            "evidence": "thiết kế bảng"
+          },
+          {
+            "skill": "tối ưu truy vấn",
+            "presentInCv": true,
+            "evidence": "tối ưu truy vấn cho các báo cáo chấm công vốn từng mất hơn mười giây nay chỉ còn dưới hai giây"
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "dùng Docker để đóng gói dịch vụ"
+          },
+          {
+            "skill": "Git cơ bản",
+            "presentInCv": true,
+            "evidence": "dùng Git theo quy trình pull request có review"
+          },
+          {
+            "skill": "tư duy viết unit test",
+            "presentInCv": true,
+            "evidence": "viết unit test bằng pytest cho các module quan trọng với coverage khoảng bảy mươi lăm phần trăm"
+          },
+          {
+            "skill": "Tốt nghiệp đại học ngành CNTT",
+            "presentInCv": true,
+            "evidence": "tốt nghiệp cử nhân Công nghệ Thông tin tại Đại học Thủy Lợi năm 2025"
+          }
+        ],
+        "missingSkills": [
+          "Django",
+          "MySQL",
+          "AWS",
+          "dịch vụ cloud tương đương",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)",
+          "Kafka",
+          "RabbitMQ"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm Cloud",
+            "detail": "JD yêu cầu kinh nghiệm AWS hoặc dịch vụ cloud tương đương. Ứng viên nên chủ động học và thực hành với một nền tảng cloud phổ biến (ví dụ: AWS EC2, S3, RDS) và ghi rõ trong CV để tăng tính cạnh tranh.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Phát triển kỹ năng CI/CD và Kubernetes",
+            "detail": "Các kỹ năng về CI/CD (như GitHub Actions) và Kubernetes là điểm cộng lớn. Ứng viên có thể tự học và triển khai một dự án cá nhân nhỏ để thể hiện hiểu biết về các công nghệ này.",
+            "relatedSkill": "Kubernetes",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Tìm hiểu về Message Queue",
+            "detail": "Kinh nghiệm với Kafka hoặc RabbitMQ sẽ là lợi thế. Ứng viên nên tìm hiểu về cách hoạt động và ứng dụng của các hệ thống message queue trong kiến trúc microservices.",
+            "relatedSkill": "Kafka",
+            "resources": [
+              {
+                "title": "Apache Kafka — docs chính thức",
+                "url": "https://kafka.apache.org/documentation/",
+                "kind": "docs"
+              },
+              {
+                "title": "Confluent Developer — học Kafka miễn phí",
+                "url": "https://developer.confluent.io/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Định lượng thêm thành tựu",
+            "detail": "CV đã có số liệu tốt về tối ưu truy vấn. Ứng viên có thể tìm cách định lượng thêm các đóng góp khác, ví dụ: số lượng API đã xây dựng, tác động của các module đã viết unit test, để làm nổi bật hơn kinh nghiệm của mình.",
+            "relatedSkill": "Kỹ năng định lượng",
+            "resources": [
+              {
+                "title": "Tìm tài liệu học \"Kỹ năng định lượng\"",
+                "url": "https://www.google.com/search?q=h%E1%BB%8Dc+K%E1%BB%B9+n%C4%83ng+%C4%91%E1%BB%8Bnh+l%C6%B0%E1%BB%A3ng+c%C6%A1+b%E1%BA%A3n",
+                "kind": "search"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:38:17.709196Z"
+      }
+    ]
+  },
+  "headingla_vs_backend": {
+    "cv": "cv/heading_la_vn.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "c26568821706468ca0d1770662d40a2f",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "good_match",
+        "score": {
+          "overall": 77,
+          "skillsMatch": 63,
+          "experienceMatch": 88,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Lý Thanh Tùng có hơn một năm kinh nghiệm backend với Python và FastAPI, phù hợp với vị trí Junior Backend Engineer. Anh ấy cũng có kinh nghiệm làm việc với MySQL, Docker và Git, cùng bằng cấp CNTT đúng yêu cầu. Tuy nhiên, CV chưa thể hiện kinh nghiệm về unit test và các công nghệ cloud/CI/CD.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Python, FastAPI, MySQL, Docker, Git, Postman. Tiếng Anh đọc tài liệu ổn. Viết API cho ứng dụng giao hàng nội thành bằng Python và FastAPI."
+          },
+          {
+            "skill": "FastAPI",
+            "presentInCv": true,
+            "evidence": "Python, FastAPI, MySQL, Docker, Git, Postman. Tiếng Anh đọc tài liệu ổn. Viết API cho ứng dụng giao hàng nội thành bằng Python và FastAPI."
+          },
+          {
+            "skill": "Django",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "MySQL",
+            "presentInCv": true,
+            "evidence": "MySQL. Quản lý dữ liệu đơn hàng trên MySQL, viết truy vấn báo cáo theo ngày."
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Docker. Dùng Docker chạy môi trường dev đồng nhất cho cả team 4 người."
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Git"
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Tốt nghiệp đại học ngành CNTT hoặc liên quan",
+            "presentInCv": true,
+            "evidence": "Đại học Cần Thơ — Cử nhân Công nghệ Thông tin, tốt nghiệp 2025."
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kafka",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": false,
+            "evidence": null
+          }
+        ],
+        "missingSkills": [
+          "Tư duy viết unit test",
+          "AWS hoặc dịch vụ cloud tương đương",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)",
+          "Message queue (Kafka, RabbitMQ)"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Làm rõ kinh nghiệm Unit Test",
+            "detail": "JD yêu cầu \"tư duy viết unit test\". Ứng viên nên bổ sung các dự án hoặc kinh nghiệm cụ thể về việc viết unit test cho code Python/FastAPI của mình để chứng minh kỹ năng này.",
+            "relatedSkill": "Unit Test",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Cụ thể hóa kỹ năng MySQL và Git",
+            "detail": "Đối với MySQL, nên mô tả rõ hơn về việc thiết kế schema, tối ưu truy vấn hoặc xử lý dữ liệu lớn. Với Git, nên đề cập đến việc sử dụng branch, pull request và code review để thể hiện sự quen thuộc với quy trình làm việc nhóm.",
+            "relatedSkill": "MySQL, Git",
+            "resources": [
+              {
+                "title": "MySQL — docs chính thức",
+                "url": "https://dev.mysql.com/doc/",
+                "kind": "docs"
+              },
+              {
+                "title": "Pro Git (có bản tiếng Việt)",
+                "url": "https://git-scm.com/book/vi/v2",
+                "kind": "docs"
+              },
+              {
+                "title": "Learn Git Branching — học tương tác (có tiếng Việt)",
+                "url": "https://learngitbranching.js.org/?locale=vi_VN",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Phát triển kỹ năng điểm cộng",
+            "detail": "Để tăng tính cạnh tranh, ứng viên có thể học hỏi và bổ sung kinh nghiệm về AWS/cloud, Kubernetes, CI/CD (GitHub Actions) hoặc message queue (Kafka, RabbitMQ) vào CV.",
+            "relatedSkill": "AWS, Kubernetes, CI/CD, Kafka",
+            "resources": [
+              {
+                "title": "Kubernetes Tutorials — docs chính thức",
+                "url": "https://kubernetes.io/docs/tutorials/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Kubernetes (roadmap.sh)",
+                "url": "https://roadmap.sh/kubernetes",
+                "kind": "roadmap"
+              },
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:38:39.622004Z"
+      }
+    ]
+  },
+  "pdfxau_vs_backend": {
+    "cv": "cv/pdf_ngat_dong_xau.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "8b90ee0963204d8eb7a75d5bb43751c1",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "good_match",
+        "score": {
+          "overall": 81,
+          "skillsMatch": 69,
+          "experienceMatch": 90,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên Bùi Anh Tuấn có kinh nghiệm 3 năm phát triển backend với Python và Django, phù hợp với yêu cầu vị trí Junior Backend Engineer. CV thể hiện kinh nghiệm thực tế về PostgreSQL, Docker và làm việc trong môi trường thương mại điện tử, cùng với hiểu biết về Scrum. Tuy nhiên, CV còn thiếu thông tin về kinh nghiệm unit test và các công nghệ cloud/CI/CD.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Xay dung va bao tri API cho san TMDT bang Python va Django REST Framework"
+          },
+          {
+            "skill": "Django",
+            "presentInCv": true,
+            "evidence": "Xay dung va bao tri API cho san TMDT bang Python va Django REST Framework"
+          },
+          {
+            "skill": "PostgreSQL",
+            "presentInCv": true,
+            "evidence": "Thiet ke co so du lieu PostgreSQL, toi uu chi muc giam thoi gian truy van danh sach san pham tu 6 giay xuong 1.2 giay."
+          },
+          {
+            "skill": "Docker",
+            "presentInCv": true,
+            "evidence": "Dong goi ung dung bang Docker, viet script trien khai len server."
+          },
+          {
+            "skill": "Git",
+            "presentInCv": true,
+            "evidence": "Git"
+          },
+          {
+            "skill": "Bằng đại học CNTT",
+            "presentInCv": true,
+            "evidence": "Dai hoc Giao thong Van tai — Ky su Cong nghe thong tin (2016 - 2020)"
+          },
+          {
+            "skill": "Tư duy viết unit test",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "AWS",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "Kubernetes",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": false,
+            "evidence": null
+          },
+          {
+            "skill": "RabbitMQ",
+            "presentInCv": true,
+            "evidence": "RabbitMQ co ban"
+          }
+        ],
+        "missingSkills": [
+          "Tư duy viết unit test",
+          "AWS hoặc dịch vụ cloud tương đương",
+          "Kubernetes",
+          "CI/CD (GitHub Actions)"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm Unit Test",
+            "detail": "CV chưa đề cập đến kinh nghiệm viết unit test. Hãy bổ sung các dự án hoặc công việc cụ thể mà bạn đã áp dụng unit test, các framework (vd: Pytest) đã sử dụng để chứng minh tư duy và kỹ năng này.",
+            "relatedSkill": "unit test",
+            "resources": [
+              {
+                "title": "pytest — docs chính thức",
+                "url": "https://docs.pytest.org/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Chi tiết hóa quy trình Git",
+            "detail": "Mặc dù CV có liệt kê Git, nhưng JD yêu cầu hiểu biết về quy trình cơ bản (branch, pull request, review). Hãy thêm một câu mô tả ngắn gọn về cách bạn làm việc với Git trong nhóm, ví dụ: 'Thực hiện quy trình Gitflow, tạo pull request và tham gia code review để đảm bảo chất lượng mã nguồn'.",
+            "relatedSkill": "Git",
+            "resources": [
+              {
+                "title": "Pro Git (có bản tiếng Việt)",
+                "url": "https://git-scm.com/book/vi/v2",
+                "kind": "docs"
+              },
+              {
+                "title": "Learn Git Branching — học tương tác (có tiếng Việt)",
+                "url": "https://learngitbranching.js.org/?locale=vi_VN",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Thêm kinh nghiệm Cloud",
+            "detail": "JD đánh giá cao kinh nghiệm với AWS hoặc các dịch vụ cloud tương đương. Nếu bạn có bất kỳ kinh nghiệm nào về triển khai, quản lý ứng dụng trên các nền tảng cloud (dù là cơ bản), hãy bổ sung vào CV.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Mô tả rõ hơn về RabbitMQ",
+            "detail": "CV có đề cập 'RabbitMQ co ban'. Để tăng điểm cộng, hãy mô tả cụ thể hơn về cách bạn đã sử dụng RabbitMQ trong các dự án, ví dụ: 'Sử dụng RabbitMQ để xử lý tác vụ bất đồng bộ như gửi email, thông báo'.",
+            "relatedSkill": "RabbitMQ",
+            "resources": [
+              {
+                "title": "RabbitMQ Tutorials",
+                "url": "https://www.rabbitmq.com/tutorials",
+                "kind": "docs"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:39:03.386416Z"
+      }
+    ]
+  },
+  "qa_vs_backend": {
+    "cv": "cv/song_ngu_qa_en.txt",
+    "jd": "jd/backend_junior.txt",
+    "runs": [
+      {
+        "cvId": "3ce3ae7ff7064af09ce1357eddc93a72",
+        "jdTitle": "Junior Backend Engineer (Python)",
+        "verdict": "partial_match",
+        "score": {
+          "overall": 53,
+          "skillsMatch": 31,
+          "experienceMatch": 65,
+          "educationMatch": 100
+        },
+        "summary": "Ứng viên có nền tảng học vấn vững chắc về Kỹ thuật Phần mềm và 3 năm kinh nghiệm QA, trong đó có 2 năm làm QA Automation Engineer sử dụng Python và pytest, phù hợp với yêu cầu về tư duy unit test và sử dụng Python. Tuy nhiên, kinh nghiệm trực tiếp về phát triển backend với các framework như FastAPI/Django, quản lý cơ sở dữ liệu chuyên sâu, Docker và Git cơ bản còn thiếu sót.",
+        "matchedSkills": [
+          {
+            "skill": "Python",
+            "presentInCv": true,
+            "evidence": "Python (automation scripting)"
+          },
+          {
+            "skill": "Có tư duy viết unit test",
+            "presentInCv": true,
+            "evidence": "Testing: pytest; Xây dựng framework test UI bằng Selenium + pytest"
+          },
+          {
+            "skill": "Tốt nghiệp đại học ngành CNTT hoặc liên quan",
+            "presentInCv": true,
+            "evidence": "Duy Tan University — B.Sc. Software Engineering (2019 - 2023)"
+          },
+          {
+            "skill": "CI/CD (GitHub Actions)",
+            "presentInCv": true,
+            "evidence": "Jenkins CI; chạy 400 test case mỗi đêm trên Jenkins"
+          }
+        ],
+        "missingSkills": [
+          "FastAPI hoặc Django",
+          "PostgreSQL hoặc MySQL: thiết kế schema, tối ưu truy vấn",
+          "Docker",
+          "Quy trình Git cơ bản (branch, pull request, review)",
+          "Kinh nghiệm AWS hoặc dịch vụ cloud tương đương",
+          "Hiểu biết Kubernetes",
+          "Kinh nghiệm message queue (Kafka, RabbitMQ)"
+        ],
+        "suggestions": [
+          {
+            "priority": "high",
+            "title": "Bổ sung kinh nghiệm phát triển backend",
+            "detail": "CV cần thể hiện kinh nghiệm thực tế với các framework backend như FastAPI hoặc Django. Nếu chưa có, hãy cân nhắc tham gia các dự án cá nhân hoặc khóa học để xây dựng portfolio.",
+            "relatedSkill": "FastAPI",
+            "resources": [
+              {
+                "title": "FastAPI — docs chính thức (học qua ví dụ)",
+                "url": "https://fastapi.tiangolo.com/",
+                "kind": "docs"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Nâng cao kỹ năng cơ sở dữ liệu",
+            "detail": "Mô tả rõ hơn kinh nghiệm làm việc với PostgreSQL hoặc MySQL, đặc biệt là khả năng thiết kế schema và tối ưu hóa truy vấn, thay vì chỉ 'SQL cơ bản'.",
+            "relatedSkill": "PostgreSQL",
+            "resources": [
+              {
+                "title": "PostgreSQL — docs chính thức",
+                "url": "https://www.postgresql.org/docs/",
+                "kind": "docs"
+              },
+              {
+                "title": "PostgreSQL Tutorial",
+                "url": "https://www.postgresqltutorial.com/",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "high",
+            "title": "Thêm kinh nghiệm Docker",
+            "detail": "Docker là một công cụ quan trọng cho backend engineer. Hãy bổ sung bất kỳ kinh nghiệm nào về việc sử dụng Docker để đóng gói và triển khai ứng dụng.",
+            "relatedSkill": "Docker",
+            "resources": [
+              {
+                "title": "Docker Get Started — docs chính thức",
+                "url": "https://docs.docker.com/get-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình Docker (roadmap.sh)",
+                "url": "https://roadmap.sh/docker",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Làm rõ kinh nghiệm Git",
+            "detail": "Mặc dù là QA Automation, việc sử dụng Git là cần thiết. Hãy liệt kê các thao tác Git cụ thể như branch, pull request, và review để chứng minh sự quen thuộc với quy trình phát triển.",
+            "relatedSkill": "Git",
+            "resources": [
+              {
+                "title": "Pro Git (có bản tiếng Việt)",
+                "url": "https://git-scm.com/book/vi/v2",
+                "kind": "docs"
+              },
+              {
+                "title": "Learn Git Branching — học tương tác (có tiếng Việt)",
+                "url": "https://learngitbranching.js.org/?locale=vi_VN",
+                "kind": "course"
+              }
+            ]
+          },
+          {
+            "priority": "medium",
+            "title": "Nhấn mạnh Python cho phát triển",
+            "detail": "Hiện tại, Python được liệt kê chủ yếu cho 'automation scripting'. Hãy làm rõ mức độ thành thạo Python trong ngữ cảnh phát triển ứng dụng backend nếu có.",
+            "relatedSkill": "Python",
+            "resources": [
+              {
+                "title": "Python Tutorial — docs chính thức",
+                "url": "https://docs.python.org/3/tutorial/",
+                "kind": "docs"
+              },
+              {
+                "title": "Lộ trình học Python (roadmap.sh)",
+                "url": "https://roadmap.sh/python",
+                "kind": "roadmap"
+              }
+            ]
+          },
+          {
+            "priority": "low",
+            "title": "Bổ sung kinh nghiệm Cloud/Kubernetes/Message Queue",
+            "detail": "Nếu có bất kỳ kinh nghiệm nào về AWS, Kubernetes hoặc các hệ thống message queue như Kafka/RabbitMQ, hãy thêm vào CV để tăng điểm cộng.",
+            "relatedSkill": "AWS",
+            "resources": [
+              {
+                "title": "AWS Getting Started",
+                "url": "https://aws.amazon.com/getting-started/",
+                "kind": "docs"
+              },
+              {
+                "title": "AWS Skill Builder — khóa học miễn phí",
+                "url": "https://skillbuilder.aws/",
+                "kind": "course"
+              }
+            ]
+          }
+        ],
+        "analyzedAt": "2026-10-28T07:39:22.439653Z"
+      }
+    ]
+  }
+}
